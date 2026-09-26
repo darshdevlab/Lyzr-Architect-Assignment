@@ -1,0 +1,10 @@
+{
+  "name": "@architect/assignment",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ../../scripts/build-assignment.mjs",
+    "test": "python3 validate.py"
+  }
+}

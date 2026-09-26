@@ -1,0 +1,4490 @@
+[
+  {
+    "source": "architect-platform/.dockerignore",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/.dockerignore"
+  },
+  {
+    "source": "architect-platform/.env.example",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/.env.example"
+  },
+  {
+    "source": "architect-platform/.gitignore",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/.gitignore"
+  },
+  {
+    "source": "architect-platform/.vercelignore",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/.vercelignore"
+  },
+  {
+    "source": "architect-platform/BACKEND.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/BACKEND.md"
+  },
+  {
+    "source": "architect-platform/COMPANY-ACCESS.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/COMPANY-ACCESS.md"
+  },
+  {
+    "source": "architect-platform/COVERAGE-3.0.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/evidence/platform/COVERAGE-3.0.json"
+  },
+  {
+    "source": "architect-platform/COVERAGE-3.0.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/COVERAGE-3.0.md"
+  },
+  {
+    "source": "architect-platform/COVERAGE.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/evidence/platform/COVERAGE.json"
+  },
+  {
+    "source": "architect-platform/COVERAGE.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/COVERAGE.md"
+  },
+  {
+    "source": "architect-platform/Dockerfile",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/Dockerfile"
+  },
+  {
+    "source": "architect-platform/PRIVATE-INSTALL.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/PRIVATE-INSTALL.md"
+  },
+  {
+    "source": "architect-platform/README.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/README.md"
+  },
+  {
+    "source": "architect-platform/SETUP-STATUS.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/SETUP-STATUS.md"
+  },
+  {
+    "source": "architect-platform/UPDATE-2026-09-27.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/UPDATE-2026-09-27.md"
+  },
+  {
+    "source": "architect-platform/VERIFICATION.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "docs/history/platform/VERIFICATION.md"
+  },
+  {
+    "source": "architect-platform/api/_lib/core.mjs",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/api/_lib/core.mjs"
+  },
+  {
+    "source": "architect-platform/api/generate.js",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/api/generate.js"
+  },
+  {
+    "source": "architect-platform/api/health.js",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/api/health.js"
+  },
+  {
+    "source": "architect-platform/api/models.js",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/api/models.js"
+  },
+  {
+    "source": "architect-platform/compose.yaml",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/compose.yaml"
+  },
+  {
+    "source": "architect-platform/index.html",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/index.html"
+  },
+  {
+    "source": "architect-platform/package.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/package.json"
+  },
+  {
+    "source": "architect-platform/pnpm-lock.yaml",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "replaced-root-workspace-config",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/pnpm-workspace.yaml",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "replaced-root-workspace-config",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/public/favicon.svg",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/public/favicon.svg"
+  },
+  {
+    "source": "architect-platform/public/privacy.html",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/public/privacy.html"
+  },
+  {
+    "source": "architect-platform/public/release.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/public/release.json"
+  },
+  {
+    "source": "architect-platform/scripts/dev-api.mjs",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/scripts/dev-api.mjs"
+  },
+  {
+    "source": "architect-platform/scripts/serve.mjs",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/scripts/serve.mjs"
+  },
+  {
+    "source": "architect-platform/src/App.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/App.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/AccountCenter.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/AccountCenter.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/Auth.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/Auth.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/Bots.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/Bots.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/Brand.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/Brand.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/CompanyAccess.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/CompanyAccess.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/CompanyDomainTools.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/CompanyDomainTools.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/CompanyPlanningTools.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/CompanyPlanningTools.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/CompanyRecordWorkspace.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/CompanyRecordWorkspace.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/CompanyRolePreset.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/CompanyRolePreset.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/CompanyStudio.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/CompanyStudio.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/FeatureExperiences.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/FeatureExperiences.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/Games.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/Games.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/InfrastructureStudio.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/InfrastructureStudio.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/ModelExperiment.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/ModelExperiment.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/Onboarding.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/Onboarding.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/PrivateLifecycle.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/PrivateLifecycle.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/ReadOnlyControls.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/ReadOnlyControls.ts"
+  },
+  {
+    "source": "architect-platform/src/components/Settings.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/Settings.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/Studio.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/Studio.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/UI.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/UI.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/Workbench.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/Workbench.tsx"
+  },
+  {
+    "source": "architect-platform/src/components/builder-enhancements.css",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/builder-enhancements.css"
+  },
+  {
+    "source": "architect-platform/src/components/company-studio.css",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/company-studio.css"
+  },
+  {
+    "source": "architect-platform/src/components/infrastructure.css",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/infrastructure.css"
+  },
+  {
+    "source": "architect-platform/src/components/studio.css",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/studio.css"
+  },
+  {
+    "source": "architect-platform/src/components/workbench.css",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/components/workbench.css"
+  },
+  {
+    "source": "architect-platform/src/lib/account-preferences.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/account-preferences.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/appearance.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/appearance.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/builderState.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/builderState.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/cloud.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/cloud.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/company-features.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/company-features.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/company-workflows.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/company-workflows.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/company.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/company.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/edition.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/edition.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/features.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/features.json"
+  },
+  {
+    "source": "architect-platform/src/lib/infrastructure.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/infrastructure.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/model.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/model.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/navigation.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/navigation.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/preview.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/preview.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/private-lifecycle.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/private-lifecycle.ts"
+  },
+  {
+    "source": "architect-platform/src/lib/workflows.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/lib/workflows.ts"
+  },
+  {
+    "source": "architect-platform/src/main.tsx",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/main.tsx"
+  },
+  {
+    "source": "architect-platform/src/style.css",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/src/style.css"
+  },
+  {
+    "source": "architect-platform/supabase/company-schema.sql",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/supabase/company-schema.sql"
+  },
+  {
+    "source": "architect-platform/supabase/schema.sql",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/supabase/schema.sql"
+  },
+  {
+    "source": "architect-platform/tests/account-preferences.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/account-preferences.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/auth-flow.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/auth-flow.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/backend-hosted-output.html",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/backend-hosted-results.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/backend-live-output.html",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/backend-live-results.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/backend-model.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/backend-model.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/backend-workflow-db-results.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/backend.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/backend.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/builder-readonly.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/builder-readonly.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/builder-state.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/builder-state.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/company-access.sql",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/company-access.sql"
+  },
+  {
+    "source": "architect-platform/tests/company-browser-results.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/company-db-results.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/company.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/company.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/companyflows-browser-report.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/companyflows-updates.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/companyflows-updates.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/companyflows.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/companyflows.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/cross-edition-api-results.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/cross-edition-results.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/infrastructure.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/infrastructure.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/personal-shell.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/personal-shell.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/preview-browser-report.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/preview.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/preview.test.ts"
+  },
+  {
+    "source": "architect-platform/tests/workflow-browser-report.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/tests/workflows.test.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tests/workflows.test.ts"
+  },
+  {
+    "source": "architect-platform/tsconfig.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/tsconfig.json"
+  },
+  {
+    "source": "architect-platform/vercel.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/vercel.json"
+  },
+  {
+    "source": "architect-platform/verification/BUILDER-AUDIT-FIXES.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/agent-canvas.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/connector-preselection.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/design-journey.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/games-team-lobby.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/manifest.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/model-comparison.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/pr-conflict-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/qa-evidence-gate.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/release-recovery.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/audit-fixes/visual-comparison.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/chrome-security-warning-3.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/company-member-shared-project.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/google-site-status-3.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/auth-entry-dark.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/auth-entry-light.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/build-break-games.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/builder-code.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/builder-output.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/builder-ready.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/builder-selection.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/manifest.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/project-create.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/workspace-dark.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v2/workspace-light.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N3-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N3-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N3-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/AGENT-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N3-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N3-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N3-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N5-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N5-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N5-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N6-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N6-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/BI-N6-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N3-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N3-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N3-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N5-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N5-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CRM-N5-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N3-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N3-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N3-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N5-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N5-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/CX-N5-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/DATA-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/DATA-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/DATA-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/DATA-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/DATA-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/DATA-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N3-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N3-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N3-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N5-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N5-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/FIN-N5-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N3-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N3-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N3-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N5-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N5-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/MKT-N5-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/OPS-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/OPS-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/OPS-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/OPS-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/OPS-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/OPS-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/ORG-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/ORG-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/ORG-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/ORG-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/ORG-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/ORG-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N2-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N2-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N2-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N3-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N3-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N3-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PEOPLE-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N1-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N1-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N1-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N4-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N4-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N4-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N5-configure.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N5-outcome.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/PLAN-N5-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/bot-conversation-demo-response.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/bot-team-dark-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/botteams-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/company-overview-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/company-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/delivery-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/finance-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/growth-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/handoff-feedback-linked-task.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/manifest.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/mcp-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/metrics-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/people-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/persistence-restored-after-reload.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/revenue-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-customer-experience-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-designer-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-developer-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-devops-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-executive-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-finance-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-marketing-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-people-hr-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-product-manager-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-qa-reviewer-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/role-sales-home.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v3/success-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/01-placement.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/02-identity.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/03-network.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/04-runtime.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/05-review-complete.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/05-review-validation.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/06-install.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/07-operate.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/auth-entry.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/cloud-connections.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/execution-pools.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/governance.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/installation.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/manifest.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/mobile-private-platform.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/private-platform-flows.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/private-platform-overview.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/recovery-dark.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/recovery-details-dark.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/v4/recovery.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/ACCOUNT-CENTER-FIXES.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/ACCOUNT-FLOWS.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/ACCOUNT-IMPLEMENTATION-REPORT.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/API-PREFLIGHT.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/FINAL-VERIFICATION.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/POST-DEPLOY-CHECKS.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/PRIVATE-DELIVERY.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/PRODUCT-FEATURE-MAP.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/SCREENSHOT-INDEX.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/SHARED-REVISION-GUARD-REVIEW.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/V2-DELIVERY-MAP.csv",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/V2-INTEGRATION-REVIEW.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/VERSION-PRODUCT-FEATURE-MAP.csv",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/VERSION-SCOPE.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/api-preflight-results.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-delivery.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-delivery.md",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/durable-draft-resumed.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/forecast-scenario-applied.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/independent-review.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/manifest.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/metric-dashboard-widget.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/program-project-scope.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/revision-compare.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/sprint-capacity-gate.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/sprint-closed-preserved.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/sprint-readiness-validation.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/company-verification/team-specific-graph.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/root-browser-checks.json",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/2-signup-preserved-dark.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/4-company-login.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/4-live-google-dark-avatar.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/4-live-login-dark.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/4-live-logout-dark.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/4-restore-complete.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/4-restore-failed.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/account-billing-reconciled.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/google-review-3-submitted.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/google-review-4-submitted.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/verification/version-update/screenshots/google-review-submitted.png",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-platform/vite.config.ts",
+    "revision": "c802cbea525185a053191ff1ee308e3931412be1",
+    "status": "copied",
+    "destination": "apps/platform/vite.config.ts"
+  },
+  {
+    "source": "architect-assignment/.gitignore",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/.gitignore"
+  },
+  {
+    "source": "architect-assignment/.vercelignore",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/.vercelignore"
+  },
+  {
+    "source": "architect-assignment/FEATURE-EVIDENCE-MAP.csv",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/assignment/FEATURE-EVIDENCE-MAP.csv"
+  },
+  {
+    "source": "architect-assignment/README.md",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/history/assignment/README.md"
+  },
+  {
+    "source": "architect-assignment/app.js",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/app.js"
+  },
+  {
+    "source": "architect-assignment/assets/architect-2-agent-canvas.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/architect-2-agent-canvas.png"
+  },
+  {
+    "source": "architect-assignment/assets/architect-mark.svg",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/architect-mark.svg"
+  },
+  {
+    "source": "architect-assignment/assets/architect_output-12-knowledge-editor.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/architect_output-12-knowledge-editor.png"
+  },
+  {
+    "source": "architect-assignment/assets/bolt-22-generated-editor.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/bolt-22-generated-editor.png"
+  },
+  {
+    "source": "architect-assignment/assets/claude-03-code-plan-gate.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/claude-03-code-plan-gate.png"
+  },
+  {
+    "source": "architect-assignment/assets/claude_chat-29-expanded-preview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/claude_chat-29-expanded-preview.png"
+  },
+  {
+    "source": "architect-assignment/assets/codex-09-result-with-preview-blocker.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/codex-09-result-with-preview-blocker.png"
+  },
+  {
+    "source": "architect-assignment/assets/cursor-25-built-in-browser-preview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/cursor-25-built-in-browser-preview.png"
+  },
+  {
+    "source": "architect-assignment/assets/emergent-20-build-status.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/emergent-20-build-status.png"
+  },
+  {
+    "source": "architect-assignment/assets/lovable-20-build-status.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/lovable-20-build-status.png"
+  },
+  {
+    "source": "architect-assignment/assets/replit-22-preview-device-controls.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/replit-22-preview-device-controls.png"
+  },
+  {
+    "source": "architect-assignment/assets/rocket-22-generated-editor.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/rocket-22-generated-editor.png"
+  },
+  {
+    "source": "architect-assignment/assets/v0-22-build-progress.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v0-22-build-progress.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2-overview/auth-entry-dark.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2-overview/auth-entry-dark.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2-overview/auth-entry-light.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2-overview/auth-entry-light.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2-overview/build-break-games.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2-overview/build-break-games.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2-overview/builder-code.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2-overview/builder-code.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2-overview/builder-output.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2-overview/builder-output.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2-overview/builder-selection.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2-overview/builder-selection.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2-overview/workspace-dark.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2-overview/workspace-dark.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2-overview/workspace-light.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2-overview/workspace-light.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/AGENT-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/AGENT-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/BUILD-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/BUILD-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/CODE-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/CODE-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/DATA-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/DATA-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/MODEL-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/MODEL-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/OPS-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/OPS-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/ORG-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/ORG-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/PLAN-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/PLAN-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/QA-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/QA-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-E4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-E4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v2/RELEASE-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v2/RELEASE-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/AGENT-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/AGENT-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N5-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N5-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N5-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N5-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N5-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N5-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N6-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N6-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N6-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N6-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/BI-N6-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/BI-N6-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N5-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N5-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N5-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N5-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CRM-N5-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CRM-N5-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N5-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N5-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N5-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N5-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/CX-N5-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/CX-N5-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/DATA-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/DATA-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/DATA-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/DATA-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/DATA-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/DATA-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/DATA-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/DATA-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/DATA-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/DATA-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/DATA-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/DATA-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N5-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N5-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N5-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N5-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/FIN-N5-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/FIN-N5-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N5-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N5-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N5-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N5-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/MKT-N5-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/MKT-N5-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/OPS-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/OPS-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/OPS-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/OPS-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/OPS-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/OPS-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/OPS-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/OPS-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/OPS-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/OPS-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/OPS-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/OPS-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/ORG-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/ORG-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/ORG-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/ORG-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/ORG-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/ORG-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/ORG-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/ORG-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/ORG-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/ORG-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/ORG-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/ORG-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N2-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N2-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N2-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N2-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N2-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N2-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N3-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N3-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N3-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N3-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N3-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N3-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PEOPLE-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PEOPLE-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N1-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N1-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N1-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N1-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N1-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N1-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N4-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N4-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N4-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N4-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N4-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N4-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N5-configure.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N5-configure.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N5-outcome.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N5-outcome.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/PLAN-N5-review.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/PLAN-N5-review.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/bot-conversation-demo-response.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/bot-conversation-demo-response.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/bot-team-dark-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/bot-team-dark-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/botteams-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/botteams-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/company-overview-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/company-overview-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/company-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/company-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/delivery-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/delivery-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/finance-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/finance-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/growth-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/growth-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/handoff-feedback-linked-task.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/handoff-feedback-linked-task.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/mcp-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/mcp-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/metrics-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/metrics-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/people-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/people-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/persistence-restored-after-reload.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/persistence-restored-after-reload.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/revenue-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/revenue-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-customer-experience-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-customer-experience-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-designer-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-designer-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-developer-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-developer-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-devops-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-devops-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-executive-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-executive-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-finance-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-finance-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-marketing-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-marketing-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-people-hr-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-people-hr-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-product-manager-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-product-manager-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-qa-reviewer-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-qa-reviewer-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/role-sales-home.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/role-sales-home.png"
+  },
+  {
+    "source": "architect-assignment/assets/v3/success-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v3/success-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/01-placement.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/01-placement.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/02-identity.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/02-identity.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/03-network.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/03-network.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/04-runtime.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/04-runtime.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/05-review-complete.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/05-review-complete.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/06-install.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/06-install.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/07-operate.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/07-operate.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/cloud-connections.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/cloud-connections.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/execution-pools.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/execution-pools.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/governance.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/governance.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/installation.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/installation.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/private-platform-flows.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/private-platform-flows.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/private-platform-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/private-platform-overview.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/recovery-dark.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/recovery-dark.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/recovery-details-dark.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/recovery-details-dark.png"
+  },
+  {
+    "source": "architect-assignment/assets/v4-overview/recovery.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/showcase-assets/v4-overview/recovery.png"
+  },
+  {
+    "source": "architect-assignment/browser-checks.json",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "docs/evidence/assignment/browser-checks.json"
+  },
+  {
+    "source": "architect-assignment/config.json",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/config.json"
+  },
+  {
+    "source": "architect-assignment/data.json",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/data.json"
+  },
+  {
+    "source": "architect-assignment/index.html",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/index.html"
+  },
+  {
+    "source": "architect-assignment/refresh_evidence.py",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/refresh_evidence.py"
+  },
+  {
+    "source": "architect-assignment/style.css",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/style.css"
+  },
+  {
+    "source": "architect-assignment/validate.py",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/validate.py"
+  },
+  {
+    "source": "architect-assignment/vercel.json",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "copied",
+    "destination": "apps/assignment/vercel.json"
+  },
+  {
+    "source": "architect-assignment/verification/build-overview.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-assignment/verification/explore-dark.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-assignment/verification/explore-light.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-assignment/verification/feature-journey.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-assignment/verification/live-feature-evidence.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-assignment/verification/test-full.png",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-assignment/verification/v2-build-captures.json",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  },
+  {
+    "source": "architect-assignment/verification/v2-workflow-captures.json",
+    "revision": "f08e77345c741aefbfbdc5c5c67922a352399332",
+    "status": "excluded-raw-verification-for-privacy",
+    "destination": null
+  }
+]

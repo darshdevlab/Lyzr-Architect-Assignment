@@ -1,0 +1,26 @@
+{
+  "name": "lyzr-architect-assignment",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @architect/platform dev",
+    "dev:api": "pnpm --filter @architect/platform dev:api",
+    "dev:assignment": "pnpm build:assignment && python3 -m http.server 4180 --directory apps/assignment/dist",
+    "build": "pnpm build:2 && pnpm build:3 && pnpm build:4 && pnpm build:assignment",
+    "build:2": "node scripts/build-platform.mjs 2",
+    "build:3": "node scripts/build-platform.mjs 3",
+    "build:4": "node scripts/build-platform.mjs 4",
+    "build:assignment": "node scripts/build-assignment.mjs",
+    "test": "pnpm --filter @architect/platform test && python3 apps/assignment/validate.py",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

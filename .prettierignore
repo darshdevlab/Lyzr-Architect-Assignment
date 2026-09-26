@@ -1,0 +1,7 @@
+node_modules
+**/dist
+docs/evidence
+docs/history
+apps/assignment/data.json
+apps/assignment/config.json
+pnpm-lock.yaml

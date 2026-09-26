@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-09-26",
+  "environment": "Chrome via CUA, localhost:4185; desktop and 390x844 viewport",
+  "checks": [
+    {
+      "name": "Overview renders with shared brand, 11 platform cards and evidence counts",
+      "result": "pass"
+    },
+    {
+      "name": "Feature atlas renders 109 packages",
+      "result": "pass"
+    },
+    {
+      "name": "Point-and-prompt search yields one feature",
+      "result": "pass"
+    },
+    {
+      "name": "Feature detail includes entry, primary journey, scope, outcome and recovery",
+      "result": "pass"
+    },
+    {
+      "name": "Contextual handoff opens UI verification feature inside detail dialog",
+      "result": "pass"
+    },
+    {
+      "name": "First-introduction 4.0 filter yields 2 packages",
+      "result": "pass"
+    },
+    {
+      "name": "Architect 2.0 cumulative scope yields 65 packages",
+      "result": "pass"
+    },
+    {
+      "name": "Replit platform page renders actual journey and recorded scope",
+      "result": "pass"
+    },
+    {
+      "name": "Replit public screenshot opens in lightbox",
+      "result": "pass"
+    },
+    {
+      "name": "Dark/light toggle and Current theme selection update appearance",
+      "result": "pass"
+    },
+    {
+      "name": "Baseline search has honest zero-result state",
+      "result": "pass"
+    },
+    {
+      "name": "Mobile navigation toggle opens, route selection closes it",
+      "result": "pass"
+    },
+    {
+      "name": "390px viewport has no horizontal document overflow",
+      "result": "pass",
+      "observedDocumentWidth": 375
+    },
+    {
+      "name": "Browser console errors in checked flows",
+      "result": "pass",
+      "errors": 0
+    },
+    {
+      "name": "Stable production alias loads complete data and safe Architect output screenshot",
+      "result": "pass",
+      "url": "https://lyzr-architect-assignment.vercel.app"
+    },
+    {
+      "name": "All 65 v2 package workflows traversed Configure / Review / Outcome",
+      "result": "pass",
+      "captures": 195,
+      "source": "58 on stable deployed 2.0 before Chrome blockage; 7 BUILD workflows on localhost:4183"
+    },
+    {
+      "name": "All 109 package IDs have representative public screenshot mapping",
+      "result": "pass",
+      "source": "v2 capture log + root v2/v4 manifests + company agent v3 manifest"
+    },
+    {
+      "name": "Feature detail loads all three linked repository workflow images",
+      "result": "pass"
+    }
+  ],
+  "limits": [
+    "Screenshots document prototype UI states, not production external integration execution.",
+    "Some long forms extend beyond the captured viewport.",
+    "Chrome later blocked 2.0 in one session; 3.0 Dangerous site warning remains unresolved. No warning was bypassed.",
+    "Company 3.0 workflow traversal was independently verified by the company agent; its manifest is attributed rather than re-executed here.",
+    "Focused checks are not exhaustive WCAG certification."
+  ]
+}

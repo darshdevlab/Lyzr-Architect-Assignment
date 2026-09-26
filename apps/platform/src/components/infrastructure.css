@@ -1,0 +1,241 @@
+.infrastructure-studio .panel {
+  margin-top: 20px;
+}
+.infra-placement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  margin-bottom: 18px;
+}
+.infra-placement > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 160px;
+}
+.infra-placement svg {
+  color: var(--accent);
+}
+.infra-placement small {
+  font-size: 10px;
+  color: var(--muted);
+}
+.infra-placement > i {
+  height: 1px;
+  background: var(--line-strong);
+  flex: 1;
+  max-width: 100px;
+}
+.infra-steps {
+  display: flex;
+  gap: 8px;
+  overflow: auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 24px;
+}
+.infra-steps button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 10px;
+  color: var(--muted);
+  font-size: 11px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+.infra-steps span {
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  padding: 3px 7px;
+}
+.infra-steps .active {
+  background: var(--paper);
+  color: var(--accent);
+}
+.infra-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 24px 0;
+}
+.infra-summary > div {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+}
+.infra-summary small {
+  display: block;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.infra-summary strong {
+  font-size: 13px;
+}
+.infra-permissions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0;
+}
+.infra-permissions span {
+  padding: 8px 12px;
+  background: var(--paper);
+  font-size: 11px;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+}
+.infra-command {
+  background: var(--rail);
+  color: var(--rail-text);
+  padding: 24px;
+  border-radius: 12px;
+  margin: 22px 0;
+  line-height: 2;
+}
+.infra-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.infra-stats small {
+  color: var(--muted);
+}
+.infra-handoffs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+.infra-handoffs .panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+  padding: 22px;
+  font-size: 12px;
+}
+.infra-handoffs .selected {
+  border-color: var(--accent);
+}
+.infra-flow-list {
+  margin: 20px 0 30px;
+  padding-left: 20px;
+  line-height: 2.4;
+  color: var(--muted);
+  font-size: 12px;
+}
+.install-hero {
+  max-width: 950px;
+}
+.infra-checklist {
+  display: grid;
+  gap: 8px;
+  margin: 24px 0;
+}
+.infra-checklist label {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+.infra-checklist input {
+  width: auto;
+}
+.infra-checklist span {
+  color: var(--accent);
+  font-size: 11px;
+}
+.infrastructure-studio .field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 15px 0;
+}
+.infrastructure-studio .notice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+@media (max-width: 900px) {
+  .infra-handoffs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .infra-placement {
+    padding: 25px 12px;
+  }
+  .infra-placement > div {
+    min-width: 125px;
+  }
+  .infra-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .infra-placement {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .infra-placement > i {
+    width: 1px;
+    height: 25px;
+  }
+  .infra-handoffs,
+  .infra-stats,
+  .infra-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+  .infra-steps {
+    max-width: 100%;
+  }
+  .infra-checklist label {
+    font-size: 11px;
+  }
+}
+.private-lifecycle {
+  margin: 24px 0;
+}
+.private-lifecycle > .segmented {
+  margin: 20px 0;
+}
+.private-lifecycle .grid-two {
+  margin: 20px 0;
+}
+.private-lifecycle table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+.private-lifecycle td,
+.private-lifecycle th {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.private-lifecycle ol {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+}
+.infra-profile-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+.infra-profile-list button {
+  text-align: left;
+}
+.private-lifecycle .row {
+  flex-wrap: wrap;
+}

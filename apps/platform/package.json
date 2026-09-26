@@ -1,0 +1,24 @@
+{
+  "name": "@architect/platform",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4183",
+    "build": "tsc -b && vite build",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "preview": "vite preview --host 127.0.0.1 --port 4183",
+    "dev:api": "node scripts/dev-api.mjs"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "vite": "7.0.6",
+    "typescript": "5.8.3",
+    "@types/react": "19.1.9",
+    "@types/react-dom": "19.1.7"
+  }
+}

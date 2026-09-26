@@ -1,0 +1,1292 @@
+{
+  "newPackages": 42,
+  "inheritedPackages": 65,
+  "cumulativePackages": 107,
+  "features": [
+    {
+      "id": "ORG-N2",
+      "title": "Company portfolio",
+      "area": "company",
+      "scope": "Group projects into products and programs; show owners, dependencies, milestones and delivery health without turning every user into an administrator.",
+      "status": "interactive prototype with persisted records",
+      "entry": "company",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Discovery",
+        "In progress",
+        "At risk",
+        "Shipped"
+      ],
+      "fieldCount": 5,
+      "handoff": "delivery",
+      "executionBoundary": "Groups real workspace projects into owned products. Health and milestone values are entered by the team, not inferred from surveillance.",
+      "screenshots": [
+        "verification/v3/ORG-N2-configure.png",
+        "verification/v3/ORG-N2-review.png",
+        "verification/v3/ORG-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "ORG-N4",
+      "title": "Reusable company workspace blueprints",
+      "area": "company",
+      "scope": "Versioned bundles of approved design systems, workflows, agent teams, model policies and connection requirements; preview dependencies and instantiate an independent project with approved local overrides.",
+      "status": "interactive prototype with persisted records",
+      "entry": "company",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "In review",
+        "Approved",
+        "Retired"
+      ],
+      "fieldCount": 6,
+      "handoff": "studio",
+      "executionBoundary": "Approved blueprint records can seed independent projects; saved connection references do not grant account access.",
+      "screenshots": [
+        "verification/v3/ORG-N4-configure.png",
+        "verification/v3/ORG-N4-review.png",
+        "verification/v3/ORG-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "PLAN-N1",
+      "title": "Sprint and Kanban delivery",
+      "area": "delivery",
+      "scope": "Epics, stories, tasks, bugs, backlog, sprint goals, capacity, estimates, owners, dependencies, blockers and retrospectives. AI proposes work; people approve scope and responsibility.",
+      "status": "interactive prototype with persisted records",
+      "entry": "delivery",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Backlog",
+        "Ready",
+        "In progress",
+        "In review",
+        "Done"
+      ],
+      "fieldCount": 9,
+      "handoff": "studio",
+      "executionBoundary": "Work is stored in the shared workspace. Drag or move cards between states; an assigned owner remains accountable for decisions.",
+      "screenshots": [
+        "verification/v3/PLAN-N1-configure.png",
+        "verification/v3/PLAN-N1-review.png",
+        "verification/v3/PLAN-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "PLAN-N4",
+      "title": "Collaborative brainstorming and decisions",
+      "area": "delivery",
+      "scope": "Shared idea board, alternatives, clustering, comments, voting, decision rationale and conversion to an opportunity/prototype/task.",
+      "status": "interactive prototype with persisted records",
+      "entry": "delivery",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Explore",
+        "Shortlisted",
+        "Decided",
+        "Converted"
+      ],
+      "fieldCount": 7,
+      "handoff": "delivery",
+      "executionBoundary": "Ideas and votes provide context for a decision. Converting an idea creates an explicit linked delivery task.",
+      "screenshots": [
+        "verification/v3/PLAN-N4-configure.png",
+        "verification/v3/PLAN-N4-review.png",
+        "verification/v3/PLAN-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "PLAN-N5",
+      "title": "Strategic roadmap and trade-off planning",
+      "area": "delivery",
+      "scope": "Goals to initiatives/milestones, alternatives, capacity/dependencies, forecast assumptions and change impact across teams.",
+      "status": "interactive prototype with persisted records",
+      "entry": "delivery",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Proposed",
+        "Planned",
+        "In progress",
+        "Delivered"
+      ],
+      "fieldCount": 8,
+      "handoff": "metrics",
+      "executionBoundary": "Roadmap dates are forecasts with assumptions; changes are reviewed alongside delivery dependencies.",
+      "screenshots": [
+        "verification/v3/PLAN-N5-configure.png",
+        "verification/v3/PLAN-N5-review.png",
+        "verification/v3/PLAN-N5-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "AGENT-N1",
+      "title": "Bot-team workroom",
+      "area": "botteams",
+      "scope": "Persistent conversation with a lead bot and specialist activity feed; assign a goal, inspect delegation, intervene, cancel work and review evidence-backed deliverables.",
+      "status": "interactive prototype with persisted records",
+      "entry": "botteams",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Ready",
+        "Running demo",
+        "Paused",
+        "Complete"
+      ],
+      "fieldCount": 5,
+      "handoff": "delivery",
+      "executionBoundary": "Live conversation can use OpenRouter. Specialist execution and external tools remain explicitly simulated unless a runtime is connected.",
+      "screenshots": [
+        "verification/v3/AGENT-N1-configure.png",
+        "verification/v3/AGENT-N1-review.png",
+        "verification/v3/AGENT-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "AGENT-N3",
+      "title": "Bot-team operations",
+      "area": "botteams",
+      "scope": "Reusable team blueprints, ownership transfer, run budgets, tool health, version pinning and team evaluations; connect bot work directly to sprint tasks and approvals.",
+      "status": "interactive prototype with persisted records",
+      "entry": "botteams",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "In review",
+        "Approved",
+        "Retired"
+      ],
+      "fieldCount": 7,
+      "handoff": "mcp",
+      "executionBoundary": "Schedule and ownership-transfer plans are recorded; no unattended background process runs from a prototype setting.",
+      "screenshots": [
+        "verification/v3/AGENT-N3-configure.png",
+        "verification/v3/AGENT-N3-review.png",
+        "verification/v3/AGENT-N3-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "AGENT-N4",
+      "title": "Dynamic specialist creation and delegated execution",
+      "area": "botteams",
+      "scope": "A lead or execution agent can propose or create temporary specialists from approved templates at runtime, within tool/data/budget/concurrency/depth limits; preserve lineage, results and lifecycle cleanup.",
+      "status": "interactive prototype with persisted records",
+      "entry": "botteams",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Proposed",
+        "Approved",
+        "Active demo",
+        "Completed",
+        "Cleaned up"
+      ],
+      "fieldCount": 8,
+      "handoff": "botteams",
+      "executionBoundary": "Temporary specialists require bounded scope and approval. A saved proposal does not spawn autonomous provider agents.",
+      "screenshots": [
+        "verification/v3/AGENT-N4-configure.png",
+        "verification/v3/AGENT-N4-review.png",
+        "verification/v3/AGENT-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "DATA-N1",
+      "title": "Architect through ChatGPT",
+      "area": "mcp",
+      "scope": "Expose selected Architect project tools through an authenticated ChatGPT integration: inspect status, draft requirements, request builds and open the exact result in Architect. Enforce the same permissions and review policies.",
+      "status": "interactive prototype with persisted records",
+      "entry": "mcp",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Needs setup",
+        "Review requested",
+        "Configured externally"
+      ],
+      "fieldCount": 6,
+      "handoff": "company",
+      "executionBoundary": "Exports a connection manifest and permission design. It does not register a live ChatGPT app or expose private project data.",
+      "screenshots": [
+        "verification/v3/DATA-N1-configure.png",
+        "verification/v3/DATA-N1-review.png",
+        "verification/v3/DATA-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "DATA-N2",
+      "title": "Existing-work system synchronization",
+      "area": "mcp",
+      "scope": "Connect issue trackers, docs and team chat with explicit ownership of each record, external IDs, conflict rules and sync status; avoid creating competing sources of truth.",
+      "status": "interactive prototype with persisted records",
+      "entry": "mcp",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Needs authorization",
+        "Mapped",
+        "Conflict",
+        "Paused"
+      ],
+      "fieldCount": 7,
+      "handoff": "delivery",
+      "executionBoundary": "Records ownership and conflict resolution. Connector grants, remote changes and notifications require a live adapter and explicit authorization.",
+      "screenshots": [
+        "verification/v3/DATA-N2-configure.png",
+        "verification/v3/DATA-N2-review.png",
+        "verification/v3/DATA-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "OPS-N2",
+      "title": "Supervised remediation",
+      "area": "botteams",
+      "scope": "An operations bot diagnoses a fault, proposes a patch or rollback, runs checks and requests the required action approval; record retries and prevent duplicate external side effects.",
+      "status": "interactive prototype with persisted records",
+      "entry": "botteams",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Detected",
+        "Diagnosed",
+        "Awaiting approval",
+        "Rehearsed",
+        "Resolved externally"
+      ],
+      "fieldCount": 8,
+      "handoff": "qa",
+      "executionBoundary": "Keeps evidence, retries and approvals visible. This prototype cannot automatically patch production or repeat external side effects.",
+      "screenshots": [
+        "verification/v3/OPS-N2-configure.png",
+        "verification/v3/OPS-N2-review.png",
+        "verification/v3/OPS-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "OPS-N4",
+      "title": "Cloud cost allocation and efficiency recommendations",
+      "area": "finance",
+      "scope": "Join connected cloud billing and utilization data; allocate EC2/S3 and other supported service costs to projects/teams/environments; surface evidence-backed efficiency opportunities and reviewed implementation tasks.",
+      "status": "interactive prototype with persisted records",
+      "entry": "finance",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Observed",
+        "Validated",
+        "Approved",
+        "Task created",
+        "Measured externally"
+      ],
+      "fieldCount": 9,
+      "handoff": "delivery",
+      "executionBoundary": "Cost figures are user-entered or sample data. Recommendations need billing/utilization evidence and review before infrastructure changes.",
+      "screenshots": [
+        "verification/v3/OPS-N4-configure.png",
+        "verification/v3/OPS-N4-review.png",
+        "verification/v3/OPS-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CRM-N1",
+      "title": "Accounts and relationship records",
+      "area": "revenue",
+      "scope": "Shared accounts, contacts, ownership, relationship history and stable identities. Customer-success views reuse these records.",
+      "status": "interactive prototype with persisted records",
+      "entry": "revenue",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Prospect",
+        "Active",
+        "At risk",
+        "Archived"
+      ],
+      "fieldCount": 6,
+      "handoff": "success",
+      "executionBoundary": "Account identity is reused across opportunities, customer feedback and renewals; creating a record does not send outreach.",
+      "screenshots": [
+        "verification/v3/CRM-N1-configure.png",
+        "verification/v3/CRM-N1-review.png",
+        "verification/v3/CRM-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CRM-N2",
+      "title": "Lead capture, qualification and routing",
+      "area": "revenue",
+      "scope": "Capture/import, deduplicate, qualify, assign and retain source/contact preferences.",
+      "status": "interactive prototype with persisted records",
+      "entry": "revenue",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "New",
+        "Qualified",
+        "Assigned",
+        "Converted",
+        "Closed"
+      ],
+      "fieldCount": 7,
+      "handoff": "revenue",
+      "executionBoundary": "Potential duplicates are flagged by email or company. Qualification and routing remain human decisions.",
+      "screenshots": [
+        "verification/v3/CRM-N2-configure.png",
+        "verification/v3/CRM-N2-review.png",
+        "verification/v3/CRM-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CRM-N3",
+      "title": "Opportunity and pipeline management",
+      "area": "revenue",
+      "scope": "Stages, opportunities, next steps, commitments and conversion status using explicit definitions.",
+      "status": "interactive prototype with persisted records",
+      "entry": "revenue",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Discovery",
+        "Qualified",
+        "Proposal",
+        "Negotiation",
+        "Won",
+        "Lost"
+      ],
+      "fieldCount": 7,
+      "handoff": "finance",
+      "executionBoundary": "Stages and expected value are entered explicitly. Closing a record does not sign a contract or book revenue.",
+      "screenshots": [
+        "verification/v3/CRM-N3-configure.png",
+        "verification/v3/CRM-N3-review.png",
+        "verification/v3/CRM-N3-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CRM-N4",
+      "title": "Sales activities and follow-ups",
+      "area": "revenue",
+      "scope": "Prepare follow-ups, maintain activity history, schedule authorized bot work and expose failed or pending actions.",
+      "status": "interactive prototype with persisted records",
+      "entry": "revenue",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Review required",
+        "Scheduled proposal",
+        "Completed externally",
+        "Failed"
+      ],
+      "fieldCount": 6,
+      "handoff": "botteams",
+      "executionBoundary": "No email, calendar event or external message is sent by saving this activity.",
+      "screenshots": [
+        "verification/v3/CRM-N4-configure.png",
+        "verification/v3/CRM-N4-review.png",
+        "verification/v3/CRM-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CRM-N5",
+      "title": "Proposals and commercial handoffs",
+      "area": "revenue",
+      "scope": "Proposal records and customer commitments link to finance review and customer-success onboarding; renewal work is owned by CX-N4.",
+      "status": "interactive prototype with persisted records",
+      "entry": "revenue",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Finance review",
+        "Approved internally",
+        "Accepted externally",
+        "Handoff complete"
+      ],
+      "fieldCount": 7,
+      "handoff": "finance",
+      "executionBoundary": "Internal approval is distinct from customer acceptance. Finance and success handoffs preserve the originating proposal ID.",
+      "screenshots": [
+        "verification/v3/CRM-N5-configure.png",
+        "verification/v3/CRM-N5-review.png",
+        "verification/v3/CRM-N5-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CX-N1",
+      "title": "Feedback intake and customer evidence",
+      "area": "success",
+      "scope": "Capture source-linked feedback, group themes/duplicates and connect accounts to product opportunities.",
+      "status": "interactive prototype with persisted records",
+      "entry": "success",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "New",
+        "Triaged",
+        "Linked to work",
+        "Addressed",
+        "Closed"
+      ],
+      "fieldCount": 6,
+      "handoff": "delivery",
+      "executionBoundary": "Feedback is evidence linked to a customer, not an automatic promise to build a feature.",
+      "screenshots": [
+        "verification/v3/CX-N1-configure.png",
+        "verification/v3/CX-N1-review.png",
+        "verification/v3/CX-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CX-N2",
+      "title": "Support cases and escalations",
+      "area": "success",
+      "scope": "Case ownership, routing, escalation and links to technical incidents or product work.",
+      "status": "interactive prototype with persisted records",
+      "entry": "success",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Open",
+        "Triaged",
+        "In progress",
+        "Escalated",
+        "Resolved"
+      ],
+      "fieldCount": 6,
+      "handoff": "ops",
+      "executionBoundary": "Technical escalation retains customer context without exposing unrestricted personal data to an agent.",
+      "screenshots": [
+        "verification/v3/CX-N2-configure.png",
+        "verification/v3/CX-N2-review.png",
+        "verification/v3/CX-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CX-N3",
+      "title": "Customer onboarding and activation",
+      "area": "success",
+      "scope": "Onboarding milestones, adoption tasks and customer-success handoff; metric definitions use shared BI capabilities.",
+      "status": "interactive prototype with persisted records",
+      "entry": "success",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Not started",
+        "In progress",
+        "Blocked",
+        "Activated"
+      ],
+      "fieldCount": 6,
+      "handoff": "metrics",
+      "executionBoundary": "Track customer progress against a defined activation outcome and explicit task ownership.",
+      "screenshots": [
+        "verification/v3/CX-N3-configure.png",
+        "verification/v3/CX-N3-review.png",
+        "verification/v3/CX-N3-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CX-N4",
+      "title": "Account health, retention and renewals",
+      "area": "success",
+      "scope": "Explainable health signals, renewal coordination, churn reasons and retention actions using shared account/commercial records.",
+      "status": "interactive prototype with persisted records",
+      "entry": "success",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Healthy",
+        "Watch",
+        "At risk",
+        "Renewal review",
+        "Renewed externally",
+        "Churned"
+      ],
+      "fieldCount": 7,
+      "handoff": "revenue",
+      "executionBoundary": "Health must cite explainable evidence; financial or contractual outcomes require confirmation outside this prototype.",
+      "screenshots": [
+        "verification/v3/CX-N4-configure.png",
+        "verification/v3/CX-N4-review.png",
+        "verification/v3/CX-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "CX-N5",
+      "title": "Close the customer feedback loop",
+      "area": "success",
+      "scope": "Connect requests to decisions and shipped changes, prepare reviewed customer updates and record follow-up outcomes.",
+      "status": "interactive prototype with persisted records",
+      "entry": "success",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Request linked",
+        "Decision recorded",
+        "Release verified",
+        "Draft update",
+        "Closed"
+      ],
+      "fieldCount": 7,
+      "handoff": "release",
+      "executionBoundary": "Preparing an update does not send it. A real release must be verified before claiming a requested change shipped.",
+      "screenshots": [
+        "verification/v3/CX-N5-configure.png",
+        "verification/v3/CX-N5-review.png",
+        "verification/v3/CX-N5-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "FIN-N1",
+      "title": "Business budgets and allocations",
+      "area": "finance",
+      "scope": "Project/department budgets and approved investment limits; uses company approval/budget infrastructure.",
+      "status": "interactive prototype with persisted records",
+      "entry": "finance",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Review",
+        "Approved",
+        "Frozen"
+      ],
+      "fieldCount": 7,
+      "handoff": "metrics",
+      "executionBoundary": "Budgets and spend are internal planning records. They neither transfer money nor change provider billing limits.",
+      "screenshots": [
+        "verification/v3/FIN-N1-configure.png",
+        "verification/v3/FIN-N1-review.png",
+        "verification/v3/FIN-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "FIN-N2",
+      "title": "Purchase requests and procurement review",
+      "area": "finance",
+      "scope": "Request, owner, supporting evidence, commercial review handoff and approval status.",
+      "status": "interactive prototype with persisted records",
+      "entry": "finance",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Submitted",
+        "Evidence needed",
+        "In review",
+        "Approved internally",
+        "Declined"
+      ],
+      "fieldCount": 7,
+      "handoff": "finance",
+      "executionBoundary": "Approval records a procurement decision only. No payment, order or subscription is created.",
+      "screenshots": [
+        "verification/v3/FIN-N2-configure.png",
+        "verification/v3/FIN-N2-review.png",
+        "verification/v3/FIN-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "FIN-N3",
+      "title": "Invoice status and reconciliation exceptions",
+      "area": "finance",
+      "scope": "Authorized invoice data, period/currency handling, matching exceptions and owner resolution.",
+      "status": "interactive prototype with persisted records",
+      "entry": "finance",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Unmatched",
+        "Under review",
+        "Matched",
+        "Resolved externally"
+      ],
+      "fieldCount": 8,
+      "handoff": "revenue",
+      "executionBoundary": "Tracks authorized invoice references and reconciliation notes, without executing payments or bookkeeping entries.",
+      "screenshots": [
+        "verification/v3/FIN-N3-configure.png",
+        "verification/v3/FIN-N3-review.png",
+        "verification/v3/FIN-N3-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "FIN-N4",
+      "title": "Commercial and investment decisions",
+      "area": "finance",
+      "scope": "Review proposal terms, business cases, assumptions and funding decisions; CRM owns the originating proposal.",
+      "status": "interactive prototype with persisted records",
+      "entry": "finance",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Proposed",
+        "Review",
+        "Approved internally",
+        "Request changes",
+        "Declined"
+      ],
+      "fieldCount": 7,
+      "handoff": "success",
+      "executionBoundary": "Human reviewers assess terms and funding; the system does not independently sign contracts or approve spending.",
+      "screenshots": [
+        "verification/v3/FIN-N4-configure.png",
+        "verification/v3/FIN-N4-review.png",
+        "verification/v3/FIN-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "FIN-N5",
+      "title": "Financial variance and forecasts",
+      "area": "finance",
+      "scope": "Spend versus plan, explained variances and editable forecasts; shared BI/reporting supplies execution infrastructure.",
+      "status": "interactive prototype with persisted records",
+      "entry": "finance",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Reviewed",
+        "Published internally"
+      ],
+      "fieldCount": 7,
+      "handoff": "metrics",
+      "executionBoundary": "Variance is calculated from entered values and presented with its currency and assumptions.",
+      "screenshots": [
+        "verification/v3/FIN-N5-configure.png",
+        "verification/v3/FIN-N5-review.png",
+        "verification/v3/FIN-N5-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "PEOPLE-N1",
+      "title": "Employee directory and skills",
+      "area": "people",
+      "scope": "Authorized employee/team/skills records; ORG remains the authority for company membership and permissions.",
+      "status": "interactive prototype with persisted records",
+      "entry": "people",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Active",
+        "Onboarding",
+        "On leave",
+        "Archived"
+      ],
+      "fieldCount": 6,
+      "handoff": "people",
+      "executionBoundary": "Directory records do not grant Architect membership. Identity, invitations and actual access remain in workspace administration.",
+      "screenshots": [
+        "verification/v3/PEOPLE-N1-configure.png",
+        "verification/v3/PEOPLE-N1-review.png",
+        "verification/v3/PEOPLE-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "PEOPLE-N2",
+      "title": "Employee onboarding, offboarding and access requests",
+      "area": "people",
+      "scope": "Coordinate employee lifecycle tasks, access-request approvals and bot ownership transfer.",
+      "status": "interactive prototype with persisted records",
+      "entry": "people",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Requested",
+        "Approved",
+        "In progress",
+        "Complete",
+        "Cancelled"
+      ],
+      "fieldCount": 7,
+      "handoff": "settings",
+      "executionBoundary": "Lifecycle coordination does not grant or revoke identity access automatically.",
+      "screenshots": [
+        "verification/v3/PEOPLE-N2-configure.png",
+        "verification/v3/PEOPLE-N2-review.png",
+        "verification/v3/PEOPLE-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "PEOPLE-N3",
+      "title": "Team capacity and workload",
+      "area": "people",
+      "scope": "Available capacity, workload, leave context and blockers; teams can correct incomplete context.",
+      "status": "interactive prototype with persisted records",
+      "entry": "people",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Proposed",
+        "Confirmed",
+        "Needs adjustment"
+      ],
+      "fieldCount": 7,
+      "handoff": "delivery",
+      "executionBoundary": "Capacity supports planning and can be corrected by the team. It is not an individual productivity score.",
+      "screenshots": [
+        "verification/v3/PEOPLE-N3-configure.png",
+        "verification/v3/PEOPLE-N3-review.png",
+        "verification/v3/PEOPLE-N3-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "PEOPLE-N4",
+      "title": "Agreed goals and manager review context",
+      "area": "people",
+      "scope": "Role-aware goals, quality/outcomes evidence and human review, without treating activity counts as autonomous employment decisions.",
+      "status": "interactive prototype with persisted records",
+      "entry": "people",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Agreed",
+        "In progress",
+        "Review",
+        "Complete"
+      ],
+      "fieldCount": 6,
+      "handoff": "metrics",
+      "executionBoundary": "Human review uses agreed outcomes and context. Activity counts do not drive automated employment decisions.",
+      "screenshots": [
+        "verification/v3/PEOPLE-N4-configure.png",
+        "verification/v3/PEOPLE-N4-review.png",
+        "verification/v3/PEOPLE-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "BI-N1",
+      "title": "Metric catalog and definitions",
+      "area": "metrics",
+      "scope": "Owner, formula, source, timeframe, cohort, target and currency where relevant.",
+      "status": "interactive prototype with persisted records",
+      "entry": "metrics",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Defined",
+        "Instrumented",
+        "Retired"
+      ],
+      "fieldCount": 8,
+      "handoff": "metrics",
+      "executionBoundary": "Metric values are manually entered unless a connected source is explicitly verified. Formula, owner and timeframe remain visible.",
+      "screenshots": [
+        "verification/v3/BI-N1-configure.png",
+        "verification/v3/BI-N1-review.png",
+        "verification/v3/BI-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "BI-N2",
+      "title": "Instrumentation and data-quality planning",
+      "area": "metrics",
+      "scope": "Event/property plans, implementation links, duplicate/missing-event checks and data freshness.",
+      "status": "interactive prototype with persisted records",
+      "entry": "metrics",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Planned",
+        "Implementation",
+        "Validation",
+        "Verified externally"
+      ],
+      "fieldCount": 6,
+      "handoff": "code",
+      "executionBoundary": "Defines event contracts and data-quality checks. No tracking script is installed by saving the plan.",
+      "screenshots": [
+        "verification/v3/BI-N2-configure.png",
+        "verification/v3/BI-N2-review.png",
+        "verification/v3/BI-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "BI-N3",
+      "title": "Prompt-to-analysis and dashboards",
+      "area": "metrics",
+      "scope": "Authorized queries, charts, filters, segment comparisons and drill-down to supporting records; DATA owns connectors.",
+      "status": "interactive prototype with persisted records",
+      "entry": "metrics",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Question",
+        "In progress",
+        "Review",
+        "Decision ready"
+      ],
+      "fieldCount": 7,
+      "handoff": "delivery",
+      "executionBoundary": "Analysis records and entered charts are functional. Prompted narratives must not be mistaken for executed database queries.",
+      "screenshots": [
+        "verification/v3/BI-N3-configure.png",
+        "verification/v3/BI-N3-review.png",
+        "verification/v3/BI-N3-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "BI-N4",
+      "title": "Business goals and decision tracking",
+      "area": "metrics",
+      "scope": "Company goals, targets and evidence-backed decision records linked to owned follow-up work.",
+      "status": "interactive prototype with persisted records",
+      "entry": "metrics",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Proposed",
+        "Active",
+        "At risk",
+        "Achieved",
+        "Closed"
+      ],
+      "fieldCount": 6,
+      "handoff": "delivery",
+      "executionBoundary": "Links a decision to an accountable follow-up rather than treating dashboards as the end of the workflow.",
+      "screenshots": [
+        "verification/v3/BI-N4-configure.png",
+        "verification/v3/BI-N4-review.png",
+        "verification/v3/BI-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "BI-N5",
+      "title": "Scheduled reporting and distribution",
+      "area": "metrics",
+      "scope": "Report audiences, cadence, snapshots/exports and delivery status; AGENT provides scheduling and permission infrastructure.",
+      "status": "interactive prototype with persisted records",
+      "entry": "metrics",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Review",
+        "Ready for connector",
+        "Paused"
+      ],
+      "fieldCount": 6,
+      "handoff": "botteams",
+      "executionBoundary": "Exports work now. Scheduled external distribution requires a connected runtime and approved audience; it is not running in the background.",
+      "screenshots": [
+        "verification/v3/BI-N5-configure.png",
+        "verification/v3/BI-N5-review.png",
+        "verification/v3/BI-N5-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "BI-N6",
+      "title": "Experiments and outcome analysis",
+      "area": "metrics",
+      "scope": "Hypotheses, assignment/exposure, variants, measures, guardrails, data quality and explicit ship/revise/stop decisions.",
+      "status": "interactive prototype with persisted records",
+      "entry": "metrics",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Running externally",
+        "Review",
+        "Ship",
+        "Revise",
+        "Stop"
+      ],
+      "fieldCount": 8,
+      "handoff": "growth",
+      "executionBoundary": "Experiment planning is functional; randomization, exposure tracking and statistical claims require actual measurement.",
+      "screenshots": [
+        "verification/v3/BI-N6-configure.png",
+        "verification/v3/BI-N6-review.png",
+        "verification/v3/BI-N6-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "MKT-N1",
+      "title": "Campaign and audience planning",
+      "area": "growth",
+      "scope": "Campaign briefs, audience definitions, calendars, tasks and accountable owners.",
+      "status": "interactive prototype with persisted records",
+      "entry": "growth",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Brief",
+        "Planned",
+        "In progress",
+        "Review",
+        "Complete"
+      ],
+      "fieldCount": 7,
+      "handoff": "metrics",
+      "executionBoundary": "Audience and campaign records prepare work. Saving a brief does not contact anyone or spend advertising budget.",
+      "screenshots": [
+        "verification/v3/MKT-N1-configure.png",
+        "verification/v3/MKT-N1-review.png",
+        "verification/v3/MKT-N1-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "MKT-N2",
+      "title": "Content and asset review",
+      "area": "growth",
+      "scope": "Drafts, approved claims, assets, revisions and content approval using shared document/review infrastructure.",
+      "status": "interactive prototype with persisted records",
+      "entry": "growth",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "In review",
+        "Changes requested",
+        "Approved"
+      ],
+      "fieldCount": 7,
+      "handoff": "growth",
+      "executionBoundary": "Content is editable and versioned through record history. Approval does not publish it.",
+      "screenshots": [
+        "verification/v3/MKT-N2-configure.png",
+        "verification/v3/MKT-N2-review.png",
+        "verification/v3/MKT-N2-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "MKT-N3",
+      "title": "Go-to-market and launch coordination",
+      "area": "growth",
+      "scope": "Positioning, packaging/pricing proposals, sales enablement, support readiness and dependency on actual release availability.",
+      "status": "interactive prototype with persisted records",
+      "entry": "growth",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Planning",
+        "Dependencies",
+        "Ready internally",
+        "Released externally",
+        "Follow-up"
+      ],
+      "fieldCount": 7,
+      "handoff": "release",
+      "executionBoundary": "Launch readiness depends on the actual product release, support and commercial approvals.",
+      "screenshots": [
+        "verification/v3/MKT-N3-configure.png",
+        "verification/v3/MKT-N3-review.png",
+        "verification/v3/MKT-N3-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "MKT-N4",
+      "title": "Supported channel publishing",
+      "area": "growth",
+      "scope": "Approved connected publishing actions, execution confirmation, drafts and failure/retry states; no assumption every channel is supported.",
+      "status": "interactive prototype with persisted records",
+      "entry": "growth",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Draft",
+        "Approval required",
+        "Ready for connector",
+        "Confirmed externally",
+        "Failed"
+      ],
+      "fieldCount": 7,
+      "handoff": "mcp",
+      "executionBoundary": "This interface stores drafts and externally verified outcomes. It does not post to a channel or send messages.",
+      "screenshots": [
+        "verification/v3/MKT-N4-configure.png",
+        "verification/v3/MKT-N4-review.png",
+        "verification/v3/MKT-N4-outcome.png"
+      ],
+      "browserCheck": "passed"
+    },
+    {
+      "id": "MKT-N5",
+      "title": "Campaign performance and attribution",
+      "area": "growth",
+      "scope": "Campaign outcomes, lead-source and attribution rules, conversion analysis and follow-up work using shared BI metric definitions.",
+      "status": "interactive prototype with persisted records",
+      "entry": "growth",
+      "journey": [
+        "Area overview or Feature flows",
+        "Configure feature-specific fields and ownership",
+        "Review record",
+        "Save shared workspace record",
+        "Inspect outcome and continue directly"
+      ],
+      "stages": [
+        "Collecting",
+        "Review",
+        "Decision ready",
+        "Actioned"
+      ],
+      "fieldCount": 7,
+      "handoff": "revenue",
+      "executionBoundary": "Attribution rules and source confidence stay visible. Results are entered records, not inferred tracking data.",
+      "screenshots": [
+        "verification/v3/MKT-N5-configure.png",
+        "verification/v3/MKT-N5-review.png",
+        "verification/v3/MKT-N5-outcome.png"
+      ],
+      "browserCheck": "passed"
+    }
+  ]
+}
