@@ -30,3 +30,9 @@ The shared brand mark is copied from the Architect app's `public/favicon.svg`. E
 ## Verification
 
 Run `python3 validate.py` from this directory for ID uniqueness, counts, handoff targets, baseline targets, source attribution and asset integrity. Browser checks are recorded in `browser-checks.json`. These are focused checks, not an exhaustive accessibility certification.
+
+## Prototype workflow evidence
+
+The v2 workflow evidence set contains Configure, Review and Outcome screenshots captured from the live demo UI with fictional inputs. These show successful **prototype record creation**, not external integration execution. Feature-specific images are mapped through `config.json`; the original full capture ledger remains separate.
+
+All 109 proposed packages now have representative screenshots linked: 65 builder packages, 42 company packages and two private-infrastructure packages. V2 has three stage captures per package; V3 supplied its 42×3 capture manifest plus persona/overview screens; V4 supplied guided infrastructure screens. Some long forms require scrolling beyond the pictured viewport. Browser verification found Chrome warnings/blockage for 3.0 and one 2.0 session; endpoint reachability does not clear them. The public showcase displays that caveat prominently.

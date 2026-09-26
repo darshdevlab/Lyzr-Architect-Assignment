@@ -64,11 +64,28 @@
       "name": "Stable production alias loads complete data and safe Architect output screenshot",
       "result": "pass",
       "url": "https://lyzr-architect-assignment.vercel.app"
+    },
+    {
+      "name": "All 65 v2 package workflows traversed Configure / Review / Outcome",
+      "result": "pass",
+      "captures": 195,
+      "source": "58 on stable deployed 2.0 before Chrome blockage; 7 BUILD workflows on localhost:4183"
+    },
+    {
+      "name": "All 109 package IDs have representative public screenshot mapping",
+      "result": "pass",
+      "source": "v2 capture log + root v2/v4 manifests + company agent v3 manifest"
+    },
+    {
+      "name": "Feature detail loads all three linked repository workflow images",
+      "result": "pass"
     }
   ],
   "limits": [
-    "Focused functional and visual checks, not exhaustive WCAG certification",
-    "Edition screenshots await root deployment evidence",
-    "Eleven selected historical research screenshots were visually audited; remaining capture metadata is published without image files"
+    "Screenshots document prototype UI states, not production external integration execution.",
+    "Some long forms extend beyond the captured viewport.",
+    "Chrome later blocked 2.0 in one session; 3.0 Dangerous site warning remains unresolved. No warning was bypassed.",
+    "Company 3.0 workflow traversal was independently verified by the company agent; its manifest is attributed rather than re-executed here.",
+    "Focused checks are not exhaustive WCAG certification."
   ]
 }

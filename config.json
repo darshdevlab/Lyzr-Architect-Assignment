@@ -7,7 +7,7 @@
     "2.0": {
       "liveUrl": "https://lyzr-architect-2.vercel.app",
       "repoUrl": "https://github.com/darshdevlab/lyzr-architect-2.0",
-      "verified": false,
+      "verified": true,
       "screenshots": [
         {
           "image": "assets/architect-2-agent-canvas.png",
@@ -17,20 +17,3873 @@
             "AGENT-E1",
             "AGENT-E2"
           ]
+        },
+        {
+          "image": "assets/v2/ORG-E1-configure.png",
+          "label": "Role-aware onboarding \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "ORG-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E1-review.png",
+          "label": "Role-aware onboarding \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "ORG-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E1-outcome.png",
+          "label": "Role-aware onboarding \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "ORG-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E2-configure.png",
+          "label": "Project-scoped permissions \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "ORG-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E2-review.png",
+          "label": "Project-scoped permissions \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "ORG-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E2-outcome.png",
+          "label": "Project-scoped permissions \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "ORG-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E3-configure.png",
+          "label": "Collaborative project access \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "ORG-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E3-review.png",
+          "label": "Collaborative project access \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "ORG-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E3-outcome.png",
+          "label": "Collaborative project access \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "ORG-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E4-configure.png",
+          "label": "Workspace budgets and administration \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "ORG-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E4-review.png",
+          "label": "Workspace budgets and administration \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "ORG-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-E4-outcome.png",
+          "label": "Workspace budgets and administration \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "ORG-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-N1-configure.png",
+          "label": "Role home and assigned work \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "ORG-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-N1-review.png",
+          "label": "Role home and assigned work \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "ORG-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-N1-outcome.png",
+          "label": "Role home and assigned work \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "ORG-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-N3-configure.png",
+          "label": "Approval inbox \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "ORG-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-N3-review.png",
+          "label": "Approval inbox \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "ORG-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/ORG-N3-outcome.png",
+          "label": "Approval inbox \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "ORG-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E1-configure.png",
+          "label": "Living specification \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "PLAN-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E1-review.png",
+          "label": "Living specification \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "PLAN-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E1-outcome.png",
+          "label": "Living specification \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "PLAN-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E2-configure.png",
+          "label": "Discovery and prioritization \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "PLAN-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E2-review.png",
+          "label": "Discovery and prioritization \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "PLAN-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E2-outcome.png",
+          "label": "Discovery and prioritization \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "PLAN-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E3-configure.png",
+          "label": "Reusable planning templates \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "PLAN-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E3-review.png",
+          "label": "Reusable planning templates \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "PLAN-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E3-outcome.png",
+          "label": "Reusable planning templates \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "PLAN-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E4-configure.png",
+          "label": "Collaborative artifact review \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "PLAN-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E4-review.png",
+          "label": "Collaborative artifact review \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "PLAN-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-E4-outcome.png",
+          "label": "Collaborative artifact review \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "PLAN-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-N2-configure.png",
+          "label": "Project wiki and documentation \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "PLAN-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-N2-review.png",
+          "label": "Project wiki and documentation \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "PLAN-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-N2-outcome.png",
+          "label": "Project wiki and documentation \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "PLAN-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-N3-configure.png",
+          "label": "Requirement-to-release traceability \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "PLAN-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-N3-review.png",
+          "label": "Requirement-to-release traceability \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "PLAN-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/PLAN-N3-outcome.png",
+          "label": "Requirement-to-release traceability \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "PLAN-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E1-configure.png",
+          "label": "Reliable repository onboarding \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "CODE-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E1-review.png",
+          "label": "Reliable repository onboarding \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "CODE-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E1-outcome.png",
+          "label": "Reliable repository onboarding \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "CODE-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E2-configure.png",
+          "label": "Controlled Git synchronization \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "CODE-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E2-review.png",
+          "label": "Controlled Git synchronization \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "CODE-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E2-outcome.png",
+          "label": "Controlled Git synchronization \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "CODE-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E3-configure.png",
+          "label": "Reviewable change history \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "CODE-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E3-review.png",
+          "label": "Reviewable change history \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "CODE-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E3-outcome.png",
+          "label": "Reviewable change history \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "CODE-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E4-configure.png",
+          "label": "Runtime configuration \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "CODE-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E4-review.png",
+          "label": "Runtime configuration \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "CODE-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-E4-outcome.png",
+          "label": "Runtime configuration \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "CODE-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N1-configure.png",
+          "label": "Browser development workspace \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "CODE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N1-review.png",
+          "label": "Browser development workspace \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "CODE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N1-outcome.png",
+          "label": "Browser development workspace \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "CODE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N2-configure.png",
+          "label": "Pull-request workspace \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "CODE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N2-review.png",
+          "label": "Pull-request workspace \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "CODE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N2-outcome.png",
+          "label": "Pull-request workspace \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "CODE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N3-configure.png",
+          "label": "Multi-repository service workspace \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "CODE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N3-review.png",
+          "label": "Multi-repository service workspace \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "CODE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N3-outcome.png",
+          "label": "Multi-repository service workspace \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "CODE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N4-configure.png",
+          "label": "Validated application container export \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "CODE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N4-review.png",
+          "label": "Validated application container export \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "CODE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/CODE-N4-outcome.png",
+          "label": "Validated application container export \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "CODE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E1-configure.png",
+          "label": "Unified agent lifecycle \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "AGENT-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E1-review.png",
+          "label": "Unified agent lifecycle \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "AGENT-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E1-outcome.png",
+          "label": "Unified agent lifecycle \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "AGENT-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E2-configure.png",
+          "label": "Bot hierarchy and delegation \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "AGENT-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E2-review.png",
+          "label": "Bot hierarchy and delegation \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "AGENT-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E2-outcome.png",
+          "label": "Bot hierarchy and delegation \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "AGENT-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E3-configure.png",
+          "label": "Recurring and event-driven work \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "AGENT-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E3-review.png",
+          "label": "Recurring and event-driven work \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "AGENT-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E3-outcome.png",
+          "label": "Recurring and event-driven work \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "AGENT-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E4-configure.png",
+          "label": "Permissioned memory and tool use \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "AGENT-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E4-review.png",
+          "label": "Permissioned memory and tool use \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "AGENT-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-E4-outcome.png",
+          "label": "Permissioned memory and tool use \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "AGENT-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-N2-configure.png",
+          "label": "Framework adapters \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "AGENT-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-N2-review.png",
+          "label": "Framework adapters \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "AGENT-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/AGENT-N2-outcome.png",
+          "label": "Framework adapters \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "AGENT-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E1-configure.png",
+          "label": "Unified model selection \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "MODEL-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E1-review.png",
+          "label": "Unified model selection \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "MODEL-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E1-outcome.png",
+          "label": "Unified model selection \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "MODEL-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E2-configure.png",
+          "label": "Managed and customer-funded providers \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "MODEL-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E2-review.png",
+          "label": "Managed and customer-funded providers \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "MODEL-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E2-outcome.png",
+          "label": "Managed and customer-funded providers \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "MODEL-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E3-configure.png",
+          "label": "Task-aware smart routing \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "MODEL-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E3-review.png",
+          "label": "Task-aware smart routing \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "MODEL-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E3-outcome.png",
+          "label": "Task-aware smart routing \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "MODEL-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E4-configure.png",
+          "label": "Single-model and per-agent presets \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "MODEL-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E4-review.png",
+          "label": "Single-model and per-agent presets \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "MODEL-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-E4-outcome.png",
+          "label": "Single-model and per-agent presets \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "MODEL-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N1-configure.png",
+          "label": "Private/open-weight endpoint catalog \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "MODEL-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N1-review.png",
+          "label": "Private/open-weight endpoint catalog \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "MODEL-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N1-outcome.png",
+          "label": "Private/open-weight endpoint catalog \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "MODEL-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N2-configure.png",
+          "label": "Workload evaluation and routing experiments \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "MODEL-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N2-review.png",
+          "label": "Workload evaluation and routing experiments \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "MODEL-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N2-outcome.png",
+          "label": "Workload evaluation and routing experiments \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "MODEL-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N3-configure.png",
+          "label": "Inference operations console \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "MODEL-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N3-review.png",
+          "label": "Inference operations console \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "MODEL-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/MODEL-N3-outcome.png",
+          "label": "Inference operations console \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "MODEL-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E1-configure.png",
+          "label": "Unified data setup \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "DATA-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E1-review.png",
+          "label": "Unified data setup \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "DATA-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E1-outcome.png",
+          "label": "Unified data setup \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "DATA-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E2-configure.png",
+          "label": "Connection lifecycle \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "DATA-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E2-review.png",
+          "label": "Connection lifecycle \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "DATA-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E2-outcome.png",
+          "label": "Connection lifecycle \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "DATA-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E3-configure.png",
+          "label": "Grounded project context \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "DATA-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E3-review.png",
+          "label": "Grounded project context \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "DATA-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E3-outcome.png",
+          "label": "Grounded project context \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "DATA-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E4-configure.png",
+          "label": "Generated-app identity \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "DATA-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E4-review.png",
+          "label": "Generated-app identity \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "DATA-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-E4-outcome.png",
+          "label": "Generated-app identity \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "DATA-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-N3-configure.png",
+          "label": "Portable context packages \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "DATA-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-N3-review.png",
+          "label": "Portable context packages \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "DATA-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/DATA-N3-outcome.png",
+          "label": "Portable context packages \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "DATA-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E1-configure.png",
+          "label": "Acceptance-driven testing \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "QA-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E1-review.png",
+          "label": "Acceptance-driven testing \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "QA-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E1-outcome.png",
+          "label": "Acceptance-driven testing \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "QA-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E2-configure.png",
+          "label": "UI verification and repair loop \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "QA-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E2-review.png",
+          "label": "UI verification and repair loop \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "QA-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E2-outcome.png",
+          "label": "UI verification and repair loop \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "QA-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E3-configure.png",
+          "label": "Agent behavior evaluations \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "QA-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E3-review.png",
+          "label": "Agent behavior evaluations \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "QA-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E3-outcome.png",
+          "label": "Agent behavior evaluations \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "QA-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E4-configure.png",
+          "label": "QA review and reproducibility \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "QA-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E4-review.png",
+          "label": "QA review and reproducibility \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "QA-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-E4-outcome.png",
+          "label": "QA review and reproducibility \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "QA-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N1-configure.png",
+          "label": "Service test matrix \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "QA-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N1-review.png",
+          "label": "Service test matrix \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "QA-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N1-outcome.png",
+          "label": "Service test matrix \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "QA-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N2-configure.png",
+          "label": "Preview-environment test data \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "QA-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N2-review.png",
+          "label": "Preview-environment test data \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "QA-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N2-outcome.png",
+          "label": "Preview-environment test data \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "QA-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N3-configure.png",
+          "label": "Quality gate policy \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "QA-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N3-review.png",
+          "label": "Quality gate policy \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "QA-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/QA-N3-outcome.png",
+          "label": "Quality gate policy \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "QA-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E1-configure.png",
+          "label": "Environment-aware deployment \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "RELEASE-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E1-review.png",
+          "label": "Environment-aware deployment \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "RELEASE-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E1-outcome.png",
+          "label": "Environment-aware deployment \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "RELEASE-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E2-configure.png",
+          "label": "Ownership and hosting choices \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "RELEASE-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E2-review.png",
+          "label": "Ownership and hosting choices \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "RELEASE-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E2-outcome.png",
+          "label": "Ownership and hosting choices \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "RELEASE-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E3-configure.png",
+          "label": "Domain and runtime readiness \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "RELEASE-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E3-review.png",
+          "label": "Domain and runtime readiness \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "RELEASE-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E3-outcome.png",
+          "label": "Domain and runtime readiness \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "RELEASE-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E4-configure.png",
+          "label": "Publishing and release communication \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "RELEASE-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E4-review.png",
+          "label": "Publishing and release communication \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "RELEASE-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-E4-outcome.png",
+          "label": "Publishing and release communication \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "RELEASE-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N1-configure.png",
+          "label": "Coordinated service releases \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "RELEASE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N1-review.png",
+          "label": "Coordinated service releases \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "RELEASE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N1-outcome.png",
+          "label": "Coordinated service releases \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "RELEASE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N2-configure.png",
+          "label": "Gradual rollout and rollback \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "RELEASE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N2-review.png",
+          "label": "Gradual rollout and rollback \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "RELEASE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N2-outcome.png",
+          "label": "Gradual rollout and rollback \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "RELEASE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N3-configure.png",
+          "label": "Release readiness room \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "RELEASE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N3-review.png",
+          "label": "Release readiness room \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "RELEASE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N3-outcome.png",
+          "label": "Release readiness room \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "RELEASE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N4-configure.png",
+          "label": "Product retirement and migration \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "RELEASE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N4-review.png",
+          "label": "Product retirement and migration \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "RELEASE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/RELEASE-N4-outcome.png",
+          "label": "Product retirement and migration \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "RELEASE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E1-configure.png",
+          "label": "Unified application and agent telemetry \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "OPS-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E1-review.png",
+          "label": "Unified application and agent telemetry \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "OPS-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E1-outcome.png",
+          "label": "Unified application and agent telemetry \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "OPS-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E2-configure.png",
+          "label": "Role-specific operational reports \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "OPS-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E2-review.png",
+          "label": "Role-specific operational reports \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "OPS-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E2-outcome.png",
+          "label": "Role-specific operational reports \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "OPS-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E3-configure.png",
+          "label": "Run and spend investigation \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "OPS-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E3-review.png",
+          "label": "Run and spend investigation \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "OPS-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E3-outcome.png",
+          "label": "Run and spend investigation \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "OPS-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E4-configure.png",
+          "label": "Improvement backlog \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "OPS-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E4-review.png",
+          "label": "Improvement backlog \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "OPS-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-E4-outcome.png",
+          "label": "Improvement backlog \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "OPS-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-N1-configure.png",
+          "label": "Alerts and incident response \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "OPS-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-N1-review.png",
+          "label": "Alerts and incident response \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "OPS-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-N1-outcome.png",
+          "label": "Alerts and incident response \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "OPS-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-N3-configure.png",
+          "label": "Release outcome tracking \u2014 configure \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "OPS-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-N3-review.png",
+          "label": "Release outcome tracking \u2014 review \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "OPS-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/OPS-N3-outcome.png",
+          "label": "Release outcome tracking \u2014 outcome \u00b7 interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "OPS-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E1-configure.png",
+          "label": "Guided and advanced build views \u2014 configure \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "BUILD-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E1-review.png",
+          "label": "Guided and advanced build views \u2014 review \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "BUILD-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E1-outcome.png",
+          "label": "Guided and advanced build views \u2014 outcome \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "BUILD-E1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E2-configure.png",
+          "label": "Point-and-prompt editing \u2014 configure \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "BUILD-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E2-review.png",
+          "label": "Point-and-prompt editing \u2014 review \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "BUILD-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E2-outcome.png",
+          "label": "Point-and-prompt editing \u2014 outcome \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "BUILD-E2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E3-configure.png",
+          "label": "Design-system continuity \u2014 configure \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "BUILD-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E3-review.png",
+          "label": "Design-system continuity \u2014 review \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "BUILD-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E3-outcome.png",
+          "label": "Design-system continuity \u2014 outcome \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "BUILD-E3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E4-configure.png",
+          "label": "Understandable generation and recovery \u2014 configure \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "BUILD-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E4-review.png",
+          "label": "Understandable generation and recovery \u2014 review \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "BUILD-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-E4-outcome.png",
+          "label": "Understandable generation and recovery \u2014 outcome \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "BUILD-E4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N1-configure.png",
+          "label": "Interactive journey map \u2014 configure \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "BUILD-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N1-review.png",
+          "label": "Interactive journey map \u2014 review \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "BUILD-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N1-outcome.png",
+          "label": "Interactive journey map \u2014 outcome \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "BUILD-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N2-configure.png",
+          "label": "Approved component catalog \u2014 configure \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "BUILD-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N2-review.png",
+          "label": "Approved component catalog \u2014 review \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "BUILD-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N2-outcome.png",
+          "label": "Approved component catalog \u2014 outcome \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "BUILD-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N3-configure.png",
+          "label": "Optional waiting activities \u2014 configure \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "featureIds": [
+            "BUILD-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N3-review.png",
+          "label": "Optional waiting activities \u2014 review \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "featureIds": [
+            "BUILD-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2/BUILD-N3-outcome.png",
+          "label": "Optional waiting activities \u2014 outcome \u00b7 local interactive prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "featureIds": [
+            "BUILD-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v2-overview/auth-entry-light.png",
+          "label": "Sign-in choices \u00b7 light \u2014 Captured from working demo",
+          "featureIds": [
+            "ORG-E1"
+          ],
+          "persona": "Individual / developer",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v2-overview/auth-entry-dark.png",
+          "label": "Sign-in choices \u00b7 dark \u2014 Captured from working demo",
+          "featureIds": [
+            "ORG-E1"
+          ],
+          "persona": "Individual / developer",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v2-overview/workspace-light.png",
+          "label": "Personal workspace \u00b7 light \u2014 Captured from working demo",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "persona": "Individual / developer",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v2-overview/workspace-dark.png",
+          "label": "Personal workspace \u00b7 dark \u2014 Captured from working demo",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "persona": "Individual / developer",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v2-overview/builder-output.png",
+          "label": "Prompt to interactive support desk preview \u2014 Captured from working demo",
+          "featureIds": [
+            "BUILD-E1",
+            "BUILD-E4"
+          ],
+          "persona": "Individual / developer",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v2-overview/builder-code.png",
+          "label": "Editable application source \u2014 Captured from working demo",
+          "featureIds": [
+            "BUILD-E1"
+          ],
+          "persona": "Individual / developer",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v2-overview/builder-selection.png",
+          "label": "Select element to prompt handoff \u2014 Captured from working demo",
+          "featureIds": [
+            "BUILD-E2"
+          ],
+          "persona": "Individual / developer",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v2-overview/build-break-games.png",
+          "label": "Optional solo game selection \u2014 Captured from working demo",
+          "featureIds": [
+            "BUILD-N3"
+          ],
+          "persona": "Individual / developer",
+          "kind": "prototype-screen",
+          "showInGallery": true
         }
-      ]
+      ],
+      "browserNote": "Deployment responds successfully and the in-app browser was usable. Chrome later reported ERR_BLOCKED_BY_CLIENT in one test session; availability is not verified across all browsers."
     },
     "3.0": {
       "liveUrl": "https://lyzr-architect-3.vercel.app",
       "repoUrl": "https://github.com/darshdevlab/lyzr-architect-3.0",
-      "verified": false,
-      "screenshots": []
+      "verified": true,
+      "screenshots": [
+        {
+          "image": "assets/v3/company-overview-overview.png",
+          "label": "Company Overview \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-product-manager-home.png",
+          "label": "Role Product Manager \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "Product manager",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/company-overview.png",
+          "label": "Company \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/ORG-N2-configure.png",
+          "label": "Company portfolio \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "ORG-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/ORG-N2-review.png",
+          "label": "Company portfolio \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "ORG-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/ORG-N2-outcome.png",
+          "label": "Company portfolio \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "ORG-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/ORG-N4-configure.png",
+          "label": "Reusable company workspace blueprints \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "ORG-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/ORG-N4-review.png",
+          "label": "Reusable company workspace blueprints \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "ORG-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/ORG-N4-outcome.png",
+          "label": "Reusable company workspace blueprints \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "ORG-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/delivery-overview.png",
+          "label": "Delivery \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/PLAN-N1-configure.png",
+          "label": "Sprint and Kanban delivery \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PLAN-N1-review.png",
+          "label": "Sprint and Kanban delivery \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PLAN-N1-outcome.png",
+          "label": "Sprint and Kanban delivery \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PLAN-N4-configure.png",
+          "label": "Collaborative brainstorming and decisions \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PLAN-N4-review.png",
+          "label": "Collaborative brainstorming and decisions \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PLAN-N4-outcome.png",
+          "label": "Collaborative brainstorming and decisions \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PLAN-N5-configure.png",
+          "label": "Strategic roadmap and trade-off planning \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PLAN-N5-review.png",
+          "label": "Strategic roadmap and trade-off planning \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PLAN-N5-outcome.png",
+          "label": "Strategic roadmap and trade-off planning \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "PLAN-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/revenue-overview.png",
+          "label": "Revenue \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/CRM-N1-configure.png",
+          "label": "Accounts and relationship records \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N1-review.png",
+          "label": "Accounts and relationship records \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N1-outcome.png",
+          "label": "Accounts and relationship records \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N2-configure.png",
+          "label": "Lead capture, qualification and routing \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N2-review.png",
+          "label": "Lead capture, qualification and routing \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N2-outcome.png",
+          "label": "Lead capture, qualification and routing \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N3-configure.png",
+          "label": "Opportunity and pipeline management \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N3-review.png",
+          "label": "Opportunity and pipeline management \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N3-outcome.png",
+          "label": "Opportunity and pipeline management \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N4-configure.png",
+          "label": "Sales activities and follow-ups \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N4-review.png",
+          "label": "Sales activities and follow-ups \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N4-outcome.png",
+          "label": "Sales activities and follow-ups \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N5-configure.png",
+          "label": "Proposals and commercial handoffs \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N5-review.png",
+          "label": "Proposals and commercial handoffs \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CRM-N5-outcome.png",
+          "label": "Proposals and commercial handoffs \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CRM-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/success-overview.png",
+          "label": "Success \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/CX-N1-configure.png",
+          "label": "Feedback intake and customer evidence \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N1-review.png",
+          "label": "Feedback intake and customer evidence \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N1-outcome.png",
+          "label": "Feedback intake and customer evidence \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N2-configure.png",
+          "label": "Support cases and escalations \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N2-review.png",
+          "label": "Support cases and escalations \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N2-outcome.png",
+          "label": "Support cases and escalations \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N3-configure.png",
+          "label": "Customer onboarding and activation \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N3-review.png",
+          "label": "Customer onboarding and activation \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N3-outcome.png",
+          "label": "Customer onboarding and activation \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N4-configure.png",
+          "label": "Account health, retention and renewals \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N4-review.png",
+          "label": "Account health, retention and renewals \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N4-outcome.png",
+          "label": "Account health, retention and renewals \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N5-configure.png",
+          "label": "Close the customer feedback loop \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N5-review.png",
+          "label": "Close the customer feedback loop \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/CX-N5-outcome.png",
+          "label": "Close the customer feedback loop \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "CX-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/finance-overview.png",
+          "label": "Finance \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/OPS-N4-configure.png",
+          "label": "Cloud cost allocation and efficiency recommendations \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "OPS-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/OPS-N4-review.png",
+          "label": "Cloud cost allocation and efficiency recommendations \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "OPS-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/OPS-N4-outcome.png",
+          "label": "Cloud cost allocation and efficiency recommendations \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "OPS-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N1-configure.png",
+          "label": "Business budgets and allocations \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N1-review.png",
+          "label": "Business budgets and allocations \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N1-outcome.png",
+          "label": "Business budgets and allocations \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N2-configure.png",
+          "label": "Purchase requests and procurement review \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N2-review.png",
+          "label": "Purchase requests and procurement review \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N2-outcome.png",
+          "label": "Purchase requests and procurement review \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N3-configure.png",
+          "label": "Invoice status and reconciliation exceptions \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N3-review.png",
+          "label": "Invoice status and reconciliation exceptions \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N3-outcome.png",
+          "label": "Invoice status and reconciliation exceptions \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N4-configure.png",
+          "label": "Commercial and investment decisions \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N4-review.png",
+          "label": "Commercial and investment decisions \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N4-outcome.png",
+          "label": "Commercial and investment decisions \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N5-configure.png",
+          "label": "Financial variance and forecasts \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N5-review.png",
+          "label": "Financial variance and forecasts \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/FIN-N5-outcome.png",
+          "label": "Financial variance and forecasts \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "FIN-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/people-overview.png",
+          "label": "People \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/PEOPLE-N1-configure.png",
+          "label": "Employee directory and skills \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N1-review.png",
+          "label": "Employee directory and skills \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N1-outcome.png",
+          "label": "Employee directory and skills \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N2-configure.png",
+          "label": "Employee onboarding, offboarding and access requests \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N2-review.png",
+          "label": "Employee onboarding, offboarding and access requests \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N2-outcome.png",
+          "label": "Employee onboarding, offboarding and access requests \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N3-configure.png",
+          "label": "Team capacity and workload \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N3-review.png",
+          "label": "Team capacity and workload \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N3-outcome.png",
+          "label": "Team capacity and workload \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N4-configure.png",
+          "label": "Agreed goals and manager review context \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N4-review.png",
+          "label": "Agreed goals and manager review context \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/PEOPLE-N4-outcome.png",
+          "label": "Agreed goals and manager review context \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "PEOPLE-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/metrics-overview.png",
+          "label": "Metrics \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/BI-N1-configure.png",
+          "label": "Metric catalog and definitions \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N1-review.png",
+          "label": "Metric catalog and definitions \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N1-outcome.png",
+          "label": "Metric catalog and definitions \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N2-configure.png",
+          "label": "Instrumentation and data-quality planning \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N2-review.png",
+          "label": "Instrumentation and data-quality planning \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N2-outcome.png",
+          "label": "Instrumentation and data-quality planning \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N3-configure.png",
+          "label": "Prompt-to-analysis and dashboards \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N3-review.png",
+          "label": "Prompt-to-analysis and dashboards \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N3-outcome.png",
+          "label": "Prompt-to-analysis and dashboards \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N4-configure.png",
+          "label": "Business goals and decision tracking \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N4-review.png",
+          "label": "Business goals and decision tracking \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N4-outcome.png",
+          "label": "Business goals and decision tracking \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N5-configure.png",
+          "label": "Scheduled reporting and distribution \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N5-review.png",
+          "label": "Scheduled reporting and distribution \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N5-outcome.png",
+          "label": "Scheduled reporting and distribution \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N6-configure.png",
+          "label": "Experiments and outcome analysis \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N6"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N6-review.png",
+          "label": "Experiments and outcome analysis \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N6"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/BI-N6-outcome.png",
+          "label": "Experiments and outcome analysis \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "BI-N6"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/growth-overview.png",
+          "label": "Growth \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/MKT-N1-configure.png",
+          "label": "Campaign and audience planning \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N1-review.png",
+          "label": "Campaign and audience planning \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N1-outcome.png",
+          "label": "Campaign and audience planning \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N2-configure.png",
+          "label": "Content and asset review \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N2-review.png",
+          "label": "Content and asset review \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N2-outcome.png",
+          "label": "Content and asset review \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N3-configure.png",
+          "label": "Go-to-market and launch coordination \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N3-review.png",
+          "label": "Go-to-market and launch coordination \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N3-outcome.png",
+          "label": "Go-to-market and launch coordination \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N4-configure.png",
+          "label": "Supported channel publishing \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N4-review.png",
+          "label": "Supported channel publishing \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N4-outcome.png",
+          "label": "Supported channel publishing \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N5-configure.png",
+          "label": "Campaign performance and attribution \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N5-review.png",
+          "label": "Campaign performance and attribution \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/MKT-N5-outcome.png",
+          "label": "Campaign performance and attribution \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "MKT-N5"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/botteams-overview.png",
+          "label": "Botteams \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/AGENT-N1-configure.png",
+          "label": "Bot-team workroom \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/AGENT-N1-review.png",
+          "label": "Bot-team workroom \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/AGENT-N1-outcome.png",
+          "label": "Bot-team workroom \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/AGENT-N3-configure.png",
+          "label": "Bot-team operations \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/AGENT-N3-review.png",
+          "label": "Bot-team operations \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/AGENT-N3-outcome.png",
+          "label": "Bot-team operations \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N3"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/AGENT-N4-configure.png",
+          "label": "Dynamic specialist creation and delegated execution \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/AGENT-N4-review.png",
+          "label": "Dynamic specialist creation and delegated execution \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/AGENT-N4-outcome.png",
+          "label": "Dynamic specialist creation and delegated execution \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "AGENT-N4"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/OPS-N2-configure.png",
+          "label": "Supervised remediation \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "OPS-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/OPS-N2-review.png",
+          "label": "Supervised remediation \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "OPS-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/OPS-N2-outcome.png",
+          "label": "Supervised remediation \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "OPS-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/mcp-overview.png",
+          "label": "Mcp \u2014 overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "overview",
+          "persona": "Product manager",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/DATA-N1-configure.png",
+          "label": "Architect through ChatGPT \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "DATA-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/DATA-N1-review.png",
+          "label": "Architect through ChatGPT \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "DATA-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/DATA-N1-outcome.png",
+          "label": "Architect through ChatGPT \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "DATA-N1"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/DATA-N2-configure.png",
+          "label": "Existing-work system synchronization \u2014 configure \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "configure",
+          "persona": "Product manager",
+          "featureIds": [
+            "DATA-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/DATA-N2-review.png",
+          "label": "Existing-work system synchronization \u2014 review \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "review",
+          "persona": "Product manager",
+          "featureIds": [
+            "DATA-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/DATA-N2-outcome.png",
+          "label": "Existing-work system synchronization \u2014 outcome \u00b7 company prototype",
+          "kind": "prototype-workflow",
+          "stage": "outcome",
+          "persona": "Product manager",
+          "featureIds": [
+            "DATA-N2"
+          ],
+          "showInGallery": false
+        },
+        {
+          "image": "assets/v3/role-developer-home.png",
+          "label": "Role Developer \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "Developer",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-qa-reviewer-home.png",
+          "label": "Role Qa Reviewer \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "QA reviewer",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-designer-home.png",
+          "label": "Role Designer \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "Designer",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-sales-home.png",
+          "label": "Role Sales \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "Sales",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-customer-experience-home.png",
+          "label": "Role Customer Experience \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "Customer experience",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-finance-home.png",
+          "label": "Role Finance \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "Finance",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-people-hr-home.png",
+          "label": "Role People Hr \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "People & HR",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-marketing-home.png",
+          "label": "Role Marketing \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "Marketing",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-devops-home.png",
+          "label": "Role Devops \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "DevOps",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/role-executive-home.png",
+          "label": "Role Executive \u2014 home \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "home",
+          "persona": "Executive",
+          "featureIds": [
+            "ORG-E1",
+            "ORG-N1"
+          ],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/handoff-feedback-linked-task.png",
+          "label": "Handoff Feedback \u2014 linked-task \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "linked-task",
+          "persona": "Executive",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/persistence-restored-after-reload.png",
+          "label": "Persistence \u2014 restored-after-reload \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "restored-after-reload",
+          "persona": "Executive",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/bot-conversation-demo-response.png",
+          "label": "Bot Conversation \u2014 demo-response \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "demo-response",
+          "persona": "Executive",
+          "featureIds": [],
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v3/bot-team-dark-overview.png",
+          "label": "Bot Team \u2014 dark-overview \u00b7 company prototype",
+          "kind": "prototype-screen",
+          "stage": "dark-overview",
+          "persona": "Executive",
+          "featureIds": [],
+          "showInGallery": true
+        }
+      ],
+      "browserNote": "Chrome displayed a Dangerous site warning during verification. The deployment responds to API checks, but browser access is not cleared. Do not bypass the warning; use the documented screenshots until it is resolved."
     },
     "4.0": {
       "liveUrl": "https://lyzr-architect-4.vercel.app",
       "repoUrl": "https://github.com/darshdevlab/lyzr-architect-4.0",
-      "verified": false,
-      "screenshots": []
+      "verified": true,
+      "screenshots": [
+        {
+          "image": "assets/v4-overview/01-placement.png",
+          "label": "01 Placement \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/02-identity.png",
+          "label": "02 Identity \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/03-network.png",
+          "label": "03 Network \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/04-runtime.png",
+          "label": "04 Runtime \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/05-review-complete.png",
+          "label": "05 Review Complete \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/06-install.png",
+          "label": "06 Install \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N6"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/07-operate.png",
+          "label": "07 Operate \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N6"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/cloud-connections.png",
+          "label": "Cloud Connections \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/execution-pools.png",
+          "label": "Execution Pools \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/governance.png",
+          "label": "Governance \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/installation.png",
+          "label": "Installation \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N6"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/private-platform-flows.png",
+          "label": "Private Platform Flows \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5",
+            "RELEASE-N6"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/private-platform-overview.png",
+          "label": "Private Platform Overview \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N5",
+            "RELEASE-N6"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/recovery-dark.png",
+          "label": "Recovery Dark \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N6"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/recovery-details-dark.png",
+          "label": "Recovery Details Dark \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N6"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        },
+        {
+          "image": "assets/v4-overview/recovery.png",
+          "label": "Recovery \u2014 Configuration planning prototype, no cloud execution",
+          "featureIds": [
+            "RELEASE-N6"
+          ],
+          "persona": "DevOps / platform admin",
+          "kind": "prototype-screen",
+          "showInGallery": true
+        }
+      ],
+      "browserNote": "Deployment is reachable. Screens show infrastructure planning and simulated installation states, not a real private-cloud installation."
     }
   },
   "showcase": {

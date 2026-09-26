@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BUILD-E1",
+    "stage": "configure",
+    "image": "assets/v2/BUILD-E1-configure.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E1",
+    "stage": "review",
+    "image": "assets/v2/BUILD-E1-review.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E1",
+    "stage": "outcome",
+    "image": "assets/v2/BUILD-E1-outcome.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E2",
+    "stage": "configure",
+    "image": "assets/v2/BUILD-E2-configure.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E2",
+    "stage": "review",
+    "image": "assets/v2/BUILD-E2-review.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E2",
+    "stage": "outcome",
+    "image": "assets/v2/BUILD-E2-outcome.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E3",
+    "stage": "configure",
+    "image": "assets/v2/BUILD-E3-configure.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E3",
+    "stage": "review",
+    "image": "assets/v2/BUILD-E3-review.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E3",
+    "stage": "outcome",
+    "image": "assets/v2/BUILD-E3-outcome.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E4",
+    "stage": "configure",
+    "image": "assets/v2/BUILD-E4-configure.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E4",
+    "stage": "review",
+    "image": "assets/v2/BUILD-E4-review.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-E4",
+    "stage": "outcome",
+    "image": "assets/v2/BUILD-E4-outcome.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N1",
+    "stage": "configure",
+    "image": "assets/v2/BUILD-N1-configure.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N1",
+    "stage": "review",
+    "image": "assets/v2/BUILD-N1-review.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N1",
+    "stage": "outcome",
+    "image": "assets/v2/BUILD-N1-outcome.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N2",
+    "stage": "configure",
+    "image": "assets/v2/BUILD-N2-configure.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N2",
+    "stage": "review",
+    "image": "assets/v2/BUILD-N2-review.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N2",
+    "stage": "outcome",
+    "image": "assets/v2/BUILD-N2-outcome.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N3",
+    "stage": "configure",
+    "image": "assets/v2/BUILD-N3-configure.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N3",
+    "stage": "review",
+    "image": "assets/v2/BUILD-N3-review.png",
+    "source": "Local prototype localhost:4183"
+  },
+  {
+    "id": "BUILD-N3",
+    "stage": "outcome",
+    "image": "assets/v2/BUILD-N3-outcome.png",
+    "source": "Local prototype localhost:4183"
+  }
+]
