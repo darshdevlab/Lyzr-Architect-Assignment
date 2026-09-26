@@ -22,6 +22,10 @@ for r in d['baseline']:assert r['parent_feature'] in ids
 for s in d['screenshots']:assert asset_file(s['image']).is_file()
 for p in d['platforms']:
  assert p['capture_count']==sum(s['platform']==p['key'] for s in d['captureIndex'])
+ assert sorted(i for flow in p['journeyFlows'] for i in flow['stageIndices'])==list(range(len(p['journey']))), p['key']+' has missing or duplicated journey stages'
+assert sum(len(g['features']) for g in d['architectInventory']['groups'])==422
+assert sum(len(p['features']) for p in d['platforms'])==80
+assert sum(len(p['journey']) for p in d['platforms'])==87
 for m in d['market']['platforms']:
  for key in m['positioning_sources']+m['metric_sources']:assert key in d['market']['sources']
 for v,conf in c['versions'].items():

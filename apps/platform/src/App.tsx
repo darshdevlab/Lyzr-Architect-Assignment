@@ -190,6 +190,52 @@ export default function App() {
     [activeDelete, setActiveDelete] = useState<string | null>(null),
     [saveError, setSaveError] = useState(''),
     [company, setCompany] = useState<CompanySummary | null>(null);
+  const navToggleRef = useRef<HTMLButtonElement>(null);
+  const navDrawerRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (modal) setMobileNav(false);
+  }, [modal]);
+  useEffect(() => {
+    if (!mobileNav) return;
+    const drawer = navDrawerRef.current;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const focusFrame = requestAnimationFrame(() =>
+      drawer?.querySelector<HTMLButtonElement>('.mobile-close')?.focus(),
+    );
+    const handleKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setMobileNav(false);
+      }
+      if (event.key === 'Tab') {
+        const items = Array.from(
+          drawer?.querySelectorAll<HTMLElement>('button:not(:disabled), a[href], [tabindex="0"]') ||
+            [],
+        ).filter((el) => el.getClientRects().length);
+        const first = items[0],
+          last = items[items.length - 1];
+        if (!drawer?.contains(document.activeElement)) {
+          event.preventDefault();
+          first?.focus();
+        } else if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last?.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first?.focus();
+        }
+      }
+    };
+    document.addEventListener('keydown', handleKey);
+    return () => {
+      cancelAnimationFrame(focusFrame);
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener('keydown', handleKey);
+      if (drawer?.contains(document.activeElement) || document.activeElement === document.body)
+        navToggleRef.current?.focus();
+    };
+  }, [mobileNav]);
   const companyRef = useRef<CompanySummary | null>(null);
   const workspaceEpoch = useRef(0);
   const saveErrorRef = useRef(saveError);
@@ -815,7 +861,14 @@ export default function App() {
       <a className="skip-link" href="#main">
         Skip to workspace
       </a>
-      <aside className={'sidebar ' + (mobileNav ? 'open' : '')}>
+      <aside
+        id="workspace-navigation"
+        ref={navDrawerRef}
+        className={'sidebar ' + (mobileNav ? 'open' : '')}
+        inert={!mobileNav}
+        aria-hidden={!mobileNav}
+        aria-label="Workspace navigation"
+      >
         <div className="brand">
           <Brand />
           <button
@@ -908,15 +961,19 @@ export default function App() {
       {mobileNav && (
         <button
           className="nav-scrim"
+          tabIndex={-1}
           aria-label="Close navigation"
           onClick={() => setMobileNav(false)}
         />
       )}
-      <div className="main-shell">
+      <div className={'main-shell' + (view === 'studio' ? ' studio-shell' : '')} inert={mobileNav}>
         <header className="topbar">
           <div className="row">
             <button
               className="mobile-menu icon-button"
+              ref={navToggleRef}
+              aria-expanded={mobileNav}
+              aria-controls="workspace-navigation"
               aria-label="Open navigation"
               onClick={() => setMobileNav(true)}
             >

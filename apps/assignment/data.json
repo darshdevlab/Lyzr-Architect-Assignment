@@ -140,7 +140,51 @@
           "label": "Generated SupportDesk output — editable knowledge base",
           "image": "assets/architect_output-12-knowledge-editor.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Create an application",
+          "stageIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "title": "Preview, recover and edit",
+          "stageIndices": [
+            3,
+            4
+          ]
+        },
+        {
+          "title": "Configure an agent in Studio",
+          "stageIndices": [
+            5
+          ]
+        },
+        {
+          "title": "Create an orchestration workflow",
+          "stageIndices": [
+            6
+          ]
+        },
+        {
+          "title": "Explore deployment setup",
+          "stageIndices": [
+            7
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "architect_output-02-dashboard",
+        "key": "architect",
+        "platform": "Architect + Lyzr Agent Studio",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — dashboard",
+        "image": "assets/architect_output-02-dashboard.png"
+      },
+      "outputNote": "Recorded app output from the exploration."
     },
     {
       "key": "replit",
@@ -256,7 +300,51 @@
           "label": "preview device controls",
           "image": "assets/replit-22-preview-device-controls.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Generate and preview an app",
+          "stageIndices": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "Explore project import",
+          "stageIndices": [
+            1
+          ]
+        },
+        {
+          "title": "Inspect developer tools",
+          "stageIndices": [
+            5
+          ]
+        },
+        {
+          "title": "Explore collaboration",
+          "stageIndices": [
+            6
+          ]
+        },
+        {
+          "title": "Explore deployment",
+          "stageIndices": [
+            7
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "replit_output-02-dashboard",
+        "key": "replit",
+        "platform": "Replit",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — dashboard",
+        "image": "assets/replit_output-02-dashboard.png"
+      },
+      "outputNote": "Recorded app output from the exploration."
     },
     {
       "key": "lovable",
@@ -377,7 +465,56 @@
           "label": "build status",
           "image": "assets/lovable-20-build-status.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Create an app and choose its design",
+          "stageIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "title": "Refine the interface visually",
+          "stageIndices": [
+            3
+          ]
+        },
+        {
+          "title": "Inspect code and recovery controls",
+          "stageIndices": [
+            4
+          ]
+        },
+        {
+          "title": "Explore backend setup",
+          "stageIndices": [
+            5
+          ]
+        },
+        {
+          "title": "Connect source control",
+          "stageIndices": [
+            6
+          ]
+        },
+        {
+          "title": "Review publishing",
+          "stageIndices": [
+            7
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "lovable_output-02-dashboard",
+        "key": "lovable",
+        "platform": "Lovable",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — dashboard",
+        "image": "assets/lovable_output-02-dashboard.png"
+      },
+      "outputNote": "Initial generated app; the follow-up revision was limited by available credits."
     },
     {
       "key": "emergent",
@@ -482,7 +619,51 @@
           "label": "build status",
           "image": "assets/emergent-20-build-status.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Start and generate an application",
+          "stageIndices": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "Connect context and tools",
+          "stageIndices": [
+            2
+          ]
+        },
+        {
+          "title": "Edit and preview",
+          "stageIndices": [
+            5
+          ]
+        },
+        {
+          "title": "Manage application services",
+          "stageIndices": [
+            6
+          ]
+        },
+        {
+          "title": "Explore publishing",
+          "stageIndices": [
+            7
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "emergent_output-02-dashboard",
+        "key": "emergent",
+        "platform": "Emergent",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — dashboard",
+        "image": "assets/emergent_output-02-dashboard.png"
+      },
+      "outputNote": "Initial generated app; deployment was not completed."
     },
     {
       "key": "v0",
@@ -569,7 +750,39 @@
           "label": "build progress",
           "image": "assets/v0-22-build-progress.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Prompt and generate an application",
+          "stageIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "title": "Inspect and iterate",
+          "stageIndices": [
+            3,
+            4
+          ]
+        },
+        {
+          "title": "Explore the Vercel publishing handoff",
+          "stageIndices": [
+            5
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "v0_output-02-dashboard",
+        "key": "v0",
+        "platform": "Vercel v0",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — dashboard",
+        "image": "assets/v0_output-02-dashboard.png"
+      },
+      "outputNote": "Recorded generated app; the follow-up revision stopped when credits ran out."
     },
     {
       "key": "rocket",
@@ -668,7 +881,45 @@
           "label": "generated editor",
           "image": "assets/rocket-22-generated-editor.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Plan and build an application",
+          "stageIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "title": "Iterate on the result",
+          "stageIndices": [
+            4
+          ]
+        },
+        {
+          "title": "Manage project and connectors",
+          "stageIndices": [
+            5
+          ]
+        },
+        {
+          "title": "Explore staging and production",
+          "stageIndices": [
+            6
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "rocket_output-01-default-dashboard",
+        "key": "rocket",
+        "platform": "Rocket.new",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — default dashboard",
+        "image": "assets/rocket_output-01-default-dashboard.png"
+      },
+      "outputNote": "Recorded default dashboard from the generated app."
     },
     {
       "key": "bolt",
@@ -779,7 +1030,51 @@
           "label": "generated editor",
           "image": "assets/bolt-22-generated-editor.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Generate and preview an application",
+          "stageIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "title": "Develop and inspect version history",
+          "stageIndices": [
+            3,
+            5
+          ]
+        },
+        {
+          "title": "Explore backend services",
+          "stageIndices": [
+            4
+          ]
+        },
+        {
+          "title": "Connect and share the project",
+          "stageIndices": [
+            6
+          ]
+        },
+        {
+          "title": "Explore publishing",
+          "stageIndices": [
+            7
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "bolt_output-03-dashboard",
+        "key": "bolt",
+        "platform": "Bolt",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — dashboard",
+        "image": "assets/bolt_output-03-dashboard.png"
+      },
+      "outputNote": "Recorded app output from the exploration."
     },
     {
       "key": "codex",
@@ -885,7 +1180,51 @@
           "label": "result with preview blocker",
           "image": "assets/codex-09-result-with-preview-blocker.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Prepare and run a repository task",
+          "stageIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "title": "Review the generated changes",
+          "stageIndices": [
+            4
+          ]
+        },
+        {
+          "title": "Export and recover the app locally",
+          "stageIndices": [
+            5
+          ]
+        },
+        {
+          "title": "Request a revision",
+          "stageIndices": [
+            6
+          ]
+        },
+        {
+          "title": "Inspect review handoff options",
+          "stageIndices": [
+            7
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "codex_output-02-dashboard",
+        "key": "codex",
+        "platform": "Codex Cloud",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — locally recovered dashboard",
+        "image": "assets/codex_output-02-dashboard.png"
+      },
+      "outputNote": "The generated code was built locally after the Cloud preview was blocked."
     },
     {
       "key": "cursor",
@@ -1052,7 +1391,49 @@
           "label": "built in browser preview",
           "image": "assets/cursor-25-built-in-browser-preview.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Build and preview in the desktop app",
+          "stageIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "title": "Review code and inspect the IDE",
+          "stageIndices": [
+            6,
+            9
+          ]
+        },
+        {
+          "title": "Customize the agent and its behavior",
+          "stageIndices": [
+            7,
+            8
+          ]
+        },
+        {
+          "title": "Request a follow-up change",
+          "stageIndices": [
+            10
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "cursor_output-02-dashboard",
+        "key": "cursor",
+        "platform": "Cursor",
+        "kind": "app-output",
+        "label": "Generated SupportDesk — dashboard",
+        "image": "assets/cursor_output-02-dashboard.png"
+      },
+      "outputNote": "App output generated through the local Cursor editor."
     },
     {
       "key": "claude",
@@ -1120,12 +1501,42 @@
           "label": "code plan gate",
           "image": "assets/claude-03-code-plan-gate.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Check web access to Claude Code",
+          "stageIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "title": "Check access in the desktop app",
+          "stageIndices": [
+            2
+          ]
+        },
+        {
+          "title": "Supplement with official documentation",
+          "stageIndices": [
+            3
+          ]
+        }
+      ],
+      "outputNote": "Recorded access outcome: opening Claude Code led to this upgrade screen. No app was generated in Claude Code. The free Claude Chat / Artifacts result is documented separately.",
+      "outputScreenshot": {
+        "id": "claude-03-code-plan-gate",
+        "key": "claude",
+        "platform": "Claude Code",
+        "kind": "platform",
+        "label": "Claude Code access gate — upgrade required",
+        "image": "assets/claude-03-code-plan-gate.png"
+      }
     },
     {
       "key": "claude_chat",
-      "name": "Claude Chat / Artifacts (separate comparison)",
-      "position": "A conversational route to interactive artifacts, explored separately from Claude Code with the user's approval. The installed desktop Code route was blocked, and unreliable native control/screenshots led to a Chrome fallback.",
+      "name": "Claude",
+      "position": "A conversational route to interactive applications through Claude Chat / Artifacts. The hands-on build used free Chat / Artifacts; Claude Code access required an upgrade.",
       "access": "Free account. Exact initial SupportDesk prompt and shared revision submitted in Chrome with UI defaults Sonnet 5 / Medium. A private artifact and working demo sign-in/dashboard were obtained. Revision completed in the same artifact; the new dashboard count opened the Needs approval filter. Claude Code remains separately access-blocked.",
       "journey": [
         [
@@ -1281,7 +1692,59 @@
           "label": "expanded preview",
           "image": "assets/claude_chat-29-expanded-preview.png"
         }
-      ]
+      ],
+      "journeyFlows": [
+        {
+          "title": "Start a conversation with model and context",
+          "stageIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "title": "Explore reusable instructions and extensions",
+          "stageIndices": [
+            3,
+            4
+          ]
+        },
+        {
+          "title": "Organize work in projects",
+          "stageIndices": [
+            5
+          ]
+        },
+        {
+          "title": "Explore artifact creation entry",
+          "stageIndices": [
+            6
+          ]
+        },
+        {
+          "title": "Explore sharing",
+          "stageIndices": [
+            7
+          ]
+        },
+        {
+          "title": "Preview, review and revise the artifact",
+          "stageIndices": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "outputScreenshot": {
+        "id": "claude_chat-30-revision-complete-same-artifact",
+        "key": "claude_chat",
+        "platform": "Claude Chat / Artifacts",
+        "kind": "app-output",
+        "label": "SupportDesk artifact — completed revision",
+        "image": "assets/claude_chat-30-revision-complete-same-artifact.png"
+      },
+      "outputNote": "Claude Chat / Artifacts output, shown with the completed revision. This is separate from Claude Code."
     }
   ],
   "market": {
@@ -13620,7 +14083,7 @@
   ],
   "counts": {
     "captures": 432,
-    "published": 11,
+    "published": 21,
     "platforms": 11,
     "features": 109
   },
@@ -13636,9 +14099,9 @@
     {
       "id": "claude-03-code-plan-gate",
       "key": "claude",
-      "platform": "claude",
+      "platform": "Claude Code",
       "kind": "platform",
-      "label": "code plan gate",
+      "label": "Claude Code access gate — upgrade required",
       "image": "assets/claude-03-code-plan-gate.png"
     },
     {
@@ -13712,6 +14175,86 @@
       "kind": "app-output",
       "label": "Generated SupportDesk output — editable knowledge base",
       "image": "assets/architect_output-12-knowledge-editor.png"
+    },
+    {
+      "id": "architect_output-02-dashboard",
+      "key": "architect",
+      "platform": "Architect + Lyzr Agent Studio",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — dashboard",
+      "image": "assets/architect_output-02-dashboard.png"
+    },
+    {
+      "id": "replit_output-02-dashboard",
+      "key": "replit",
+      "platform": "Replit",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — dashboard",
+      "image": "assets/replit_output-02-dashboard.png"
+    },
+    {
+      "id": "lovable_output-02-dashboard",
+      "key": "lovable",
+      "platform": "Lovable",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — dashboard",
+      "image": "assets/lovable_output-02-dashboard.png"
+    },
+    {
+      "id": "emergent_output-02-dashboard",
+      "key": "emergent",
+      "platform": "Emergent",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — dashboard",
+      "image": "assets/emergent_output-02-dashboard.png"
+    },
+    {
+      "id": "v0_output-02-dashboard",
+      "key": "v0",
+      "platform": "Vercel v0",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — dashboard",
+      "image": "assets/v0_output-02-dashboard.png"
+    },
+    {
+      "id": "rocket_output-01-default-dashboard",
+      "key": "rocket",
+      "platform": "Rocket.new",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — default dashboard",
+      "image": "assets/rocket_output-01-default-dashboard.png"
+    },
+    {
+      "id": "bolt_output-03-dashboard",
+      "key": "bolt",
+      "platform": "Bolt",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — dashboard",
+      "image": "assets/bolt_output-03-dashboard.png"
+    },
+    {
+      "id": "codex_output-02-dashboard",
+      "key": "codex",
+      "platform": "Codex Cloud",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — locally recovered dashboard",
+      "image": "assets/codex_output-02-dashboard.png"
+    },
+    {
+      "id": "cursor_output-02-dashboard",
+      "key": "cursor",
+      "platform": "Cursor",
+      "kind": "app-output",
+      "label": "Generated SupportDesk — dashboard",
+      "image": "assets/cursor_output-02-dashboard.png"
+    },
+    {
+      "id": "claude_chat-30-revision-complete-same-artifact",
+      "key": "claude_chat",
+      "platform": "Claude Chat / Artifacts (separate comparison)",
+      "kind": "app-output",
+      "label": "SupportDesk artifact — completed revision",
+      "image": "assets/claude_chat-30-revision-complete-same-artifact.png"
     }
   ],
   "captureIndex": [
@@ -13991,8 +14534,8 @@
       "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/architect_output-02-dashboard.png"
     },
     {
       "id": "architect_output-03-inbox",
@@ -14468,8 +15011,8 @@
       "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/bolt_output-03-dashboard.png"
     },
     {
       "id": "bolt_output-04-inbox",
@@ -14909,8 +15452,8 @@
       "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "revision complete same artifact",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/claude_chat-30-revision-complete-same-artifact.png"
     },
     {
       "id": "claude_chat_output-01-dashboard",
@@ -15071,8 +15614,8 @@
       "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/codex_output-02-dashboard.png"
     },
     {
       "id": "codex_output-03-inbox",
@@ -15611,8 +16154,8 @@
       "sourceGroup": "cursor_output",
       "kind": "app-output",
       "label": "dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/cursor_output-02-dashboard.png"
     },
     {
       "id": "emergent-01-home",
@@ -15791,8 +16334,8 @@
       "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/emergent_output-02-dashboard.png"
     },
     {
       "id": "emergent_output-03-inbox",
@@ -16187,8 +16730,8 @@
       "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/lovable_output-02-dashboard.png"
     },
     {
       "id": "lovable_output-03-create-form",
@@ -16745,8 +17288,8 @@
       "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/replit_output-02-dashboard.png"
     },
     {
       "id": "replit_output-03-inbox",
@@ -17123,8 +17666,8 @@
       "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "default dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/rocket_output-01-default-dashboard.png"
     },
     {
       "id": "rocket_output-02-sign-in",
@@ -17474,8 +18017,8 @@
       "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "dashboard",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/v0_output-02-dashboard.png"
     },
     {
       "id": "v0_output-03-inbox",
@@ -17603,5 +18146,879 @@
       "published": false,
       "publicImage": null
     }
-  ]
+  ],
+  "architectInventory": {
+    "date": "2026-09-26",
+    "scope": "Architect.new and separately identified connected Studio capabilities",
+    "groups": [
+      {
+        "scope": "Architect native",
+        "group": "Account, workspace and navigation",
+        "status": "Inspected; authentication performed by user",
+        "features": [
+          "Signed-in account and profile entry",
+          "Organization selector",
+          "My Account entry",
+          "Credit balance",
+          "Light/dark interface toggle",
+          "Home navigation",
+          "Agent Studio link",
+          "My projects",
+          "Published projects",
+          "Shared projects",
+          "My Apps listing",
+          "All / Deployed / Shared with me filters",
+          "Newest-first sorting",
+          "App-name edit affordance",
+          "App identifier"
+        ],
+        "evidence": [
+          "platforms/architect/02-prompt-options.txt",
+          "platforms/architect/30-github-deploy-choice.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Prompt and discovery",
+        "status": "Inspected; prompt submission exercised",
+        "features": [
+          "Natural-language app brief",
+          "Prompt attachments / Add files",
+          "Add existing Studio agents entry",
+          "Theme selection",
+          "Prompt library with business-use-case examples",
+          "What should I build / AI Consultant",
+          "Consultant name, email and optional organization form",
+          "Role-personalization entry",
+          "How it works guidance",
+          "Marketplace / Agentlets entry"
+        ],
+        "evidence": [
+          "platforms/architect/02-prompt-options.txt",
+          "platforms/architect/06-prompt-library.txt",
+          "platforms/architect/08-idea-discovery-result.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Design systems",
+        "status": "Inspected; custom theme creation not tested",
+        "features": [
+          "Theme Manager",
+          "58 presets visible in explored account",
+          "Automatic theme selection state",
+          "Preset search",
+          "Preset filters",
+          "Color/style grouping and tags",
+          "My themes tab",
+          "Organization themes tab"
+        ],
+        "evidence": [
+          "platforms/architect/05-design-systems.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Existing project import",
+        "status": "Setup inspected; import not completed",
+        "features": [
+          "Import codebase",
+          "Public GitHub URL or owner/repo entry",
+          "Anonymous public-repository cloning described in dialog",
+          "Default-branch behavior described in dialog",
+          "Connect GitHub to browse repositories",
+          "Private-repository import path"
+        ],
+        "evidence": [
+          "platforms/architect/04-import-loaded.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Planning",
+        "status": "Planning and handoff exercised; alternatives only inspected",
+        "features": [
+          "Plan mode",
+          "Clarifying questions and suggested answers",
+          "User, outcome and persistence clarification",
+          "Default Lyzr agents option",
+          "GitAgent workbench option marked beta",
+          "Product Requirements Document generation",
+          "Editable planning document",
+          "App mockup generation and review",
+          "Plan and mockup selection",
+          "Start building / Build with these handoff",
+          "Planning chat history",
+          "Stop generating control"
+        ],
+        "evidence": [
+          "platforms/architect/16-clarification.txt",
+          "platforms/architect/13-build-start.txt",
+          "platform-research.json"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Build and iterate",
+        "status": "Build and chat revision exercised; controls as qualified",
+        "features": [
+          "Build mode",
+          "Chat-based change requests",
+          "Plan-mode toggle in composer",
+          "Build options and usage entry",
+          "Streamed build progress",
+          "Named worker/delegation messages",
+          "Expandable action status groups",
+          "Step and token totals",
+          "Commit identifier and change summary",
+          "Revert-to-version control, disabled at captured state",
+          "Optional feature testing toggle",
+          "Test this build entry"
+        ],
+        "evidence": [
+          "platforms/architect/26-project-actions.txt",
+          "platforms/architect/31-iteration-prompt.txt",
+          "platforms/architect/32-iteration-running.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Preview and agents",
+        "status": "Preview recovery and Studio transition exercised",
+        "features": [
+          "Plan / Agents / App workspace sections",
+          "App preview",
+          "Reload preview",
+          "Preview error state and recovery",
+          "Console entry",
+          "Agent Management panel",
+          "Agent workflow visualization area / empty state",
+          "Edit Agents in Studio"
+        ],
+        "evidence": [
+          "platforms/architect/23-preview-error.txt",
+          "platforms/architect/24-preview-recovery.txt",
+          "platforms/architect/25-agent-panel.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Project and code controls",
+        "status": "Inspected; destructive actions and direct code editing not tested",
+        "features": [
+          "View File Tree",
+          "Expand/collapse source folders",
+          "Refresh file tree",
+          "File-selection viewer entry",
+          "Download Code",
+          "Environment variables marked beta",
+          "Duplicate App",
+          "Clear Chat",
+          "Clear Agents",
+          "Delete App"
+        ],
+        "evidence": [
+          "platforms/architect/26-project-actions.txt",
+          "platforms/architect/28-file-tree-loaded.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Deployment and ownership",
+        "status": "Configuration inspected; no final publish or GitHub authorization",
+        "features": [
+          "Deploy dialog",
+          "Analytics usage/performance entry",
+          "Publish to Marketplace toggle",
+          "App name",
+          "Category selection",
+          "Full description",
+          "Generate description action",
+          "Short description with 160-character limit",
+          "Up to eight tags",
+          "Custom-domain option on first deploy",
+          "Lyzr-managed private GitHub repository option",
+          "Own GitHub repository option",
+          "Connect GitHub entry",
+          "Deploy and publish action",
+          "Notice that marketplace visits consume owner credits"
+        ],
+        "evidence": [
+          "platforms/architect/29-deploy-setup.txt",
+          "platforms/architect/30-github-deploy-choice.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Usage, learning and support",
+        "status": "Usage dashboard inspected; other destinations seen as entries",
+        "features": [
+          "Total credits used",
+          "App count",
+          "My Usage / All Users",
+          "Credit usage over time",
+          "7-day / 30-day / 90-day / 12-month ranges",
+          "Usage breakdown by app",
+          "Refresh usage",
+          "Empty usage state",
+          "Promotional free-credit entry",
+          "Resources",
+          "Documentation",
+          "Discord",
+          "Lyzr University",
+          "Help & Support",
+          "Support chat",
+          "Privacy, security and legal links"
+        ],
+        "evidence": [
+          "platforms/architect/10-usage-loaded.txt",
+          "platforms/architect/02-prompt-options.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "Agent authoring",
+        "status": "Controls inspected; existing agent not modified",
+        "features": [
+          "Agent registry and Create Agent entry",
+          "Agent naming",
+          "Build / Playground / Deploy tabs",
+          "Role",
+          "Goal",
+          "Instructions editor",
+          "Expand instructions editor",
+          "Generate instructions",
+          "Improve instructions",
+          "Mention other agents with @",
+          "Managerial agent configuration",
+          "Attach native sub-agents",
+          "Attach A2A agents",
+          "Update agent",
+          "Version history",
+          "Agent settings",
+          "Git Agent entry, upgrade required"
+        ],
+        "evidence": [
+          "platforms/architect_studio/05-agent-editor.txt",
+          "platforms/architect_studio/06-build-configuration.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "Models and response formats",
+        "status": "Controls inspected; changes not enabled",
+        "features": [
+          "Provider/model picker",
+          "Suggest model",
+          "Compare models",
+          "Auto-route by complexity",
+          "Advanced model parameters",
+          "Temperature",
+          "Top P",
+          "Web-search context size control, disabled in captured state",
+          "Reasoning-effort control, disabled in captured state",
+          "Text examples",
+          "Structured JSON output/schema",
+          "Image output/provider selection",
+          "Downloadable file output: DOCX, PDF, CSV and PPT"
+        ],
+        "evidence": [
+          "platforms/architect_studio/08-model-parameters.txt",
+          "platforms/architect_studio/09-output-format.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "Knowledge, capabilities and automation",
+        "status": "Controls inspected; several advanced features gated",
+        "features": [
+          "Attach knowledge base",
+          "Tool picker and tool search",
+          "AI Suggest tool entry",
+          "Composio tool entry",
+          "Configure more tools",
+          "Add skills",
+          "Schedule",
+          "Trigger",
+          "Short- and long-term Memory",
+          "Data Query",
+          "Context",
+          "Voice",
+          "Responsible AI",
+          "Fairness/bias controls",
+          "Reflection",
+          "Groundedness",
+          "LLM-as-judge marked beta"
+        ],
+        "evidence": [
+          "platforms/architect_studio/06-build-configuration.txt",
+          "platforms/architect_studio/07-agent-features.txt",
+          "platforms/architect_studio/10-tool-catalog.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "Agent playground and deployment",
+        "status": "Surfaces inspected; no live API invocation or publishing",
+        "features": [
+          "Playground chat",
+          "Test sessions",
+          "Attachments",
+          "Activity view",
+          "Artifacts view",
+          "API deployment instructions",
+          "Masked credential display",
+          "cURL request example",
+          "Agent JSON",
+          "A2A agent card",
+          "A2A discovery and execution instructions",
+          "App Store publish entry"
+        ],
+        "evidence": [
+          "platforms/architect_studio/05-agent-editor.txt",
+          "platforms/architect_studio/11-agent-deploy.txt",
+          "platforms/architect_studio/12-a2a-deployment.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "SuperFlow creation and operation",
+        "status": "Template created and saved; run-input panel opened, execution not tested",
+        "features": [
+          "SuperFlow list",
+          "New empty flow",
+          "Workflow templates",
+          "Import entry",
+          "Visual node canvas",
+          "Node search",
+          "Node settings",
+          "Generate node configuration with AI",
+          "Run as sub-agent control",
+          "Prompt editors",
+          "Model parameters and max tokens",
+          "Structured output fields and JSON editor",
+          "Undo / redo",
+          "Auto-align",
+          "Expand all nodes",
+          "Save",
+          "Execution history",
+          "Approvals",
+          "Copy workflow as JSON",
+          "Run panel",
+          "Zoom in/out",
+          "Fit view",
+          "Minimap",
+          "Toggle canvas interactivity"
+        ],
+        "evidence": [
+          "platforms/architect_studio/13-superflow-list.txt",
+          "platforms/architect_studio/14-workflow-templates.txt",
+          "platforms/architect_studio/16-workflow-node-settings.txt",
+          "platforms/architect_studio/21-workflow-run-setup.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "SuperFlow node palette",
+        "status": "Palette inspected; individual node execution not tested",
+        "features": [
+          "AI Agent",
+          "A2A Agent",
+          "AI Swarm",
+          "Tool",
+          "LLM",
+          "Decide",
+          "Rank",
+          "Guardrails",
+          "Trigger",
+          "If",
+          "Switch",
+          "Merge",
+          "Filter",
+          "Loop",
+          "Wait",
+          "Wait for Approval",
+          "Stop & Error",
+          "No-Op",
+          "Set",
+          "Aggregate",
+          "Sort",
+          "Limit",
+          "Remove Duplicates",
+          "Rename Keys",
+          "TOON",
+          "Code",
+          "HTTP Request",
+          "Execute nested SuperFlow",
+          "Date/Time",
+          "Crypto",
+          "Parse Document",
+          "Extract Fields",
+          "Label Document"
+        ],
+        "evidence": [
+          "platforms/architect_studio/16-workflow-node-settings.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "SuperFlow templates",
+        "status": "Template catalogue inspected; approval template created",
+        "features": [
+          "AI Email Reply with human approval",
+          "Ask the AI",
+          "Code Reviewer",
+          "Web Page Summarizer",
+          "Batch Sentiment Analyzer",
+          "Smart Email Triage",
+          "Research Swarm",
+          "ReAct Agent"
+        ],
+        "evidence": [
+          "platforms/architect_studio/14-workflow-templates.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "Knowledge and platform operations",
+        "status": "Navigation inventory only; downstream setup not completed",
+        "features": [
+          "Knowledge Base",
+          "Knowledge Graph",
+          "Semantic Model",
+          "Skills",
+          "Global Context",
+          "Traces",
+          "Transcripts",
+          "Reports",
+          "Models",
+          "Voice Providers",
+          "Tools",
+          "Data Connectors",
+          "Memory connections",
+          "Guardrails",
+          "Telephony",
+          "Responsible AI",
+          "Simulation Engine",
+          "Improvement Engine",
+          "Voice area",
+          "Blueprints",
+          "App Store",
+          "Global search",
+          "Relaxed-view switch",
+          "Help and resources",
+          "Organization and credit controls"
+        ],
+        "evidence": [
+          "platforms/architect_studio/17-knowledge-menu.txt",
+          "platforms/architect_studio/18-safety-evaluation-menu.txt",
+          "platforms/architect_studio/19-monitoring-menu.txt",
+          "platforms/architect_studio/20-connections-menu.txt"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "Account provisioning",
+        "status": "Official documentation; untested",
+        "features": [
+          "Architect signup automatically provisions a Studio account; our session still encountered a separate Studio login"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/introduction/essentials/prerequisites"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "Grounding and reusable agents",
+        "status": "Official documentation; attachment/import controls seen but behavior not tested",
+        "features": [
+          "PDF/DOCX processing for document-based retrieval",
+          "CSV/Excel data analysis and visualization",
+          "Reuse Studio agents with their prompts, tools and knowledge bases",
+          "Apply theme fonts and styling to generated code"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/introduction/platform/how-it-works"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "AI Consultant completion",
+        "status": "Official documentation; only initial form explored",
+        "features": [
+          "Role-specific pain-point interview",
+          "Existing-tool selection",
+          "Additional business context",
+          "Three tailored agent recommendations",
+          "Capabilities and estimated time savings per recommendation",
+          "Generate PRD from a recommendation"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/introduction/platform/ai-consultant"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "Template Apps",
+        "status": "Official documentation; template build not tested",
+        "features": [
+          "Choose a preconfigured app",
+          "Provide organization/business context",
+          "Build My App provisions UI, agents and database",
+          "Example templates: customer service, vendor comparison, KPI dashboard, market sizing and LinkedIn content"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/introduction/platform/template-apps"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "Managed database and generated-app authentication",
+        "status": "Official documentation; database tab not observed in our local-demo build",
+        "features": [
+          "Automatically provision app backend and database",
+          "Generate data collections from app needs",
+          "Database tab / visual collection explorer",
+          "Live document viewer",
+          "View schema and relationships",
+          "Generate sign-up and sign-in screens",
+          "Password hashing",
+          "Login sessions and token handling",
+          "Protect private routes"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/build/database-auth"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "QA and agent wiring",
+        "status": "Official documentation; full correction loop not independently verified",
+        "features": [
+          "QA agent runs generated code and attempts corrective changes",
+          "Generate agent orchestration, attach tools/knowledge and wire outputs into UI",
+          "Refine app and agent configuration through follow-up chat",
+          "App uses updated Studio agent behavior"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/introduction/overview/introduction",
+          "https://docs.lyzr.ai/enterprise/architect/build/build-guide",
+          "https://docs.lyzr.ai/enterprise/architect/introduction/platform/architect-vs-studio"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "GitHub synchronization and live operation",
+        "status": "Official documentation; setup seen, completion not tested",
+        "features": [
+          "Create owned GitHub repository and push initial code",
+          "Automatically push subsequent changes as commits",
+          "Managed hosting and public app URL",
+          "Default app subdomain",
+          "Usage and agent-trigger analytics",
+          "Enterprise on-premise/private-VPC deployment"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/build/github-connect",
+          "https://docs.lyzr.ai/enterprise/architect/build/deployment",
+          "https://docs.lyzr.ai/enterprise/architect/references/faqs"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "Marketplace use",
+        "status": "Official documentation; marketplace results not fully explored",
+        "features": [
+          "Filter community apps by category",
+          "Filter by use case",
+          "Preview community apps",
+          "Inspect creator agent/prompt structure"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/introduction/platform/agentlets"
+        ]
+      },
+      {
+        "scope": "Documented connected Studio behavior not validated hands-on",
+        "group": "Templates, external agents and governance",
+        "status": "Lyzr ecosystem capabilities; not native Architect UI claims",
+        "features": [
+          "Deploy and customize a Blueprint",
+          "Deploy App Store applications to workspace",
+          "Reviewed App Store submissions",
+          "Import external agents through A2A",
+          "Credential-backed A2A authentication",
+          "Trace and evaluate imported agents",
+          "Role-based team permissions",
+          "Audit logs",
+          "SSO/SAML"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/agent-studio/orchestration/blueprints",
+          "https://docs.lyzr.ai/enterprise/agent-studio/lyzr-app-store",
+          "https://docs.lyzr.ai/enterprise/integrations/a2a-protocol",
+          "https://docs.lyzr.ai/enterprise/get-started/intro"
+        ]
+      },
+      {
+        "scope": "Beta, gated or coming soon",
+        "group": "Availability boundaries",
+        "status": "Do not count coming-soon entries as shipped functionality",
+        "features": [
+          "Architect GitAgent workbench: beta option seen, not executed; UI describes home, journeys, wiki, skills and observe",
+          "Architect environment variables: beta label",
+          "Studio Git Agent: upgrade gate",
+          "Studio LLM-as-judge: beta label",
+          "Several Studio safety/advanced switches: unavailable on explored plan",
+          "SuperFlow GitAgent node: soon and disabled",
+          "SuperFlow Split Document node: soon and disabled",
+          "Marketplace Clone & Modify: coming soon in official docs; distinct from own-app Duplicate App"
+        ],
+        "evidence": [
+          "platforms/architect/16-clarification.txt",
+          "platforms/architect/26-project-actions.txt",
+          "platforms/architect_studio/07-agent-features.txt",
+          "platforms/architect_studio/16-workflow-node-settings.txt",
+          "https://docs.lyzr.ai/enterprise/architect/introduction/platform/agentlets"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Theme preview details",
+        "status": "Observed controls; preview examples are sample components, not account features",
+        "features": [
+          "Preview a theme in light mode",
+          "Preview a theme in dark mode",
+          "Cards preview tab",
+          "Dashboard preview tab",
+          "Marketing preview tab",
+          "Palette preview tab",
+          "Apply Theme",
+          "Preview sample account, team, upgrade and cookie components; these are demonstrations of styling, not proof of platform billing/authentication controls"
+        ],
+        "evidence": [
+          "platforms/architect/05-design-systems.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Prompt-library navigation details",
+        "status": "Inspected",
+        "features": [
+          "Search prompts",
+          "All Prompts category",
+          "Role/category tabs: General, Analysts, Marketing, Sales, Legal, HR, Support, Productivity, Development, Data & Analysis",
+          "Scroll categories left/right",
+          "Individual prompt titles and example briefs"
+        ],
+        "evidence": [
+          "platforms/architect/06-prompt-library.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Planning artifact controls and suggestions",
+        "status": "Observed; suggested actions not all executed",
+        "features": [
+          "Plan / App Mockup artifact tabs",
+          "Edit artifact",
+          "Copy artifact",
+          "Collapse artifact panel",
+          "Close artifact panel",
+          "View artifact from build setup",
+          "Close build setup",
+          "Suggested action to create an on-brand design file",
+          "Suggested action to draft a skill.md for the core agent",
+          "Learn more about GitAgent",
+          "About plan mode help control"
+        ],
+        "evidence": [
+          "platforms/architect/20-build-status.txt",
+          "platforms/architect/21-progress-check.txt",
+          "platforms/architect/16-clarification.txt",
+          "platforms/architect/22-build-progress.txt"
+        ]
+      },
+      {
+        "scope": "Architect native",
+        "group": "Generation, feedback and small workspace states",
+        "status": "Observed; queue submission and disabled Select behavior not executed",
+        "features": [
+          "Message composer changes to a queue-message field during generation",
+          "Stop generation during iteration",
+          "Running task-status text",
+          "Failed-action status alongside successful actions",
+          "Disabled controls during generation",
+          "Expandable completed-step summary",
+          "Console count indicator",
+          "Select control in preview toolbar, disabled in captured state; purpose not established",
+          "Dismissible toast",
+          "GitHub connection-checking state",
+          "Empty project-list guidance",
+          "Disabled submit/deploy controls in incomplete forms",
+          "Dialog cancel and close controls"
+        ],
+        "evidence": [
+          "platforms/architect/32-iteration-running.txt",
+          "platforms/architect/22-build-progress.txt",
+          "platforms/architect/20-build-status.txt",
+          "platforms/architect/13-build-start.txt",
+          "platforms/architect/03-import-codebase.txt",
+          "platforms/architect/29-deploy-setup.txt"
+        ]
+      },
+      {
+        "scope": "Architect-generated surface",
+        "group": "Platform attribution",
+        "status": "Observed platform-provided element inside generated preview",
+        "features": [
+          "Built with Architect attribution badge",
+          "Dismiss attribution affordance",
+          "Start building link on attribution"
+        ],
+        "evidence": [
+          "platforms/architect/24-preview-recovery.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "Sign-in, onboarding and home details",
+        "status": "Observed; user completed authentication; no credentials stored in this inventory",
+        "features": [
+          "Login with Google",
+          "Login with LinkedIn",
+          "Login with GitHub",
+          "Login with Email",
+          "Sign up for Free entry",
+          "Acquisition-source onboarding question",
+          "Role-selection onboarding",
+          "Onboarding Back control",
+          "Skip to main content link",
+          "Pin/unpin or open sidebar controls",
+          "Global-search Command-K shortcut label",
+          "Org / Me scope tabs",
+          "Continue working / recent agents",
+          "View all agents",
+          "View traces shortcut",
+          "Home creation choices: Agent, Managerial, SuperFlow, Voice",
+          "Suggested blueprints: STORM Research, Blog Writing, Content Strategy, Agent Reach",
+          "Product-tour entry and Next/Close controls",
+          "Monthly credit allowance, remaining amount/percentage and reset date"
+        ],
+        "evidence": [
+          "platforms/architect_studio/01-sign-in-boundary.txt",
+          "platforms/architect_studio/02-onboarding-source.txt",
+          "platforms/architect_studio/03-role-selection-unresolved.txt",
+          "platforms/architect_studio/04-workspace.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "Editor, playground and deployment micro-controls",
+        "status": "Inspected; credential reveal and configuration changes not performed",
+        "features": [
+          "New Chat",
+          "Collapse events panel",
+          "Resize editor panels",
+          "Feature search",
+          "Expand/collapse output-format panel",
+          "Enable model-parameter overrides",
+          "Save/cancel model parameters",
+          "Copy API request snippet",
+          "Show API key control with key masked by default",
+          "A2A Save card",
+          "A2A Add example",
+          "A2A Additional settings",
+          "How to use tab"
+        ],
+        "evidence": [
+          "platforms/architect_studio/05-agent-editor.txt",
+          "platforms/architect_studio/06-build-configuration.txt",
+          "platforms/architect_studio/07-agent-features.txt",
+          "platforms/architect_studio/08-model-parameters.txt",
+          "platforms/architect_studio/11-agent-deploy.txt",
+          "platforms/architect_studio/12-a2a-deployment.txt"
+        ]
+      },
+      {
+        "scope": "Connected Lyzr Agent Studio",
+        "group": "Workflow micro-controls",
+        "status": "Inspected; destructive and execution controls not exercised",
+        "features": [
+          "Workflow list / approvals navigation",
+          "Watch Demo entry",
+          "Name a new flow",
+          "Template groupings: Basics, Pipelines, Multi-Agent",
+          "Template capability badges and estimated-duration labels",
+          "Workflow breadcrumbs",
+          "Expand individual node",
+          "Reset node configuration",
+          "Add structured-output field",
+          "Delete Node",
+          "Hide runner",
+          "Close run panel",
+          "Input tab",
+          "Switch run input to JSON mode"
+        ],
+        "evidence": [
+          "platforms/architect_studio/13-superflow-list.txt",
+          "platforms/architect_studio/14-workflow-templates.txt",
+          "platforms/architect_studio/16-workflow-node-settings.txt",
+          "platforms/architect_studio/21-workflow-run-setup.txt"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "App sharing and collaboration",
+        "status": "Official documentation; invitation not sent or tested",
+        "features": [
+          "Share icon on project card",
+          "Invite collaborator by email",
+          "Invite multiple people",
+          "People with access list",
+          "Recipient opens app from Shared with Me",
+          "Collaborators edit the same app, rather than a fork; concurrent editing mechanics not verified"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/build/share-app"
+        ]
+      },
+      {
+        "scope": "Documented Architect behavior not validated hands-on",
+        "group": "External tool integrations",
+        "status": "Examples confirmed in official documentation; connections and actions not executed",
+        "features": [
+          "Use tools for web search, email and external API actions",
+          "Combine multiple service actions into a workflow",
+          "Documented Dropbox connector: search/read/upload files, list/create/move folders, create file requests and Paper documents, account lookup and delete action",
+          "Connector-specific authorization and action availability still require per-connector validation"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/architect/references/faqs",
+          "https://docs.lyzr.ai/enterprise/architect/integrations/workspace/dropbox",
+          "https://docs.lyzr.ai/enterprise/architect/introduction/overview/best-use-cases"
+        ]
+      },
+      {
+        "scope": "Documented connected Studio behavior not validated hands-on",
+        "group": "Organization administration details",
+        "status": "Official documentation; distinct from Architect app-sharing UI",
+        "features": [
+          "Organization Manage console",
+          "Organization overview",
+          "Isolated sub-accounts",
+          "Team members, roles and usage",
+          "Owner/Admin/Member roles",
+          "Audit overview counts",
+          "Audit action/resource breakdowns",
+          "Audit log filters and refresh",
+          "Event details",
+          "Audit-log pagination"
+        ],
+        "evidence": [
+          "https://docs.lyzr.ai/enterprise/agent-studio/governance/team-management"
+        ]
+      }
+    ]
+  }
 }

@@ -9,4 +9,5 @@ await mkdir(output, { recursive: true });
 for (const name of ['index.html', 'app.js', 'style.css', 'config.json', 'data.json'])
   await cp(join(source, name), join(output, name));
 await cp(join(root, 'docs/evidence/showcase-assets'), join(output, 'assets'), { recursive: true });
+await cp(join(source, 'media'), join(output, 'media'), { recursive: true });
 console.log('Assignment assembled in apps/assignment/dist (curated evidence assets included).');

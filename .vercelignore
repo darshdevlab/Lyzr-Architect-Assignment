@@ -6,3 +6,4 @@
 **/.vercel
 **/*.tsbuildinfo
 .DS_Store
+work/
