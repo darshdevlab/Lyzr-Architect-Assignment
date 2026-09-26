@@ -8,7 +8,17 @@
       "liveUrl": "https://lyzr-architect-2.vercel.app",
       "repoUrl": "https://github.com/darshdevlab/lyzr-architect-2.0",
       "verified": false,
-      "screenshots": []
+      "screenshots": [
+        {
+          "image": "assets/architect-2-agent-canvas.png",
+          "label": "Agent team configuration and hierarchy \u2014 configuration prototype",
+          "kind": "prototype",
+          "featureIds": [
+            "AGENT-E1",
+            "AGENT-E2"
+          ]
+        }
+      ]
     },
     "3.0": {
       "liveUrl": "https://lyzr-architect-3.vercel.app",

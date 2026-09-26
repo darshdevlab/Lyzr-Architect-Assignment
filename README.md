@@ -17,7 +17,7 @@ Serve this directory with any static HTTP server. For example: `python3 -m http.
 
 `data.json` contains the consolidated, dated source records from the existing research and specification. It is documentation, not a certificate that every backend integration is working. The counts use different units: 422 existing interactions, 109 enhancement/new packages, and 432 captures must not be added together or represented as unique verified features.
 
-The full 432-entry capture ledger is published as metadata. Ten screenshots were visually inspected and copied into `assets/`. They show research surfaces or fictional benchmark data, not secret keys/private emails. Unreviewed/private settings screenshots are excluded. Architect candidates exposed an account balance/app identifier and were withheld; its full textual record remains. Missing public images are labeled as privacy/curation gaps. No screenshot was fabricated or edited.
+The full 432-entry capture ledger is published as metadata. Eleven screenshots were visually inspected and copied into `assets/`. They show research surfaces or fictional benchmark data, not secret keys/private emails. Unreviewed/private settings screenshots are excluded. Architect platform candidates exposed an account balance/app identifier and were withheld; a safe generated-app knowledge-base image is included and explicitly labeled output evidence. Missing public images are labeled as privacy/curation gaps. No screenshot was fabricated or edited.
 
 Adoption figures are historical claims recorded on 26 September 2026 with source dates and caveats. They are not audited current active-user totals and should not be ranked or summed. Research used available accounts and had credit, plan and environment limits.
 

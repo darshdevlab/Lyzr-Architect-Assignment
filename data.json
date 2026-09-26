@@ -130,8 +130,17 @@
       ],
       "lesson": "Keep one project context across Plan, Preview, Code, Agents and Deploy. Offer plain-language defaults with advanced configuration on demand.",
       "refs": [],
-      "capture_count": 29,
-      "screenshots": []
+      "capture_count": 75,
+      "screenshots": [
+        {
+          "id": "architect_output-12-knowledge-editor",
+          "key": "architect",
+          "platform": "architect",
+          "kind": "app-output",
+          "label": "Generated SupportDesk output — editable knowledge base",
+          "image": "assets/architect_output-12-knowledge-editor.png"
+        }
+      ]
     },
     {
       "key": "replit",
@@ -237,7 +246,7 @@
       ],
       "lesson": "Use progressive disclosure: a simple Build surface plus a discoverable workspace for code, Git, data, logs and deployments.",
       "refs": [],
-      "capture_count": 22,
+      "capture_count": 50,
       "screenshots": [
         {
           "id": "replit-22-preview-device-controls",
@@ -358,7 +367,7 @@
       ],
       "lesson": "Offer visual direction choices, but preserve a fast route to build. Make “import existing project” distinct from “sync this new project to GitHub.”",
       "refs": [],
-      "capture_count": 27,
+      "capture_count": 40,
       "screenshots": [
         {
           "id": "lovable-20-build-status",
@@ -463,7 +472,7 @@
       ],
       "lesson": "Make integrations discoverable by desired outcome—sign-in, storage, email, AI—then disclose required accounts, permissions and cost.",
       "refs": [],
-      "capture_count": 18,
+      "capture_count": 37,
       "screenshots": [
         {
           "id": "emergent-20-build-status",
@@ -550,7 +559,7 @@
       ],
       "lesson": "Preserve a last-known-working version when generation hits a limit, and explain how an editor project becomes a deployed environment.",
       "refs": [],
-      "capture_count": 12,
+      "capture_count": 28,
       "screenshots": [
         {
           "id": "v0-22-build-progress",
@@ -649,7 +658,7 @@
       ],
       "lesson": "Use clear build milestones and version summaries; explain staging and production with user goals, visibility and cost.",
       "refs": [],
-      "capture_count": 17,
+      "capture_count": 46,
       "screenshots": [
         {
           "id": "rocket-22-generated-editor",
@@ -760,7 +769,7 @@
       ],
       "lesson": "Keep prompt, preview and code adjacent; explain the purpose and connection state of every backend service.",
       "refs": [],
-      "capture_count": 16,
+      "capture_count": 42,
       "screenshots": [
         {
           "id": "bolt-22-generated-editor",
@@ -866,7 +875,7 @@
       ],
       "lesson": "Offer developer-grade environments and diffs behind an accessible project setup; pair every infrastructure error with a guided recovery path.",
       "refs": [],
-      "capture_count": 13,
+      "capture_count": 36,
       "screenshots": [
         {
           "id": "codex-09-result-with-preview-blocker",
@@ -1033,7 +1042,7 @@
       ],
       "lesson": "Combine a simple agent conversation with optional local code, review and browser tools. Explain runtime recovery and command approvals, and preserve project context when moving between preview, files and customization.",
       "refs": [],
-      "capture_count": 38,
+      "capture_count": 40,
       "screenshots": [
         {
           "id": "cursor-25-built-in-browser-preview",
@@ -1262,7 +1271,7 @@
       ],
       "lesson": "Pair approachable prompt-to-preview entry with explicit model/effort costs, reusable instructions, contextual tools and clear separation of artifact privacy from deployment.",
       "refs": [],
-      "capture_count": 30,
+      "capture_count": 32,
       "screenshots": [
         {
           "id": "claude_chat-29-expanded-preview",
@@ -13611,7 +13620,7 @@
   ],
   "counts": {
     "captures": 432,
-    "published": 10,
+    "published": 11,
     "platforms": 11,
     "features": 109
   },
@@ -13695,12 +13704,21 @@
       "kind": "platform",
       "label": "build progress",
       "image": "assets/v0-22-build-progress.png"
+    },
+    {
+      "id": "architect_output-12-knowledge-editor",
+      "key": "architect",
+      "platform": "architect",
+      "kind": "app-output",
+      "label": "Generated SupportDesk output — editable knowledge base",
+      "image": "assets/architect_output-12-knowledge-editor.png"
     }
   ],
   "captureIndex": [
     {
       "id": "architect-01-home",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "home",
       "published": false,
@@ -13709,6 +13727,7 @@
     {
       "id": "architect-02-prompt-options",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "prompt options",
       "published": false,
@@ -13717,6 +13736,7 @@
     {
       "id": "architect-03-import-codebase",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "import codebase",
       "published": false,
@@ -13725,6 +13745,7 @@
     {
       "id": "architect-04-import-loaded",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "import loaded",
       "published": false,
@@ -13733,6 +13754,7 @@
     {
       "id": "architect-05-design-systems",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "design systems",
       "published": false,
@@ -13741,6 +13763,7 @@
     {
       "id": "architect-06-prompt-library",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "prompt library",
       "published": false,
@@ -13749,6 +13772,7 @@
     {
       "id": "architect-07-idea-discovery",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "idea discovery",
       "published": false,
@@ -13757,6 +13781,7 @@
     {
       "id": "architect-08-idea-discovery-result",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "idea discovery result",
       "published": false,
@@ -13765,6 +13790,7 @@
     {
       "id": "architect-09-usage",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "usage",
       "published": false,
@@ -13773,6 +13799,7 @@
     {
       "id": "architect-10-usage-loaded",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "usage loaded",
       "published": false,
@@ -13781,6 +13808,7 @@
     {
       "id": "architect-11-marketplace",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "marketplace",
       "published": false,
@@ -13789,6 +13817,7 @@
     {
       "id": "architect-12-benchmark-prompt",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "benchmark prompt",
       "published": false,
@@ -13797,6 +13826,7 @@
     {
       "id": "architect-13-build-start",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "build start",
       "published": false,
@@ -13805,6 +13835,7 @@
     {
       "id": "architect-14-editor",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "editor",
       "published": false,
@@ -13813,6 +13844,7 @@
     {
       "id": "architect-15-build-current",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "build current",
       "published": false,
@@ -13821,6 +13853,7 @@
     {
       "id": "architect-16-clarification",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "clarification",
       "published": false,
@@ -13829,6 +13862,7 @@
     {
       "id": "architect-20-build-status",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "build status",
       "published": false,
@@ -13837,6 +13871,7 @@
     {
       "id": "architect-21-progress-check",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "progress check",
       "published": false,
@@ -13845,6 +13880,7 @@
     {
       "id": "architect-22-build-progress",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "build progress",
       "published": false,
@@ -13853,6 +13889,7 @@
     {
       "id": "architect-23-preview-error",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "preview error",
       "published": false,
@@ -13861,6 +13898,7 @@
     {
       "id": "architect-24-preview-recovery",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "preview recovery",
       "published": false,
@@ -13869,6 +13907,7 @@
     {
       "id": "architect-25-agent-panel",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "agent panel",
       "published": false,
@@ -13877,6 +13916,7 @@
     {
       "id": "architect-26-project-actions",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "project actions",
       "published": false,
@@ -13885,6 +13925,7 @@
     {
       "id": "architect-27-file-tree",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "file tree",
       "published": false,
@@ -13893,6 +13934,7 @@
     {
       "id": "architect-28-file-tree-loaded",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "file tree loaded",
       "published": false,
@@ -13901,6 +13943,7 @@
     {
       "id": "architect-29-deploy-setup",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "deploy setup",
       "published": false,
@@ -13909,6 +13952,7 @@
     {
       "id": "architect-30-github-deploy-choice",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "github deploy choice",
       "published": false,
@@ -13917,6 +13961,7 @@
     {
       "id": "architect-31-iteration-prompt",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "iteration prompt",
       "published": false,
@@ -13925,6 +13970,7 @@
     {
       "id": "architect-32-iteration-running",
       "platform": "architect",
+      "sourceGroup": "architect",
       "kind": "platform",
       "label": "iteration running",
       "published": false,
@@ -13932,7 +13978,8 @@
     },
     {
       "id": "architect_output-01-entry",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "entry",
       "published": false,
@@ -13940,7 +13987,8 @@
     },
     {
       "id": "architect_output-02-dashboard",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -13948,7 +13996,8 @@
     },
     {
       "id": "architect_output-03-inbox",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "inbox",
       "published": false,
@@ -13956,7 +14005,8 @@
     },
     {
       "id": "architect_output-04-combined-filters",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "combined filters",
       "published": false,
@@ -13964,7 +14014,8 @@
     },
     {
       "id": "architect_output-05-empty-state",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "empty state",
       "published": false,
@@ -13972,7 +14023,8 @@
     },
     {
       "id": "architect_output-06-ticket-detail",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "ticket detail",
       "published": false,
@@ -13980,7 +14032,8 @@
     },
     {
       "id": "architect_output-07-grounded-draft",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "grounded draft",
       "published": false,
@@ -13988,7 +14041,8 @@
     },
     {
       "id": "architect_output-08-approved-reply",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "approved reply",
       "published": false,
@@ -13996,7 +14050,8 @@
     },
     {
       "id": "architect_output-09-persisted-activity",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "persisted activity",
       "published": false,
@@ -14004,7 +14059,8 @@
     },
     {
       "id": "architect_output-10-create-form",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "create form",
       "published": false,
@@ -14012,7 +14068,8 @@
     },
     {
       "id": "architect_output-11-created-ticket",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "created ticket",
       "published": false,
@@ -14020,15 +14077,17 @@
     },
     {
       "id": "architect_output-12-knowledge-editor",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "knowledge editor",
-      "published": false,
-      "publicImage": null
+      "published": true,
+      "publicImage": "assets/architect_output-12-knowledge-editor.png"
     },
     {
       "id": "architect_output-13-settings",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "settings",
       "published": false,
@@ -14036,7 +14095,8 @@
     },
     {
       "id": "architect_output-14-settings-persisted",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "settings persisted",
       "published": false,
@@ -14044,7 +14104,8 @@
     },
     {
       "id": "architect_output-15-settings-persisted",
-      "platform": "architect_output",
+      "platform": "architect",
+      "sourceGroup": "architect_output",
       "kind": "app-output",
       "label": "settings persisted",
       "published": false,
@@ -14052,7 +14113,8 @@
     },
     {
       "id": "architect_studio-01-sign-in-boundary",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "sign in boundary",
       "published": false,
@@ -14060,7 +14122,8 @@
     },
     {
       "id": "architect_studio-02-onboarding-source",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "onboarding source",
       "published": false,
@@ -14068,7 +14131,8 @@
     },
     {
       "id": "architect_studio-03-role-selection-unresolved",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "role selection unresolved",
       "published": false,
@@ -14076,7 +14140,8 @@
     },
     {
       "id": "architect_studio-04-workspace",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "workspace",
       "published": false,
@@ -14084,7 +14149,8 @@
     },
     {
       "id": "architect_studio-05-agent-editor",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "agent editor",
       "published": false,
@@ -14092,7 +14158,8 @@
     },
     {
       "id": "architect_studio-06-build-configuration",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "build configuration",
       "published": false,
@@ -14100,7 +14167,8 @@
     },
     {
       "id": "architect_studio-07-agent-features",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "agent features",
       "published": false,
@@ -14108,7 +14176,8 @@
     },
     {
       "id": "architect_studio-08-model-parameters",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "model parameters",
       "published": false,
@@ -14116,7 +14185,8 @@
     },
     {
       "id": "architect_studio-09-output-format",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "output format",
       "published": false,
@@ -14124,7 +14194,8 @@
     },
     {
       "id": "architect_studio-10-tool-catalog",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "tool catalog",
       "published": false,
@@ -14132,7 +14203,8 @@
     },
     {
       "id": "architect_studio-11-agent-deploy",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "agent deploy",
       "published": false,
@@ -14140,7 +14212,8 @@
     },
     {
       "id": "architect_studio-12-a2a-deployment",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "a2a deployment",
       "published": false,
@@ -14148,7 +14221,8 @@
     },
     {
       "id": "architect_studio-13-superflow-list",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "superflow list",
       "published": false,
@@ -14156,7 +14230,8 @@
     },
     {
       "id": "architect_studio-14-workflow-templates",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "workflow templates",
       "published": false,
@@ -14164,7 +14239,8 @@
     },
     {
       "id": "architect_studio-15-workflow-canvas",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "workflow canvas",
       "published": false,
@@ -14172,7 +14248,8 @@
     },
     {
       "id": "architect_studio-16-workflow-node-settings",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "workflow node settings",
       "published": false,
@@ -14180,7 +14257,8 @@
     },
     {
       "id": "architect_studio-17-knowledge-menu",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "knowledge menu",
       "published": false,
@@ -14188,7 +14266,8 @@
     },
     {
       "id": "architect_studio-18-safety-evaluation-menu",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "safety evaluation menu",
       "published": false,
@@ -14196,7 +14275,8 @@
     },
     {
       "id": "architect_studio-19-monitoring-menu",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "monitoring menu",
       "published": false,
@@ -14204,7 +14284,8 @@
     },
     {
       "id": "architect_studio-20-connections-menu",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "connections menu",
       "published": false,
@@ -14212,7 +14293,8 @@
     },
     {
       "id": "architect_studio-21-workflow-run-setup",
-      "platform": "architect_studio",
+      "platform": "architect",
+      "sourceGroup": "architect_studio",
       "kind": "platform",
       "label": "workflow run setup",
       "published": false,
@@ -14221,6 +14303,7 @@
     {
       "id": "bolt-01-home",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "home",
       "published": false,
@@ -14229,6 +14312,7 @@
     {
       "id": "bolt-02-context-options",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "context options",
       "published": false,
@@ -14237,6 +14321,7 @@
     {
       "id": "bolt-03-database",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "database",
       "published": false,
@@ -14245,6 +14330,7 @@
     {
       "id": "bolt-04-connectors",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "connectors",
       "published": false,
@@ -14253,6 +14339,7 @@
     {
       "id": "bolt-05-skills-library",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "skills library",
       "published": false,
@@ -14261,6 +14348,7 @@
     {
       "id": "bolt-06-modes",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "modes",
       "published": false,
@@ -14269,6 +14357,7 @@
     {
       "id": "bolt-07-benchmark-prompt",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "benchmark prompt",
       "published": false,
@@ -14277,6 +14366,7 @@
     {
       "id": "bolt-21-progress-check",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "progress check",
       "published": false,
@@ -14285,6 +14375,7 @@
     {
       "id": "bolt-22-generated-editor",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "generated editor",
       "published": true,
@@ -14293,6 +14384,7 @@
     {
       "id": "bolt-23-database-services",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "database services",
       "published": false,
@@ -14301,6 +14393,7 @@
     {
       "id": "bolt-24-github-flow",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "github flow",
       "published": false,
@@ -14309,6 +14402,7 @@
     {
       "id": "bolt-25-publish-setup",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "publish setup",
       "published": false,
@@ -14317,6 +14411,7 @@
     {
       "id": "bolt-26-version-history",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "version history",
       "published": false,
@@ -14325,6 +14420,7 @@
     {
       "id": "bolt-27-iteration-running",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "iteration running",
       "published": false,
@@ -14333,6 +14429,7 @@
     {
       "id": "bolt-28-token-limit",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "token limit",
       "published": false,
@@ -14341,6 +14438,7 @@
     {
       "id": "bolt-29-sharing-controls",
       "platform": "bolt",
+      "sourceGroup": "bolt",
       "kind": "platform",
       "label": "sharing controls",
       "published": false,
@@ -14348,7 +14446,8 @@
     },
     {
       "id": "bolt_output-01-connect-preview",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "connect preview",
       "published": false,
@@ -14356,7 +14455,8 @@
     },
     {
       "id": "bolt_output-02-demo-entry",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "demo entry",
       "published": false,
@@ -14364,7 +14464,8 @@
     },
     {
       "id": "bolt_output-03-dashboard",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -14372,7 +14473,8 @@
     },
     {
       "id": "bolt_output-04-inbox",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "inbox",
       "published": false,
@@ -14380,7 +14482,8 @@
     },
     {
       "id": "bolt_output-05-combined-filters",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "combined filters",
       "published": false,
@@ -14388,7 +14491,8 @@
     },
     {
       "id": "bolt_output-06-empty-state",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "empty state",
       "published": false,
@@ -14396,7 +14500,8 @@
     },
     {
       "id": "bolt_output-07-ticket-details",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "ticket details",
       "published": false,
@@ -14404,7 +14509,8 @@
     },
     {
       "id": "bolt_output-08-grounded-draft",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "grounded draft",
       "published": false,
@@ -14412,7 +14518,8 @@
     },
     {
       "id": "bolt_output-09-review-loaded",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "review loaded",
       "published": false,
@@ -14420,7 +14527,8 @@
     },
     {
       "id": "bolt_output-10-approved-reply",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "approved reply",
       "published": false,
@@ -14428,7 +14536,8 @@
     },
     {
       "id": "bolt_output-11-persisted-activity",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "persisted activity",
       "published": false,
@@ -14436,7 +14545,8 @@
     },
     {
       "id": "bolt_output-12-create-form",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "create form",
       "published": false,
@@ -14444,7 +14554,8 @@
     },
     {
       "id": "bolt_output-13-created-ticket",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "created ticket",
       "published": false,
@@ -14452,7 +14563,8 @@
     },
     {
       "id": "bolt_output-14-settings",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "settings",
       "published": false,
@@ -14460,7 +14572,8 @@
     },
     {
       "id": "bolt_output-15-knowledge",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "knowledge",
       "published": false,
@@ -14468,7 +14581,8 @@
     },
     {
       "id": "bolt_output-16-article-editor",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "article editor",
       "published": false,
@@ -14476,7 +14590,8 @@
     },
     {
       "id": "bolt_output-17-settings-persisted",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "settings persisted",
       "published": false,
@@ -14484,7 +14599,8 @@
     },
     {
       "id": "bolt_output-18-knowledge-persisted",
-      "platform": "bolt_output",
+      "platform": "bolt",
+      "sourceGroup": "bolt_output",
       "kind": "app-output",
       "label": "knowledge persisted",
       "published": false,
@@ -14493,6 +14609,7 @@
     {
       "id": "claude-01-upgrade-introduction",
       "platform": "claude",
+      "sourceGroup": "claude",
       "kind": "platform",
       "label": "upgrade introduction",
       "published": false,
@@ -14501,6 +14618,7 @@
     {
       "id": "claude-02-free-home",
       "platform": "claude",
+      "sourceGroup": "claude",
       "kind": "platform",
       "label": "free home",
       "published": false,
@@ -14509,6 +14627,7 @@
     {
       "id": "claude-03-code-plan-gate",
       "platform": "claude",
+      "sourceGroup": "claude",
       "kind": "platform",
       "label": "code plan gate",
       "published": true,
@@ -14517,6 +14636,7 @@
     {
       "id": "claude-04-desktop-initial-view-stale-capture",
       "platform": "claude",
+      "sourceGroup": "claude",
       "kind": "platform",
       "label": "desktop initial view stale capture",
       "published": false,
@@ -14525,6 +14645,7 @@
     {
       "id": "claude_chat-01-free-chat-home",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "free chat home",
       "published": false,
@@ -14533,6 +14654,7 @@
     {
       "id": "claude_chat-02-common-prompt-building",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "common prompt building",
       "published": false,
@@ -14541,6 +14663,7 @@
     {
       "id": "claude_chat-03-model-and-effort-menu",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "model and effort menu",
       "published": false,
@@ -14549,6 +14672,7 @@
     {
       "id": "claude_chat-04-effort-and-thinking",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "effort and thinking",
       "published": false,
@@ -14557,6 +14681,7 @@
     {
       "id": "claude_chat-05-context-tools-menu",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "context tools menu",
       "published": false,
@@ -14565,6 +14690,7 @@
     {
       "id": "claude_chat-06-skills-menu",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "skills menu",
       "published": false,
@@ -14573,6 +14699,7 @@
     {
       "id": "claude_chat-07-connector-entry",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "connector entry",
       "published": false,
@@ -14581,6 +14708,7 @@
     {
       "id": "claude_chat-08-custom-mcp-setup",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "custom mcp setup",
       "published": false,
@@ -14589,6 +14717,7 @@
     {
       "id": "claude_chat-09-design-system-plan-gate",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "design system plan gate",
       "published": false,
@@ -14597,6 +14726,7 @@
     {
       "id": "claude_chat-10-chat-management-menu",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "chat management menu",
       "published": false,
@@ -14605,6 +14735,7 @@
     {
       "id": "claude_chat-11-chat-sharing-setup",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "chat sharing setup",
       "published": false,
@@ -14613,6 +14744,7 @@
     {
       "id": "claude_chat-12-customize-discover",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "customize discover",
       "published": false,
@@ -14621,6 +14753,7 @@
     {
       "id": "claude_chat-13-skill-create-import-menu",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "skill create import menu",
       "published": false,
@@ -14629,6 +14762,7 @@
     {
       "id": "claude_chat-14-skill-editor",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "skill editor",
       "published": false,
@@ -14637,6 +14771,7 @@
     {
       "id": "claude_chat-15-connectors-catalog",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "connectors catalog",
       "published": false,
@@ -14645,6 +14780,7 @@
     {
       "id": "claude_chat-16-plugins-discover",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "plugins discover",
       "published": false,
@@ -14653,6 +14789,7 @@
     {
       "id": "claude_chat-17-plugin-create-import",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "plugin create import",
       "published": false,
@@ -14661,6 +14798,7 @@
     {
       "id": "claude_chat-18-marketplace-sources",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "marketplace sources",
       "published": false,
@@ -14669,6 +14807,7 @@
     {
       "id": "claude_chat-19-project-library",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "project library",
       "published": false,
@@ -14677,6 +14816,7 @@
     {
       "id": "claude_chat-20-project-limit-gate",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "project limit gate",
       "published": false,
@@ -14685,6 +14825,7 @@
     {
       "id": "claude_chat-21-artifact-library",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "artifact library",
       "published": false,
@@ -14693,6 +14834,7 @@
     {
       "id": "claude_chat-22-new-artifact-auto-prompt",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "new artifact auto prompt",
       "published": false,
@@ -14701,6 +14843,7 @@
     {
       "id": "claude_chat-23-artifact-preview-ready",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "artifact preview ready",
       "published": false,
@@ -14709,6 +14852,7 @@
     {
       "id": "claude_chat-24-artifact-options",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "artifact options",
       "published": false,
@@ -14717,6 +14861,7 @@
     {
       "id": "claude_chat-25-export-download-entry",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "export download entry",
       "published": false,
@@ -14725,6 +14870,7 @@
     {
       "id": "claude_chat-26-shared-revision-started",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "shared revision started",
       "published": false,
@@ -14733,6 +14879,7 @@
     {
       "id": "claude_chat-27-comment-controls",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "comment controls",
       "published": false,
@@ -14741,6 +14888,7 @@
     {
       "id": "claude_chat-28-comments-panel",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "comments panel",
       "published": false,
@@ -14749,6 +14897,7 @@
     {
       "id": "claude_chat-29-expanded-preview",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "expanded preview",
       "published": true,
@@ -14757,6 +14906,7 @@
     {
       "id": "claude_chat-30-revision-complete-same-artifact",
       "platform": "claude_chat",
+      "sourceGroup": "claude_chat",
       "kind": "platform",
       "label": "revision complete same artifact",
       "published": false,
@@ -14764,7 +14914,8 @@
     },
     {
       "id": "claude_chat_output-01-dashboard",
-      "platform": "claude_chat_output",
+      "platform": "claude_chat",
+      "sourceGroup": "claude_chat_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -14772,7 +14923,8 @@
     },
     {
       "id": "claude_chat_output-02-revised-approval-filter",
-      "platform": "claude_chat_output",
+      "platform": "claude_chat",
+      "sourceGroup": "claude_chat_output",
       "kind": "app-output",
       "label": "revised approval filter",
       "published": false,
@@ -14781,6 +14933,7 @@
     {
       "id": "claude_docs-01-documented-overview",
       "platform": "claude_docs",
+      "sourceGroup": "claude_docs",
       "kind": "documentation",
       "label": "documented overview",
       "published": false,
@@ -14789,6 +14942,7 @@
     {
       "id": "codex-01-home",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "home",
       "published": false,
@@ -14797,6 +14951,7 @@
     {
       "id": "codex-02-environments",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "environments",
       "published": false,
@@ -14805,6 +14960,7 @@
     {
       "id": "codex-03-environment-setup",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "environment setup",
       "published": false,
@@ -14813,6 +14969,7 @@
     {
       "id": "codex-04-general-settings",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "general settings",
       "published": false,
@@ -14821,6 +14978,7 @@
     {
       "id": "codex-05-code-review",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "code review",
       "published": false,
@@ -14829,6 +14987,7 @@
     {
       "id": "codex-06-connectors",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "connectors",
       "published": false,
@@ -14837,6 +14996,7 @@
     {
       "id": "codex-07-benchmark-prompt",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "benchmark prompt",
       "published": false,
@@ -14845,6 +15005,7 @@
     {
       "id": "codex-08-task-execution",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "task execution",
       "published": false,
@@ -14853,6 +15014,7 @@
     {
       "id": "codex-09-result-with-preview-blocker",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "result with preview blocker",
       "published": true,
@@ -14861,6 +15023,7 @@
     {
       "id": "codex-10-export-menu",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "export menu",
       "published": false,
@@ -14869,6 +15032,7 @@
     {
       "id": "codex-11-iteration-submitted",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "iteration submitted",
       "published": false,
@@ -14877,6 +15041,7 @@
     {
       "id": "codex-12-iteration-result",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "iteration result",
       "published": false,
@@ -14885,6 +15050,7 @@
     {
       "id": "codex-21-progress-check",
       "platform": "codex",
+      "sourceGroup": "codex",
       "kind": "platform",
       "label": "progress check",
       "published": false,
@@ -14892,7 +15058,8 @@
     },
     {
       "id": "codex_output-01-demo-entry",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "demo entry",
       "published": false,
@@ -14900,7 +15067,8 @@
     },
     {
       "id": "codex_output-02-dashboard",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -14908,7 +15076,8 @@
     },
     {
       "id": "codex_output-03-inbox",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "inbox",
       "published": false,
@@ -14916,7 +15085,8 @@
     },
     {
       "id": "codex_output-04-combined-filters",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "combined filters",
       "published": false,
@@ -14924,7 +15094,8 @@
     },
     {
       "id": "codex_output-05-empty-state",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "empty state",
       "published": false,
@@ -14932,7 +15103,8 @@
     },
     {
       "id": "codex_output-06-ticket-detail",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "ticket detail",
       "published": false,
@@ -14940,7 +15112,8 @@
     },
     {
       "id": "codex_output-07-grounded-draft",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "grounded draft",
       "published": false,
@@ -14948,7 +15121,8 @@
     },
     {
       "id": "codex_output-08-reviewed-draft",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "reviewed draft",
       "published": false,
@@ -14956,7 +15130,8 @@
     },
     {
       "id": "codex_output-09-approved-activity",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "approved activity",
       "published": false,
@@ -14964,7 +15139,8 @@
     },
     {
       "id": "codex_output-10-create-form",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "create form",
       "published": false,
@@ -14972,7 +15148,8 @@
     },
     {
       "id": "codex_output-11-created-ticket",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "created ticket",
       "published": false,
@@ -14980,7 +15157,8 @@
     },
     {
       "id": "codex_output-12-knowledge",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "knowledge",
       "published": false,
@@ -14988,7 +15166,8 @@
     },
     {
       "id": "codex_output-13-article-editor",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "article editor",
       "published": false,
@@ -14996,7 +15175,8 @@
     },
     {
       "id": "codex_output-14-kb-saved",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "kb saved",
       "published": false,
@@ -15004,7 +15184,8 @@
     },
     {
       "id": "codex_output-15-settings-saved",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "settings saved",
       "published": false,
@@ -15012,7 +15193,8 @@
     },
     {
       "id": "codex_output-16-settings-persisted",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "settings persisted",
       "published": false,
@@ -15020,7 +15202,8 @@
     },
     {
       "id": "codex_output-17-iteration-pending-draft",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "iteration pending draft",
       "published": false,
@@ -15028,7 +15211,8 @@
     },
     {
       "id": "codex_output-18-iteration-filter",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "iteration filter",
       "published": false,
@@ -15036,7 +15220,8 @@
     },
     {
       "id": "codex_output-19-draft-count-after-refresh",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "draft count after refresh",
       "published": false,
@@ -15044,7 +15229,8 @@
     },
     {
       "id": "codex_output-20-approval-timestamp",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "approval timestamp",
       "published": false,
@@ -15052,7 +15238,8 @@
     },
     {
       "id": "codex_output-21-approved-queue-empty",
-      "platform": "codex_output",
+      "platform": "codex",
+      "sourceGroup": "codex_output",
       "kind": "app-output",
       "label": "approved queue empty",
       "published": false,
@@ -15061,6 +15248,7 @@
     {
       "id": "cursor-01-onboarding",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "onboarding",
       "published": false,
@@ -15069,6 +15257,7 @@
     {
       "id": "cursor-02-plan-offer",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "plan offer",
       "published": false,
@@ -15077,6 +15266,7 @@
     {
       "id": "cursor-03-data-sharing",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "data sharing",
       "published": false,
@@ -15085,6 +15275,7 @@
     {
       "id": "cursor-04-github-setup",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "github setup",
       "published": false,
@@ -15093,6 +15284,7 @@
     {
       "id": "cursor-05-app-choices",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "app choices",
       "published": false,
@@ -15101,6 +15293,7 @@
     {
       "id": "cursor-06-agent-home-plan-gate",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "agent home plan gate",
       "published": false,
@@ -15109,6 +15302,7 @@
     {
       "id": "cursor-07-context-menu",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "context menu",
       "published": false,
@@ -15117,6 +15311,7 @@
     {
       "id": "cursor-08-automations-plan-gate",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "automations plan gate",
       "published": false,
@@ -15125,6 +15320,7 @@
     {
       "id": "cursor-09-codebase-plan-gate",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "codebase plan gate",
       "published": false,
@@ -15133,6 +15329,7 @@
     {
       "id": "cursor-10-desktop-onboarding",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "desktop onboarding",
       "published": false,
@@ -15141,6 +15338,7 @@
     {
       "id": "cursor-11-desktop-agent-home",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "desktop agent home",
       "published": false,
@@ -15149,6 +15347,7 @@
     {
       "id": "cursor-12-local-workspace",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "local workspace",
       "published": false,
@@ -15157,6 +15356,7 @@
     {
       "id": "cursor-13-desktop-model-gate",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "desktop model gate",
       "published": false,
@@ -15165,6 +15365,7 @@
     {
       "id": "cursor-14-benchmark-start-and-command-approval",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "benchmark start and command approval",
       "published": false,
@@ -15173,6 +15374,7 @@
     {
       "id": "cursor-15-files-and-runtime-discovery",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "files and runtime discovery",
       "published": false,
@@ -15181,6 +15383,7 @@
     {
       "id": "cursor-16-customize-plugins",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "customize plugins",
       "published": false,
@@ -15189,6 +15392,7 @@
     {
       "id": "cursor-17-mcp-connectors",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "mcp connectors",
       "published": false,
@@ -15197,6 +15401,7 @@
     {
       "id": "cursor-18-skills-setup",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "skills setup",
       "published": false,
@@ -15205,6 +15410,7 @@
     {
       "id": "cursor-19-subagents-setup",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "subagents setup",
       "published": false,
@@ -15213,6 +15419,7 @@
     {
       "id": "cursor-20-rules-setup",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "rules setup",
       "published": false,
@@ -15221,6 +15428,7 @@
     {
       "id": "cursor-21-commands-setup",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "commands setup",
       "published": false,
@@ -15229,6 +15437,7 @@
     {
       "id": "cursor-22-hooks-setup",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "hooks setup",
       "published": false,
@@ -15237,6 +15446,7 @@
     {
       "id": "cursor-23-change-review-panel",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "change review panel",
       "published": false,
@@ -15245,6 +15455,7 @@
     {
       "id": "cursor-24-git-changes-initialized",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "git changes initialized",
       "published": false,
@@ -15253,6 +15464,7 @@
     {
       "id": "cursor-25-built-in-browser-preview",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "built in browser preview",
       "published": true,
@@ -15261,6 +15473,7 @@
     {
       "id": "cursor-26-agent-settings",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "agent settings",
       "published": false,
@@ -15269,6 +15482,7 @@
     {
       "id": "cursor-27-git-pr-settings",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "git pr settings",
       "published": false,
@@ -15277,6 +15491,7 @@
     {
       "id": "cursor-28-worktree-settings",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "worktree settings",
       "published": false,
@@ -15285,6 +15500,7 @@
     {
       "id": "cursor-29-browser-network-settings",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "browser network settings",
       "published": false,
@@ -15293,6 +15509,7 @@
     {
       "id": "cursor-30-indexing-settings",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "indexing settings",
       "published": false,
@@ -15301,6 +15518,7 @@
     {
       "id": "cursor-31-model-settings",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "model settings",
       "published": false,
@@ -15309,6 +15527,7 @@
     {
       "id": "cursor-32-shared-revision",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "shared revision",
       "published": false,
@@ -15317,6 +15536,7 @@
     {
       "id": "cursor-33-browser-options",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "browser options",
       "published": false,
@@ -15325,6 +15545,7 @@
     {
       "id": "cursor-34-design-mode",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "design mode",
       "published": false,
@@ -15333,6 +15554,7 @@
     {
       "id": "cursor-35-revision-complete",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "revision complete",
       "published": false,
@@ -15341,6 +15563,7 @@
     {
       "id": "cursor-36-ide-workspace",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "ide workspace",
       "published": false,
@@ -15349,6 +15572,7 @@
     {
       "id": "cursor-37-ide-source-review",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "ide source review",
       "published": false,
@@ -15357,6 +15581,7 @@
     {
       "id": "cursor-38-ide-terminal-attempt",
       "platform": "cursor",
+      "sourceGroup": "cursor",
       "kind": "platform",
       "label": "ide terminal attempt",
       "published": false,
@@ -15365,6 +15590,7 @@
     {
       "id": "cursor_docs-01-agent-documentation",
       "platform": "cursor_docs",
+      "sourceGroup": "cursor_docs",
       "kind": "documentation",
       "label": "agent documentation",
       "published": false,
@@ -15372,7 +15598,8 @@
     },
     {
       "id": "cursor_output-01-demo-entry",
-      "platform": "cursor_output",
+      "platform": "cursor",
+      "sourceGroup": "cursor_output",
       "kind": "app-output",
       "label": "demo entry",
       "published": false,
@@ -15380,7 +15607,8 @@
     },
     {
       "id": "cursor_output-02-dashboard",
-      "platform": "cursor_output",
+      "platform": "cursor",
+      "sourceGroup": "cursor_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -15389,6 +15617,7 @@
     {
       "id": "emergent-01-home",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "home",
       "published": false,
@@ -15397,6 +15626,7 @@
     {
       "id": "emergent-02-onboarding",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "onboarding",
       "published": false,
@@ -15405,6 +15635,7 @@
     {
       "id": "emergent-03-build-intent",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "build intent",
       "published": false,
@@ -15413,6 +15644,7 @@
     {
       "id": "emergent-04-onboarding-final",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "onboarding final",
       "published": false,
@@ -15421,6 +15653,7 @@
     {
       "id": "emergent-05-after-onboarding",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "after onboarding",
       "published": false,
@@ -15429,6 +15662,7 @@
     {
       "id": "emergent-06-model-menu",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "model menu",
       "published": false,
@@ -15437,6 +15671,7 @@
     {
       "id": "emergent-07-advanced-controls",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "advanced controls",
       "published": false,
@@ -15445,6 +15680,7 @@
     {
       "id": "emergent-08-mcp-catalog",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "mcp catalog",
       "published": false,
@@ -15453,6 +15689,7 @@
     {
       "id": "emergent-09-mcp-loaded",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "mcp loaded",
       "published": false,
@@ -15461,6 +15698,7 @@
     {
       "id": "emergent-10-model-options",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "model options",
       "published": false,
@@ -15469,6 +15707,7 @@
     {
       "id": "emergent-11-benchmark-prompt",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "benchmark prompt",
       "published": false,
@@ -15477,6 +15716,7 @@
     {
       "id": "emergent-12-build-start",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "build start",
       "published": false,
@@ -15485,6 +15725,7 @@
     {
       "id": "emergent-13-build-current",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "build current",
       "published": false,
@@ -15493,6 +15734,7 @@
     {
       "id": "emergent-14-clarification-submitted",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "clarification submitted",
       "published": false,
@@ -15501,6 +15743,7 @@
     {
       "id": "emergent-16-manage-connectors",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "manage connectors",
       "published": false,
@@ -15509,6 +15752,7 @@
     {
       "id": "emergent-17-publish-setup",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "publish setup",
       "published": false,
@@ -15517,6 +15761,7 @@
     {
       "id": "emergent-20-build-status",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "build status",
       "published": true,
@@ -15525,6 +15770,7 @@
     {
       "id": "emergent-21-progress-check",
       "platform": "emergent",
+      "sourceGroup": "emergent",
       "kind": "platform",
       "label": "progress check",
       "published": false,
@@ -15532,7 +15778,8 @@
     },
     {
       "id": "emergent_output-01-demo-entry",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "demo entry",
       "published": false,
@@ -15540,7 +15787,8 @@
     },
     {
       "id": "emergent_output-02-dashboard",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -15548,7 +15796,8 @@
     },
     {
       "id": "emergent_output-03-inbox",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "inbox",
       "published": false,
@@ -15556,7 +15805,8 @@
     },
     {
       "id": "emergent_output-04-combined-filters",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "combined filters",
       "published": false,
@@ -15564,7 +15814,8 @@
     },
     {
       "id": "emergent_output-05-empty-search",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "empty search",
       "published": false,
@@ -15572,7 +15823,8 @@
     },
     {
       "id": "emergent_output-06-ticket-detail",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "ticket detail",
       "published": false,
@@ -15580,7 +15832,8 @@
     },
     {
       "id": "emergent_output-07-grounded-draft",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "grounded draft",
       "published": false,
@@ -15588,7 +15841,8 @@
     },
     {
       "id": "emergent_output-08-review-before-send",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "review before send",
       "published": false,
@@ -15596,7 +15850,8 @@
     },
     {
       "id": "emergent_output-09-approved-persisted",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "approved persisted",
       "published": false,
@@ -15604,7 +15859,8 @@
     },
     {
       "id": "emergent_output-10-create-form",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "create form",
       "published": false,
@@ -15612,7 +15868,8 @@
     },
     {
       "id": "emergent_output-11-created-ticket",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "created ticket",
       "published": false,
@@ -15620,7 +15877,8 @@
     },
     {
       "id": "emergent_output-12-knowledge",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "knowledge",
       "published": false,
@@ -15628,7 +15886,8 @@
     },
     {
       "id": "emergent_output-13-article-editor",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "article editor",
       "published": false,
@@ -15636,7 +15895,8 @@
     },
     {
       "id": "emergent_output-14-settings",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "settings",
       "published": false,
@@ -15644,7 +15904,8 @@
     },
     {
       "id": "emergent_output-15-settings-after-refresh",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "settings after refresh",
       "published": false,
@@ -15652,7 +15913,8 @@
     },
     {
       "id": "emergent_output-16-settings-persisted",
-      "platform": "emergent_output",
+      "platform": "emergent",
+      "sourceGroup": "emergent_output",
       "kind": "app-output",
       "label": "settings persisted",
       "published": false,
@@ -15661,6 +15923,7 @@
     {
       "id": "lovable-01-home",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "home",
       "published": false,
@@ -15669,6 +15932,7 @@
     {
       "id": "lovable-02-prompt-options",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "prompt options",
       "published": false,
@@ -15677,6 +15941,7 @@
     {
       "id": "lovable-03-modes",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "modes",
       "published": false,
@@ -15685,6 +15950,7 @@
     {
       "id": "lovable-04-modes-loaded",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "modes loaded",
       "published": false,
@@ -15693,6 +15959,7 @@
     {
       "id": "lovable-05-connectors-menu",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "connectors menu",
       "published": false,
@@ -15701,6 +15968,7 @@
     {
       "id": "lovable-06-connectors-loaded",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "connectors loaded",
       "published": false,
@@ -15709,6 +15977,7 @@
     {
       "id": "lovable-07-benchmark-prompt",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "benchmark prompt",
       "published": false,
@@ -15717,6 +15986,7 @@
     {
       "id": "lovable-08-prompt-as-attachment",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "prompt as attachment",
       "published": false,
@@ -15725,6 +15995,7 @@
     {
       "id": "lovable-09-build-start",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "build start",
       "published": false,
@@ -15733,6 +16004,7 @@
     {
       "id": "lovable-10-design-direction-choice",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "design direction choice",
       "published": false,
@@ -15741,6 +16013,7 @@
     {
       "id": "lovable-20-build-status",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "build status",
       "published": true,
@@ -15749,6 +16022,7 @@
     {
       "id": "lovable-23-output-dashboard",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "app-output",
       "label": "output dashboard",
       "published": false,
@@ -15757,6 +16031,7 @@
     {
       "id": "lovable-24-output-inbox",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "app-output",
       "label": "output inbox",
       "published": false,
@@ -15765,6 +16040,7 @@
     {
       "id": "lovable-25-combined-filters",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "app-output",
       "label": "combined filters",
       "published": false,
@@ -15773,6 +16049,7 @@
     {
       "id": "lovable-26-empty-search",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "app-output",
       "label": "empty search",
       "published": false,
@@ -15781,6 +16058,7 @@
     {
       "id": "lovable-27-ticket-detail",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "app-output",
       "label": "ticket detail",
       "published": false,
@@ -15789,6 +16067,7 @@
     {
       "id": "lovable-28-assistant-citation",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "app-output",
       "label": "assistant citation",
       "published": false,
@@ -15797,6 +16076,7 @@
     {
       "id": "lovable-29-approved-draft",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "app-output",
       "label": "approved draft",
       "published": false,
@@ -15805,6 +16085,7 @@
     {
       "id": "lovable-30-persistence-refreshed",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "app-output",
       "label": "persistence refreshed",
       "published": false,
@@ -15813,6 +16094,7 @@
     {
       "id": "lovable-31-publish",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "publish",
       "published": false,
@@ -15821,6 +16103,7 @@
     {
       "id": "lovable-32-analytics-features",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "analytics features",
       "published": false,
@@ -15829,6 +16112,7 @@
     {
       "id": "lovable-33-project-settings",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "project settings",
       "published": false,
@@ -15837,6 +16121,7 @@
     {
       "id": "lovable-34-github-settings",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "github settings",
       "published": false,
@@ -15845,6 +16130,7 @@
     {
       "id": "lovable-35-history",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "history",
       "published": false,
@@ -15853,6 +16139,7 @@
     {
       "id": "lovable-36-code-view",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "code view",
       "published": false,
@@ -15861,6 +16148,7 @@
     {
       "id": "lovable-37-cloud-setup",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "cloud setup",
       "published": false,
@@ -15869,6 +16157,7 @@
     {
       "id": "lovable-38-security-review",
       "platform": "lovable",
+      "sourceGroup": "lovable",
       "kind": "platform",
       "label": "security review",
       "published": false,
@@ -15876,7 +16165,8 @@
     },
     {
       "id": "lovable_output-01-full-size-entry",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "full size entry",
       "published": false,
@@ -15884,7 +16174,8 @@
     },
     {
       "id": "lovable_output-01-full-size-inbox",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "full size inbox",
       "published": false,
@@ -15892,7 +16183,8 @@
     },
     {
       "id": "lovable_output-02-dashboard",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -15900,7 +16192,8 @@
     },
     {
       "id": "lovable_output-03-create-form",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "create form",
       "published": false,
@@ -15908,7 +16201,8 @@
     },
     {
       "id": "lovable_output-04-required-validation",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "required validation",
       "published": false,
@@ -15916,7 +16210,8 @@
     },
     {
       "id": "lovable_output-05-created-ticket",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "created ticket",
       "published": false,
@@ -15924,7 +16219,8 @@
     },
     {
       "id": "lovable_output-06-knowledge",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "knowledge",
       "published": false,
@@ -15932,7 +16228,8 @@
     },
     {
       "id": "lovable_output-07-agent-settings",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "agent settings",
       "published": false,
@@ -15940,7 +16237,8 @@
     },
     {
       "id": "lovable_output-08-settings-persisted",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "settings persisted",
       "published": false,
@@ -15948,7 +16246,8 @@
     },
     {
       "id": "lovable_output-09-activity",
-      "platform": "lovable_output",
+      "platform": "lovable",
+      "sourceGroup": "lovable_output",
       "kind": "app-output",
       "label": "activity",
       "published": false,
@@ -15956,7 +16255,8 @@
     },
     {
       "id": "mobile_architect-01-mobile-dashboard",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "mobile dashboard",
       "published": false,
@@ -15964,7 +16264,8 @@
     },
     {
       "id": "mobile_architect-02-bottom-nav-badge-obstruction",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "bottom nav badge obstruction",
       "published": false,
@@ -15972,7 +16273,8 @@
     },
     {
       "id": "mobile_architect-03-mobile-menu",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "mobile menu",
       "published": false,
@@ -15980,7 +16282,8 @@
     },
     {
       "id": "mobile_architect-04-mobile-inbox",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "mobile inbox",
       "published": false,
@@ -15988,7 +16291,8 @@
     },
     {
       "id": "mobile_architect-05-mobile-detail",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "mobile detail",
       "published": false,
@@ -15996,7 +16300,8 @@
     },
     {
       "id": "mobile_architect-06-pending-draft",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "pending draft",
       "published": false,
@@ -16004,7 +16309,8 @@
     },
     {
       "id": "mobile_architect-07-approval-filter",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "approval filter",
       "published": false,
@@ -16012,7 +16318,8 @@
     },
     {
       "id": "mobile_architect-08-draft-count-after-refresh",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "draft count after refresh",
       "published": false,
@@ -16020,7 +16327,8 @@
     },
     {
       "id": "mobile_architect-09-approved-activity",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "approved activity",
       "published": false,
@@ -16028,7 +16336,8 @@
     },
     {
       "id": "mobile_architect-10-approved-removed",
-      "platform": "mobile_architect",
+      "platform": "architect",
+      "sourceGroup": "mobile_architect",
       "kind": "app-output",
       "label": "approved removed",
       "published": false,
@@ -16036,7 +16345,8 @@
     },
     {
       "id": "mobile_bolt-01-mobile-entry",
-      "platform": "mobile_bolt",
+      "platform": "bolt",
+      "sourceGroup": "mobile_bolt",
       "kind": "app-output",
       "label": "mobile entry",
       "published": false,
@@ -16044,7 +16354,8 @@
     },
     {
       "id": "mobile_bolt-02-mobile-inbox",
-      "platform": "mobile_bolt",
+      "platform": "bolt",
+      "sourceGroup": "mobile_bolt",
       "kind": "app-output",
       "label": "mobile inbox",
       "published": false,
@@ -16052,7 +16363,8 @@
     },
     {
       "id": "mobile_bolt-03-mobile-detail",
-      "platform": "mobile_bolt",
+      "platform": "bolt",
+      "sourceGroup": "mobile_bolt",
       "kind": "app-output",
       "label": "mobile detail",
       "published": false,
@@ -16060,7 +16372,8 @@
     },
     {
       "id": "mobile_bolt-04-pending-filter",
-      "platform": "mobile_bolt",
+      "platform": "bolt",
+      "sourceGroup": "mobile_bolt",
       "kind": "app-output",
       "label": "pending filter",
       "published": false,
@@ -16068,7 +16381,8 @@
     },
     {
       "id": "mobile_bolt-05-draft-count-after-refresh",
-      "platform": "mobile_bolt",
+      "platform": "bolt",
+      "sourceGroup": "mobile_bolt",
       "kind": "app-output",
       "label": "draft count after refresh",
       "published": false,
@@ -16076,7 +16390,8 @@
     },
     {
       "id": "mobile_bolt-06-draft-approved",
-      "platform": "mobile_bolt",
+      "platform": "bolt",
+      "sourceGroup": "mobile_bolt",
       "kind": "app-output",
       "label": "draft approved",
       "published": false,
@@ -16084,7 +16399,8 @@
     },
     {
       "id": "mobile_bolt-07-approved-filter-state",
-      "platform": "mobile_bolt",
+      "platform": "bolt",
+      "sourceGroup": "mobile_bolt",
       "kind": "app-output",
       "label": "approved filter state",
       "published": false,
@@ -16092,7 +16408,8 @@
     },
     {
       "id": "mobile_bolt-08-approved-queue-empty",
-      "platform": "mobile_bolt",
+      "platform": "bolt",
+      "sourceGroup": "mobile_bolt",
       "kind": "app-output",
       "label": "approved queue empty",
       "published": false,
@@ -16100,7 +16417,8 @@
     },
     {
       "id": "mobile_codex-01-mobile-dashboard",
-      "platform": "mobile_codex",
+      "platform": "codex",
+      "sourceGroup": "mobile_codex",
       "kind": "app-output",
       "label": "mobile dashboard",
       "published": false,
@@ -16108,7 +16426,8 @@
     },
     {
       "id": "mobile_codex-02-mobile-detail",
-      "platform": "mobile_codex",
+      "platform": "codex",
+      "sourceGroup": "mobile_codex",
       "kind": "app-output",
       "label": "mobile detail",
       "published": false,
@@ -16116,7 +16435,8 @@
     },
     {
       "id": "mobile_emergent-01-mobile-dashboard",
-      "platform": "mobile_emergent",
+      "platform": "emergent",
+      "sourceGroup": "mobile_emergent",
       "kind": "app-output",
       "label": "mobile dashboard",
       "published": false,
@@ -16124,7 +16444,8 @@
     },
     {
       "id": "mobile_emergent-02-mobile-detail",
-      "platform": "mobile_emergent",
+      "platform": "emergent",
+      "sourceGroup": "mobile_emergent",
       "kind": "app-output",
       "label": "mobile detail",
       "published": false,
@@ -16132,7 +16453,8 @@
     },
     {
       "id": "mobile_emergent-03-mobile-detail-loaded",
-      "platform": "mobile_emergent",
+      "platform": "emergent",
+      "sourceGroup": "mobile_emergent",
       "kind": "app-output",
       "label": "mobile detail loaded",
       "published": false,
@@ -16140,7 +16462,8 @@
     },
     {
       "id": "mobile_lovable-01-mobile-settings",
-      "platform": "mobile_lovable",
+      "platform": "lovable",
+      "sourceGroup": "mobile_lovable",
       "kind": "app-output",
       "label": "mobile settings",
       "published": false,
@@ -16148,7 +16471,8 @@
     },
     {
       "id": "mobile_lovable-02-mobile-inbox",
-      "platform": "mobile_lovable",
+      "platform": "lovable",
+      "sourceGroup": "mobile_lovable",
       "kind": "app-output",
       "label": "mobile inbox",
       "published": false,
@@ -16156,7 +16480,8 @@
     },
     {
       "id": "mobile_lovable-03-mobile-detail",
-      "platform": "mobile_lovable",
+      "platform": "lovable",
+      "sourceGroup": "mobile_lovable",
       "kind": "app-output",
       "label": "mobile detail",
       "published": false,
@@ -16164,7 +16489,8 @@
     },
     {
       "id": "mobile_replit-01-mobile-inbox",
-      "platform": "mobile_replit",
+      "platform": "replit",
+      "sourceGroup": "mobile_replit",
       "kind": "app-output",
       "label": "mobile inbox",
       "published": false,
@@ -16172,7 +16498,8 @@
     },
     {
       "id": "mobile_replit-02-mobile-detail",
-      "platform": "mobile_replit",
+      "platform": "replit",
+      "sourceGroup": "mobile_replit",
       "kind": "app-output",
       "label": "mobile detail",
       "published": false,
@@ -16180,7 +16507,8 @@
     },
     {
       "id": "mobile_rocket-01-mobile-settings",
-      "platform": "mobile_rocket",
+      "platform": "rocket",
+      "sourceGroup": "mobile_rocket",
       "kind": "app-output",
       "label": "mobile settings",
       "published": false,
@@ -16188,7 +16516,8 @@
     },
     {
       "id": "mobile_rocket-02-mobile-settings-loaded",
-      "platform": "mobile_rocket",
+      "platform": "rocket",
+      "sourceGroup": "mobile_rocket",
       "kind": "app-output",
       "label": "mobile settings loaded",
       "published": false,
@@ -16196,7 +16525,8 @@
     },
     {
       "id": "mobile_rocket-03-mobile-inbox",
-      "platform": "mobile_rocket",
+      "platform": "rocket",
+      "sourceGroup": "mobile_rocket",
       "kind": "app-output",
       "label": "mobile inbox",
       "published": false,
@@ -16205,6 +16535,7 @@
     {
       "id": "replit-01-onboarding",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "onboarding",
       "published": false,
@@ -16213,6 +16544,7 @@
     {
       "id": "replit-02-tour",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "tour",
       "published": false,
@@ -16221,6 +16553,7 @@
     {
       "id": "replit-03-chat-tour",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "chat tour",
       "published": false,
@@ -16229,6 +16562,7 @@
     {
       "id": "replit-04-import",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "import",
       "published": false,
@@ -16237,6 +16571,7 @@
     {
       "id": "replit-05-integrations",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "integrations",
       "published": false,
@@ -16245,6 +16580,7 @@
     {
       "id": "replit-06-integrations-loaded",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "integrations loaded",
       "published": false,
@@ -16253,6 +16589,7 @@
     {
       "id": "replit-07-design-systems",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "design systems",
       "published": false,
@@ -16261,6 +16598,7 @@
     {
       "id": "replit-08-security",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "security",
       "published": false,
@@ -16269,6 +16607,7 @@
     {
       "id": "replit-09-agent-modes",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "agent modes",
       "published": false,
@@ -16277,6 +16616,7 @@
     {
       "id": "replit-10-benchmark-prompt",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "benchmark prompt",
       "published": false,
@@ -16285,6 +16625,7 @@
     {
       "id": "replit-11-build-start",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "build start",
       "published": false,
@@ -16293,6 +16634,7 @@
     {
       "id": "replit-12-build-current",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "build current",
       "published": false,
@@ -16301,6 +16643,7 @@
     {
       "id": "replit-14-tools-files",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "tools files",
       "published": false,
@@ -16309,6 +16652,7 @@
     {
       "id": "replit-15-platform-tools",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "platform tools",
       "published": false,
@@ -16317,6 +16661,7 @@
     {
       "id": "replit-16-git-panel",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "git panel",
       "published": false,
@@ -16325,6 +16670,7 @@
     {
       "id": "replit-17-git-history-loaded",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "git history loaded",
       "published": false,
@@ -16333,6 +16679,7 @@
     {
       "id": "replit-18-publish-setup",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "publish setup",
       "published": false,
@@ -16341,6 +16688,7 @@
     {
       "id": "replit-19-iteration-submitted",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "iteration submitted",
       "published": false,
@@ -16349,6 +16697,7 @@
     {
       "id": "replit-20-collaboration-sharing",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "collaboration sharing",
       "published": false,
@@ -16357,6 +16706,7 @@
     {
       "id": "replit-20-generated-entry",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "app-output",
       "label": "generated entry",
       "published": false,
@@ -16365,6 +16715,7 @@
     {
       "id": "replit-21-database-setup",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "database setup",
       "published": false,
@@ -16373,6 +16724,7 @@
     {
       "id": "replit-22-preview-device-controls",
       "platform": "replit",
+      "sourceGroup": "replit",
       "kind": "platform",
       "label": "preview device controls",
       "published": true,
@@ -16380,7 +16732,8 @@
     },
     {
       "id": "replit_output-01-demo-entry",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "demo entry",
       "published": false,
@@ -16388,7 +16741,8 @@
     },
     {
       "id": "replit_output-02-dashboard",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -16396,7 +16750,8 @@
     },
     {
       "id": "replit_output-03-inbox",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "inbox",
       "published": false,
@@ -16404,7 +16759,8 @@
     },
     {
       "id": "replit_output-04-combined-filters",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "combined filters",
       "published": false,
@@ -16412,7 +16768,8 @@
     },
     {
       "id": "replit_output-05-empty-search",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "empty search",
       "published": false,
@@ -16420,7 +16777,8 @@
     },
     {
       "id": "replit_output-06-ticket-detail",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "ticket detail",
       "published": false,
@@ -16428,7 +16786,8 @@
     },
     {
       "id": "replit_output-07-draft-before-approval",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "draft before approval",
       "published": false,
@@ -16436,7 +16795,8 @@
     },
     {
       "id": "replit_output-08-review-draft",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "review draft",
       "published": false,
@@ -16444,7 +16804,8 @@
     },
     {
       "id": "replit_output-09-approved-reply",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "approved reply",
       "published": false,
@@ -16452,7 +16813,8 @@
     },
     {
       "id": "replit_output-10-persistence-after-refresh",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "persistence after refresh",
       "published": false,
@@ -16460,7 +16822,8 @@
     },
     {
       "id": "replit_output-11-create-ticket-form",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "create ticket form",
       "published": false,
@@ -16468,7 +16831,8 @@
     },
     {
       "id": "replit_output-12-create-validation",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "create validation",
       "published": false,
@@ -16476,7 +16840,8 @@
     },
     {
       "id": "replit_output-13-new-ticket-result",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "new ticket result",
       "published": false,
@@ -16484,7 +16849,8 @@
     },
     {
       "id": "replit_output-14-knowledge-editor",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "knowledge editor",
       "published": false,
@@ -16492,7 +16858,8 @@
     },
     {
       "id": "replit_output-15-knowledge-persisted",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "knowledge persisted",
       "published": false,
@@ -16500,7 +16867,8 @@
     },
     {
       "id": "replit_output-16-settings",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "settings",
       "published": false,
@@ -16508,7 +16876,8 @@
     },
     {
       "id": "replit_output-17-settings-persisted",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "settings persisted",
       "published": false,
@@ -16516,7 +16885,8 @@
     },
     {
       "id": "replit_output-18-activity-and-metrics",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "activity and metrics",
       "published": false,
@@ -16524,7 +16894,8 @@
     },
     {
       "id": "replit_output-19-mobile-dashboard",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "mobile dashboard",
       "published": false,
@@ -16532,7 +16903,8 @@
     },
     {
       "id": "replit_output-20-mobile-navigation-closed",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "mobile navigation closed",
       "published": false,
@@ -16540,7 +16912,8 @@
     },
     {
       "id": "replit_output-21-mobile-inbox",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "mobile inbox",
       "published": false,
@@ -16548,7 +16921,8 @@
     },
     {
       "id": "replit_output-22-iteration-pending-draft",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "iteration pending draft",
       "published": false,
@@ -16556,7 +16930,8 @@
     },
     {
       "id": "replit_output-23-iteration-filter",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "iteration filter",
       "published": false,
@@ -16564,7 +16939,8 @@
     },
     {
       "id": "replit_output-24-draft-after-refresh",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "draft after refresh",
       "published": false,
@@ -16572,7 +16948,8 @@
     },
     {
       "id": "replit_output-25-draft-approved",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "draft approved",
       "published": false,
@@ -16580,7 +16957,8 @@
     },
     {
       "id": "replit_output-26-approved-queue-empty",
-      "platform": "replit_output",
+      "platform": "replit",
+      "sourceGroup": "replit_output",
       "kind": "app-output",
       "label": "approved queue empty",
       "published": false,
@@ -16589,6 +16967,7 @@
     {
       "id": "rocket-01-home",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "home",
       "published": false,
@@ -16597,6 +16976,7 @@
     {
       "id": "rocket-02-build-mode",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "build mode",
       "published": false,
@@ -16605,6 +16985,7 @@
     {
       "id": "rocket-03-context-inputs",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "context inputs",
       "published": false,
@@ -16613,6 +16994,7 @@
     {
       "id": "rocket-04-private-build-option",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "private build option",
       "published": false,
@@ -16621,6 +17003,7 @@
     {
       "id": "rocket-05-free-plan-private-gate",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "free plan private gate",
       "published": false,
@@ -16629,6 +17012,7 @@
     {
       "id": "rocket-06-connectors",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "connectors",
       "published": false,
@@ -16637,6 +17021,7 @@
     {
       "id": "rocket-07-benchmark-prompt",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "benchmark prompt",
       "published": false,
@@ -16645,6 +17030,7 @@
     {
       "id": "rocket-08-build-start",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "build start",
       "published": false,
@@ -16653,6 +17039,7 @@
     {
       "id": "rocket-20-build-status",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "build status",
       "published": false,
@@ -16661,6 +17048,7 @@
     {
       "id": "rocket-21-progress-check",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "progress check",
       "published": false,
@@ -16669,6 +17057,7 @@
     {
       "id": "rocket-22-generated-editor",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "generated editor",
       "published": true,
@@ -16677,6 +17066,7 @@
     {
       "id": "rocket-23-launch-setup",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "launch setup",
       "published": false,
@@ -16685,6 +17075,7 @@
     {
       "id": "rocket-24-production-hosting",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "production hosting",
       "published": false,
@@ -16693,6 +17084,7 @@
     {
       "id": "rocket-25-iteration-submitted",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "iteration submitted",
       "published": false,
@@ -16701,6 +17093,7 @@
     {
       "id": "rocket-26-iteration-result",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "iteration result",
       "published": false,
@@ -16709,6 +17102,7 @@
     {
       "id": "rocket-27-project-controls",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "project controls",
       "published": false,
@@ -16717,6 +17111,7 @@
     {
       "id": "rocket-28-app-settings",
       "platform": "rocket",
+      "sourceGroup": "rocket",
       "kind": "platform",
       "label": "app settings",
       "published": false,
@@ -16724,7 +17119,8 @@
     },
     {
       "id": "rocket_output-01-default-dashboard",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "default dashboard",
       "published": false,
@@ -16732,7 +17128,8 @@
     },
     {
       "id": "rocket_output-02-sign-in",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "sign in",
       "published": false,
@@ -16740,7 +17137,8 @@
     },
     {
       "id": "rocket_output-03-demo-button-no-navigation",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "demo button no navigation",
       "published": false,
@@ -16748,7 +17146,8 @@
     },
     {
       "id": "rocket_output-04-inbox",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "inbox",
       "published": false,
@@ -16756,7 +17155,8 @@
     },
     {
       "id": "rocket_output-05-combined-filters",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "combined filters",
       "published": false,
@@ -16764,7 +17164,8 @@
     },
     {
       "id": "rocket_output-06-empty-state",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "empty state",
       "published": false,
@@ -16772,7 +17173,8 @@
     },
     {
       "id": "rocket_output-07-ticket-detail",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "ticket detail",
       "published": false,
@@ -16780,7 +17182,8 @@
     },
     {
       "id": "rocket_output-08-grounded-draft",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "grounded draft",
       "published": false,
@@ -16788,7 +17191,8 @@
     },
     {
       "id": "rocket_output-09-review-loaded",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "review loaded",
       "published": false,
@@ -16796,7 +17200,8 @@
     },
     {
       "id": "rocket_output-10-approved-activity",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "approved activity",
       "published": false,
@@ -16804,7 +17209,8 @@
     },
     {
       "id": "rocket_output-11-persistence-after-refresh",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "persistence after refresh",
       "published": false,
@@ -16812,7 +17218,8 @@
     },
     {
       "id": "rocket_output-12-create-form",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "create form",
       "published": false,
@@ -16820,7 +17227,8 @@
     },
     {
       "id": "rocket_output-13-created-ticket",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "created ticket",
       "published": false,
@@ -16828,7 +17236,8 @@
     },
     {
       "id": "rocket_output-14-knowledge",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "knowledge",
       "published": false,
@@ -16836,7 +17245,8 @@
     },
     {
       "id": "rocket_output-15-article-editor",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "article editor",
       "published": false,
@@ -16844,7 +17254,8 @@
     },
     {
       "id": "rocket_output-16-settings",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "settings",
       "published": false,
@@ -16852,7 +17263,8 @@
     },
     {
       "id": "rocket_output-17-settings-persisted",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "settings persisted",
       "published": false,
@@ -16860,7 +17272,8 @@
     },
     {
       "id": "rocket_output-18-settings-recheck-saved",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "settings recheck saved",
       "published": false,
@@ -16868,7 +17281,8 @@
     },
     {
       "id": "rocket_output-19-settings-save-completed",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "settings save completed",
       "published": false,
@@ -16876,7 +17290,8 @@
     },
     {
       "id": "rocket_output-20-settings-refresh-verified",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "settings refresh verified",
       "published": false,
@@ -16884,7 +17299,8 @@
     },
     {
       "id": "rocket_output-21-iteration-draft",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "iteration draft",
       "published": false,
@@ -16892,7 +17308,8 @@
     },
     {
       "id": "rocket_output-22-iteration-filter",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "iteration filter",
       "published": false,
@@ -16900,7 +17317,8 @@
     },
     {
       "id": "rocket_output-23-approval-count-persisted",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "approval count persisted",
       "published": false,
@@ -16908,7 +17326,8 @@
     },
     {
       "id": "rocket_output-24-draft-after-refresh",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "draft after refresh",
       "published": false,
@@ -16916,7 +17335,8 @@
     },
     {
       "id": "rocket_output-25-approval-activity",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "approval activity",
       "published": false,
@@ -16924,7 +17344,8 @@
     },
     {
       "id": "rocket_output-26-approved-queue-empty",
-      "platform": "rocket_output",
+      "platform": "rocket",
+      "sourceGroup": "rocket_output",
       "kind": "app-output",
       "label": "approved queue empty",
       "published": false,
@@ -16933,6 +17354,7 @@
     {
       "id": "v0-00-vercel-hosting-home",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "vercel hosting home",
       "published": false,
@@ -16941,6 +17363,7 @@
     {
       "id": "v0-01-signed-in-home",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "signed in home",
       "published": false,
@@ -16949,6 +17372,7 @@
     {
       "id": "v0-02-terms-gate",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "terms gate",
       "published": false,
@@ -16957,6 +17381,7 @@
     {
       "id": "v0-03-model-options",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "model options",
       "published": false,
@@ -16965,6 +17390,7 @@
     {
       "id": "v0-04-benchmark-prompt",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "benchmark prompt",
       "published": false,
@@ -16973,6 +17399,7 @@
     {
       "id": "v0-10-project-menu",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "project menu",
       "published": false,
@@ -16981,6 +17408,7 @@
     {
       "id": "v0-11-publish-setup",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "publish setup",
       "published": false,
@@ -16989,6 +17417,7 @@
     {
       "id": "v0-12-iteration-submitted",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "iteration submitted",
       "published": false,
@@ -16997,6 +17426,7 @@
     {
       "id": "v0-13-iteration-credit-limit",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "iteration credit limit",
       "published": false,
@@ -17005,6 +17435,7 @@
     {
       "id": "v0-14-iteration-stopped-credit",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "iteration stopped credit",
       "published": false,
@@ -17013,6 +17444,7 @@
     {
       "id": "v0-21-progress-check",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "progress check",
       "published": false,
@@ -17021,6 +17453,7 @@
     {
       "id": "v0-22-build-progress",
       "platform": "v0",
+      "sourceGroup": "v0",
       "kind": "platform",
       "label": "build progress",
       "published": true,
@@ -17028,7 +17461,8 @@
     },
     {
       "id": "v0_output-01-demo-entry",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "demo entry",
       "published": false,
@@ -17036,7 +17470,8 @@
     },
     {
       "id": "v0_output-02-dashboard",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "dashboard",
       "published": false,
@@ -17044,7 +17479,8 @@
     },
     {
       "id": "v0_output-03-inbox",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "inbox",
       "published": false,
@@ -17052,7 +17488,8 @@
     },
     {
       "id": "v0_output-04-combined-filters",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "combined filters",
       "published": false,
@@ -17060,7 +17497,8 @@
     },
     {
       "id": "v0_output-05-empty-search",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "empty search",
       "published": false,
@@ -17068,7 +17506,8 @@
     },
     {
       "id": "v0_output-06-assistant-draft",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "assistant draft",
       "published": false,
@@ -17076,7 +17515,8 @@
     },
     {
       "id": "v0_output-07-review-before-send",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "review before send",
       "published": false,
@@ -17084,7 +17524,8 @@
     },
     {
       "id": "v0_output-08-reply-persisted",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "reply persisted",
       "published": false,
@@ -17092,7 +17533,8 @@
     },
     {
       "id": "v0_output-09-new-ticket-form",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "new ticket form",
       "published": false,
@@ -17100,7 +17542,8 @@
     },
     {
       "id": "v0_output-10-required-fields",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "required fields",
       "published": false,
@@ -17108,7 +17551,8 @@
     },
     {
       "id": "v0_output-11-knowledge-base",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "knowledge base",
       "published": false,
@@ -17116,7 +17560,8 @@
     },
     {
       "id": "v0_output-12-kb-persisted",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "kb persisted",
       "published": false,
@@ -17124,7 +17569,8 @@
     },
     {
       "id": "v0_output-13-mobile-settings-persisted",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "mobile settings persisted",
       "published": false,
@@ -17132,7 +17578,8 @@
     },
     {
       "id": "v0_output-14-mobile-navigation",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "mobile navigation",
       "published": false,
@@ -17140,7 +17587,8 @@
     },
     {
       "id": "v0_output-15-mobile-inbox",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "mobile inbox",
       "published": false,
@@ -17148,7 +17596,8 @@
     },
     {
       "id": "v0_output-16-mobile-detail",
-      "platform": "v0_output",
+      "platform": "v0",
+      "sourceGroup": "v0_output",
       "kind": "app-output",
       "label": "mobile detail",
       "published": false,

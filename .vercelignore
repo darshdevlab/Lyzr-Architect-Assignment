@@ -1,0 +1,5 @@
+.git
+.env*
+validate.py
+browser-checks.json
+README.md
