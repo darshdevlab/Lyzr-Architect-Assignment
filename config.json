@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "name": "Architect",
+    "mark": "assets/architect-mark.svg"
+  },
+  "versions": {
+    "2.0": {
+      "liveUrl": "https://lyzr-architect-2.vercel.app",
+      "repoUrl": "https://github.com/darshdevlab/lyzr-architect-2.0",
+      "verified": false,
+      "screenshots": []
+    },
+    "3.0": {
+      "liveUrl": "https://lyzr-architect-3.vercel.app",
+      "repoUrl": "https://github.com/darshdevlab/lyzr-architect-3.0",
+      "verified": false,
+      "screenshots": []
+    },
+    "4.0": {
+      "liveUrl": "https://lyzr-architect-4.vercel.app",
+      "repoUrl": "https://github.com/darshdevlab/lyzr-architect-4.0",
+      "verified": false,
+      "screenshots": []
+    }
+  },
+  "showcase": {
+    "repoUrl": "https://github.com/darshdevlab/lyzr-architect-assignment"
+  }
+}
