@@ -2,14 +2,14 @@
 
 Three working prototype editions and their research showcase, maintained in one repository. Editions share one React application, API and data model; `VITE_EDITION` selects the experience at build time.
 
-| Experience    | Scope                                                        | Intended address                     |
+| Experience    | Scope                                                        | Live address                         |
 | ------------- | ------------------------------------------------------------ | ------------------------------------ |
 | Architect 2.0 | Developer build, agent, review, test and release workflows   | https://architect2.darshdave.com     |
 | Architect 3.0 | Company roles, planning, business workflows and bot teams    | https://architect3.darshdave.com     |
 | Architect 4.0 | Private infrastructure, installation and governance journeys | https://architect4.darshdave.com     |
 | Assignment    | Research, feature journeys, rationale and evidence           | https://lyzrassignment.darshdave.com |
 
-These addresses are deployment targets. Consolidating source does not itself publish or verify them.
+All four custom-domain deployments are live. Google sign-in was checked on all three application origins; they retain the same Supabase accounts and project data. See `docs/DOMAIN-MIGRATION.md` for verification and service limitations.
 
 ## Structure
 

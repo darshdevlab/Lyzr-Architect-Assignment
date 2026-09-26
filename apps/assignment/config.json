@@ -7,7 +7,7 @@
     "2.0": {
       "liveUrl": "https://architect2.darshdave.com",
       "repoUrl": "https://github.com/darshdevlab/Lyzr-Architect-Assignment/tree/main/apps/platform",
-      "verified": false,
+      "verified": true,
       "screenshots": [
         {
           "image": "assets/architect-2-agent-canvas.png",
@@ -2052,12 +2052,12 @@
           "showInGallery": true
         }
       ],
-      "browserNote": "Deployment responds successfully and the in-app browser was usable. Chrome later reported ERR_BLOCKED_BY_CLIENT in one test session; availability is not verified across all browsers."
+      "browserNote": "Custom-domain deployment and Google sign-in checked on 27 September 2026. The shared account and existing project are retained. Advanced integrations remain explicitly labeled prototypes. Historical Google reviews for the old Vercel URLs remain unresolved; these checks do not certify those review outcomes."
     },
     "3.0": {
       "liveUrl": "https://architect3.darshdave.com",
       "repoUrl": "https://github.com/darshdevlab/Lyzr-Architect-Assignment/tree/main/apps/platform",
-      "verified": false,
+      "verified": true,
       "screenshots": [
         {
           "image": "assets/v3/company-overview-overview.png",
@@ -3713,12 +3713,12 @@
           "showInGallery": true
         }
       ],
-      "browserNote": "Chrome displayed a Dangerous site warning during verification. The deployment responds to API checks, but browser access is not cleared. Do not bypass the warning; use the documented screenshots until it is resolved."
+      "browserNote": "Custom-domain deployment and Google sign-in checked on 27 September 2026. The shared account and existing project are retained. Advanced integrations remain explicitly labeled prototypes. Historical Google reviews for the old Vercel URLs remain unresolved; these checks do not certify those review outcomes."
     },
     "4.0": {
       "liveUrl": "https://architect4.darshdave.com",
       "repoUrl": "https://github.com/darshdevlab/Lyzr-Architect-Assignment/tree/main/apps/platform",
-      "verified": false,
+      "verified": true,
       "screenshots": [
         {
           "image": "assets/v4-overview/01-placement.png",
@@ -3883,7 +3883,7 @@
           "showInGallery": true
         }
       ],
-      "browserNote": "Deployment is reachable. Screens show infrastructure planning and simulated installation states, not a real private-cloud installation."
+      "browserNote": "Custom-domain deployment and Google sign-in checked on 27 September 2026. The shared account and existing project are retained. Advanced integrations remain explicitly labeled prototypes. Historical Google reviews for the old Vercel URLs remain unresolved; these checks do not certify those review outcomes."
     }
   },
   "showcase": {
