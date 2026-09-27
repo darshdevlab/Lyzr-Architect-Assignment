@@ -3285,3 +3285,15 @@ body:has(dialog[open]) .section-rail,
 @media (max-width: 1100px) { .build-levels { gap: 12px; } .build-level { padding: 18px; } }
 @media (max-width: 900px) { .build-levels { grid-template-columns: 1fr; } .build-level { padding: 26px; } .build-level h2 { flex-direction: row; align-items: baseline; gap: 14px; } .build-level-visual { justify-content: flex-start; padding-left: 20px; } .build-level-description p { max-width: 50ch; } }
 @media (prefers-reduced-motion: reduce) { .build-level { transition: none; } .build-level:hover { transform: none; } }
+
+/* A delayed, non-interactive guide to the first research step. */
+.home-guide-pointer { position: fixed; z-index: 100; width: 32px; height: 38px; pointer-events: none; filter: drop-shadow(0 2px 4px #0005); }
+.home-guide-pointer[hidden] { display: none; }
+.home-guide-cursor { display: block; width: 29px; height: 34px; background: var(--accent); clip-path: polygon(0 0, 5% 92%, 29% 70%, 47% 100%, 63% 91%, 45% 62%, 81% 58%); transform-origin: 0 0; }
+.home-guide-ripple { position: absolute; left: -15px; top: -15px; width: 30px; height: 30px; border: 2px solid var(--accent); border-radius: 50%; opacity: 0; }
+.home-guide-pointer.is-clicking .home-guide-cursor { animation: guide-click 1.8s ease-in-out infinite; }
+.home-guide-pointer.is-clicking .home-guide-ripple { animation: guide-ripple 1.8s ease-out infinite; }
+.intro-path.home-guide-target { border-color: var(--accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 18%, transparent); }
+@keyframes guide-click { 0%, 18%, 100% { transform: scale(1); } 9% { transform: scale(.8); } }
+@keyframes guide-ripple { 0% { opacity: 0; transform: scale(.3); } 10% { opacity: .65; } 55%, 100% { opacity: 0; transform: scale(1.5); } }
+@media (prefers-reduced-motion: reduce) { .home-guide-pointer * { animation: none !important; } }

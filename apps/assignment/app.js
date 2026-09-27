@@ -1,3 +1,5 @@
+import { setupHomeGuide } from './home-guide.js';
+
 const $ = (s) => document.querySelector(s);
 const esc = (v) =>
   String(v ?? '').replace(
@@ -1025,6 +1027,7 @@ function visiblePlatforms() {
   return D.platforms.filter((platform) => platform.key !== 'claude');
 }
 function render() {
+  setupHomeGuide(false);
   if (location.hash === '#baseline') history.replaceState(null, '', '#scope/features/inherited');
   if (/^#platform\/claude(?:\/|$)/.test(location.hash)) {
     history.replaceState(
@@ -1100,6 +1103,7 @@ function render() {
   setupPageJump();
   window.scrollTo(0, 0);
   if (part === 'home') {
+    setupHomeGuide(true);
     $('#breadcrumb').textContent = 'Assignment introduction';
     document.title = 'Darsh Dave · Architect product study';
     return;

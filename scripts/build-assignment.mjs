@@ -6,7 +6,7 @@ const source = join(root, 'apps/assignment');
 const output = join(source, 'dist');
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
-for (const name of ['index.html', 'app.js', 'style.css', 'config.json', 'data.json'])
+for (const name of ['index.html', 'app.js', 'home-guide.js', 'style.css', 'config.json', 'data.json'])
   await cp(join(source, name), join(output, name));
 await cp(join(root, 'docs/evidence/showcase-assets'), join(output, 'assets'), { recursive: true });
 await cp(join(source, 'media'), join(output, 'media'), { recursive: true });
