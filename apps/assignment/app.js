@@ -791,7 +791,22 @@ function selectScope(route, focusId) {
   if (focusId) document.getElementById(focusId)?.focus({ preventScroll: true });
 }
 function build() {
-  return `${pageHead('02 / Build', 'One foundation.<br>Three ways forward.', 'A deliberate progression from building an application, to connecting a company’s work, to operating the platform within its own infrastructure. Three different frontends share the project, identity and data foundation.')}<div class="grid">${versionCards()}</div>${callout('Custom domains verified.', 'The custom-domain editions loaded and Google sign-in completed on 27 September 2026. Historical warnings and pending Google reviews for the old Vercel URLs remain documented; these checks are not a clearance of those reviews.')}${callout('Scope is cumulative. Counts are not additive to the baseline.', 'Architect 2.0 introduces 65 packages; 3.0 adds 42, reaching 107; 4.0 adds 2, reaching 109, while extending existing packages for private operation. These packages include 40 enhancements and 69 new proposals. The 422 existing interactions are a different unit and are not added to 109.')}${heading('experience', 'The experience contract.')}<div class="grid"><div class="card"><h3>Progressive depth</h3><p>Begin with intent, import or a role-specific task. Reveal source, infrastructure and policy when relevant. Keep simple and advanced views attached to the same project.</p></div><div class="card"><h3>Context travels</h3><p>Carry project, object, permissions, selection and drafts into linked products. Inspect in a drawer; open a workspace for sustained work. Return to the same place.</p></div><div class="card"><h3>Clear capability labels</h3><p>Distinguish working functionality, interactive prototypes and future integrations. Never present a simulated test, purchase, deployment or external action as executed.</p></div></div>${heading('design-system', 'A quiet system with character.')}<div class="split"><div class="card"><h3>Atelier / Current / Prism</h3><p>Warm editorial, calm technical, and expressive professional palettes. Each has light and dark modes. Appearance is a personal preference, independent of permissions or job title.</p><div class="actions"><button data-theme-choice="atelier">Atelier</button><button data-theme-choice="current">Current</button><button data-theme-choice="prism">Prism</button></div></div><div class="card"><h3>Craft in the transitions</h3><p>Visible prompts before the first build. Helpful empty states. Reviewable changes. Saved checkpoints. A persistent project switcher. Profile, logout, limits and settings where people expect them.</p></div></div><div class="actions"><a class="button primary" href="#features">Explore all 109 feature journeys →</a></div>`;
+  const levels = [
+    { version: '2.0', label: 'Build an application', audience: 'Individuals & developers', summary: 'Go from an idea or existing project to a working application.', items: ['Prompt, plan & build', 'Code, agents & models', 'Test, review & release'], visual: '<span>Idea</span><i>→</i><span>Build</span><i>→</i><span>App</span>' },
+    { version: '3.0', label: 'Connect the company', audience: 'Teams & business functions', summary: 'Bring people, decisions and delivery into one shared workspace.', items: ['Everything in 2.0', 'Role-based workspaces & workflows', 'Bot teams, insights & collaboration'], visual: '<span>People</span><i>↔</i><span>Agents</span><i>↔</i><span>Work</span>' },
+    { version: '4.0', label: 'Own the infrastructure', audience: 'Enterprise & platform teams', summary: 'Extend the company platform into a private infrastructure experience.', items: ['Everything in 3.0', 'Cloud, identity & network setup', 'Installation, governance & operations'], visual: '<span>Company</span><i>→</i><span>Private cloud</span>' },
+  ];
+  return `<section class="build-overview" aria-labelledby="build-overview-title">
+    <header class="build-overview-header"><span class="eyebrow">02 / BUILD</span><h1 id="build-overview-title">Three levels of Architect.</h1><p>Build an app. Connect a company. Make it your own.</p></header>
+    <div class="build-levels">${levels.map((level, i) => `<a class="build-level" href="#build/${level.version}">
+      <div class="build-level-top"><span>LEVEL 0${i + 1}</span><span aria-hidden="true">↗</span></div>
+      <h2>Architect <strong>${level.version}</strong></h2>
+      <div class="build-level-visual" aria-hidden="true">${level.visual}</div>
+      <div class="build-level-description"><span class="build-level-audience">${level.audience}</span><h3>${level.label}</h3><p>${level.summary}</p></div>
+      <ul>${level.items.map(item => `<li>${item}</li>`).join('')}</ul>
+      <span class="build-level-link">Explore Architect ${level.version}<span aria-hidden="true">→</span></span>
+    </a>`).join('')}</div>
+  </section>`;
 }
 function version(v) {
   const e = edition[v];
@@ -939,7 +954,7 @@ let sectionRailFrame;
 function setupPageJump() {
   document.querySelector('.section-rail')?.remove();
   pageJumpSections = [];
-  if (document.body.classList.contains('landing')) return;
+  if (document.body.classList.contains('landing') || document.querySelector('.build-overview')) return;
   const headings = [...document.querySelectorAll('#content h2, #content h3')].filter(
     (el) => !el.closest('[hidden], details, .horizontal-journey, .screenshot, .scope-journey'),
   );

@@ -3261,3 +3261,27 @@ body:has(dialog[open]) .section-rail,
 .brand-mark img {
   object-fit: contain;
 }
+
+/* Build landing: three editions, one clear progression. */
+.build-overview-header { margin: 4px 0 40px; }
+.build-overview-header h1 { font-family: Georgia, serif; font-size: clamp(36px, 4.2vw, 64px); font-weight: 500; letter-spacing: -.045em; line-height: 1.1; margin: 18px 0; }
+.build-overview-header p { color: var(--muted); font-size: 18px; }
+.build-levels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.build-level { display: flex; flex-direction: column; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 26px; text-decoration: none; transition: border-color .2s, transform .2s; min-width: 0; }
+.build-level:hover { border-color: var(--accent); transform: translateY(-4px); }
+.build-level-top { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .14em; }
+.build-level-top span:last-child { color: var(--accent); font-size: 22px; }
+.build-level h2 { display: flex; flex-direction: column; gap: 6px; font-size: 21px; font-weight: 500; margin: 22px 0; }
+.build-level h2 strong { font-family: Georgia, serif; font-size: clamp(58px, 6vw, 86px); line-height: 1; font-weight: 400; letter-spacing: -.06em; color: var(--accent); }
+.build-level-visual { display: flex; align-items: center; justify-content: center; gap: 8px; background: var(--accent-soft); border-radius: 12px; min-height: 90px; padding: 14px 8px; margin: 4px 0 26px; color: var(--accent); }
+.build-level-visual span { border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); background: var(--surface); padding: 9px 7px; border-radius: 6px; font-size: 11px; font-weight: 600; text-align: center; }
+.build-level-visual i { font-style: normal; }
+.build-level-audience { color: var(--muted); font-size: 12px; }
+.build-level h3 { font-size: 23px; letter-spacing: -.035em; margin: 10px 0; }
+.build-level-description p { font-size: 14px; line-height: 1.7; color: var(--muted); margin: 0; }
+.build-level ul { list-style: none; padding: 20px 0; margin: auto 0 0; font-size: 13px; line-height: 1.6; }
+.build-level li { padding: 7px 0; border-bottom: 1px solid var(--line); }
+.build-level-link { display: flex; justify-content: space-between; align-items: center; color: var(--accent); font-size: 13px; font-weight: 600; padding-top: 8px; gap: 8px; }
+@media (max-width: 1100px) { .build-levels { gap: 12px; } .build-level { padding: 18px; } }
+@media (max-width: 900px) { .build-levels { grid-template-columns: 1fr; } .build-level { padding: 26px; } .build-level h2 { flex-direction: row; align-items: baseline; gap: 14px; } .build-level-visual { justify-content: flex-start; padding-left: 20px; } .build-level-description p { max-width: 50ch; } }
+@media (prefers-reduced-motion: reduce) { .build-level { transition: none; } .build-level:hover { transform: none; } }
