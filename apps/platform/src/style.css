@@ -2746,3 +2746,7 @@ html[data-density='compact'] .nav-item {
     transition: none;
   }
 }
+
+.mobile-menu[hidden] {
+  display: none;
+}

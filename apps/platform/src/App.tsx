@@ -927,6 +927,7 @@ export default function App() {
           <div className="row">
             <button
               className="mobile-menu icon-button"
+              hidden={mobileNav}
               ref={navToggleRef}
               aria-expanded={mobileNav}
               aria-controls="workspace-navigation"
