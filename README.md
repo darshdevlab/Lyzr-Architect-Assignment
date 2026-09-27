@@ -11,6 +11,14 @@ Three working prototype editions and their research showcase, maintained in one 
 
 All four custom-domain deployments are live. Google sign-in was checked on all three application origins; they retain the same Supabase accounts and project data. See `docs/DOMAIN-MIGRATION.md` for verification and service limitations.
 
+## Architecture submission files
+
+- [Architecture PDF](docs/architecture/ARCHITECTURE.pdf) - 58 pages with four labelled, GPT-generated diagrams, current-system boundaries, proposed HLD/LLD and complete scope registers. Upload this to **Architecture diagram**.
+- [Architecture Markdown](docs/architecture/ARCHITECTURE.md) - technical decisions, sandboxing, agent harness, project/agent memory, data and API contracts, all edition-specific feature scopes and journeys. Upload this to **Describe your architecture (.md file)**.
+- [Architecture reading guide](docs/architecture/README.md) - file contents, coverage and implementation status.
+
+The documents cover all **109 feature packages**, **422 inherited interaction records**, **228 handoffs** and **16 product areas** in the canonical assignment scope. Coverage means documented architecture and traceability, not that every proposed integration is live. The working prototype and proposed runtime are explicitly separated. Website Architecture and HLD & LLD tabs are deferred pending approval.
+
 ## Structure
 
 - `apps/platform/` — shared React/Vite UI, server API, operational SQL, tests and container configuration.

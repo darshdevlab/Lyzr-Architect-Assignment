@@ -1,0 +1,32 @@
+{
+  "source_commit": "72c923c",
+  "feature_packages": 109,
+  "inherited_interactions": 422,
+  "handoffs": 228,
+  "products": 16,
+  "first_introduction": {
+    "2.0": 65,
+    "3.0": 42,
+    "4.0": 2
+  },
+  "classification": {
+    "Enhance": 40,
+    "New": 69
+  },
+  "all_parent_and_handoff_references_resolve": true,
+  "coverage_is_not_live_execution": true,
+  "pdf_pages": 58,
+  "upload_limits_pass": true,
+  "transparent_labelled_diagrams": 4,
+  "render_review": "All four diagram pages plus cover and coverage sample visually inspected; all pages checked for text within page margins.",
+  "files": {
+    "ARCHITECTURE.pdf": {
+      "bytes": 9432696,
+      "sha256": "cbc08499a4cb7187c32397f9e678b696e188fb75dc6be193a492aa9d7bb390b6"
+    },
+    "ARCHITECTURE.md": {
+      "bytes": 262826,
+      "sha256": "ec0ae47a6be5e08b270438336682aecb8c37f5c9503d3c10b9b9f4aa7b89ff27"
+    }
+  }
+}
