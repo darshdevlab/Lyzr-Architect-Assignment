@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Start building",
+    "question": "How do I build my first app?",
+    "answer": "From Your workspace, describe your app and choose Start building. In Build Studio, use the prompt box beside Preview and Code. Signed-in users can request live AI; demo mode uses local templates. Review the generated result before using or exporting it.",
+    "view": "studio"
+  },
+  {
+    "title": "GitHub & repositories",
+    "question": "Can I connect and clone a GitHub repository?",
+    "answer": "GitHub is currently a prototype workflow. Code & repositories saves a repository reference and import or PR plans. It does not authorize a GitHub account, fetch or clone source, push commits, create remote PRs or merge them. The complete repository file-explorer/editor/chat workspace is not implemented yet.",
+    "view": "code"
+  },
+  {
+    "title": "Saving & accounts",
+    "question": "Where are my projects saved?",
+    "answer": "Demo projects are saved in this browser. Signed-in personal projects use the shared Supabase backend; company projects require membership and the appropriate role. Wait for Saved to your account before leaving. If saving fails, export unsaved work before reloading. Google and email/password sign-in are available when the service is configured.",
+    "view": "projects"
+  },
+  {
+    "title": "Models & limits",
+    "question": "Why is my AI request failing?",
+    "answer": "Live AI needs a signed-in account and an available free OpenRouter model. The shared prototype allows up to 10 attempts per user and 40 total attempts per UTC day, with 15 seconds between attempts. Failed attempts may count. Provider limits are separate. Preserve your prompt, wait, or choose another available free model. Support AI uses the same allowance.",
+    "view": "models"
+  },
+  {
+    "title": "Company access",
+    "question": "How can my team join?",
+    "answer": "Sign in, then use workspace settings or the workspace switcher for company access. Admins create invitation links and assign roles; invitees must use the invited verified email. This prototype does not send invitation emails, generate temporary passwords or provide a live enterprise SSO adapter. A matching email domain alone does not grant membership.",
+    "view": "settings"
+  },
+  {
+    "title": "Versions & deployment",
+    "question": "What is the difference between Architect 2.0, 3.0 and 4.0?",
+    "answer": "2.0 focuses on app building and developer workflows. 3.0 adds company roles, planning, business workflows and bot-team prototypes. 4.0 adds private infrastructure and installation journeys. The three hosted editions run on Vercel and share Supabase accounts and data. Private-cloud provisioning, external agent execution and generated-app deployment workflows are simulations unless explicitly marked as live.",
+    "view": "release"
+  }
+]

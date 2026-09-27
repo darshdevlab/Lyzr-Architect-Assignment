@@ -3,7 +3,7 @@ import { EDITION } from '../lib/edition';
 export function Brand({ version = true }: { version?: boolean }) {
   return (
     <span className="architect-brand">
-      <img src="/favicon.svg" width="32" height="32" alt="" />
+      <img src="/architect-mascot.svg" width="32" height="32" alt="" />
       <strong>architect</strong>
       {version && <small>{EDITION}.0</small>}
     </span>

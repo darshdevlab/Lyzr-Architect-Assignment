@@ -2750,3 +2750,10 @@ html[data-density='compact'] .nav-item {
 .mobile-menu[hidden] {
   display: none;
 }
+
+.architect-brand img {
+  background: #fff;
+  border-radius: 50%;
+  object-fit: contain;
+  padding: 2px;
+}

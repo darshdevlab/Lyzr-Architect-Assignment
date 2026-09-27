@@ -10,3 +10,7 @@
 Raw platform verification images, DOM snapshots, generated app test outputs and provider/database result dumps are intentionally excluded. They are not needed to run the project and may contain account or session details. Their original paths remain in the source manifest without copying their contents. Curated public images can still show the earlier interface and are historical evidence, not screenshots of this consolidated release.
 
 Do not place credentials, private accounts, customer content or unreviewed browser captures here. Review new screenshots before publication. Current deployment URLs belong in `apps/platform/src/lib/edition.ts` and `apps/assignment/config.json`.
+
+## Architect mascot
+
+The user-requested hard-hat mascot is the original vector asset from https://www.architect.new/architect-mascot.svg, retrieved on 27 September 2026. Unmodified copies are used for the platform brand, support launcher and assignment identity. This remains an independent hiring prototype, not the official Lyzr service.

@@ -83,7 +83,7 @@ function pageHead(k, title, lead) {
   return `<div class="page-head"><div class="eyebrow">${k}</div><h1 class="page-title">${title}</h1><p class="lead">${lead}</p></div>`;
 }
 const platformIdentity = {
-  architect: { name: 'Architect + Lyzr', logo: 'architect.png' },
+  architect: { name: 'Architect + Lyzr', logo: '../architect-mascot.svg' },
   replit: { name: 'Replit', logo: 'replit.png' },
   lovable: { name: 'Lovable', logo: 'lovable.svg' },
   emergent: { name: 'Emergent', logo: 'emergent.png' },

@@ -64,6 +64,7 @@ import { Appearance, Modal, PageTitle, Status, ThemeOptions } from './components
 import Studio, { download } from './components/Studio';
 import { Workbench } from './components/Workbench';
 import Auth from './components/Auth';
+import SupportChat from './components/SupportChat';
 import AccountCenter from './components/AccountCenter';
 import { readAppearance, saveAppearance, type PersonalAppearance } from './lib/appearance';
 import {
@@ -1512,6 +1513,12 @@ export default function App() {
           )}
         </main>
       </div>
+      <SupportChat
+        key={session?.id || 'demo'}
+        active={view === 'today' && !modal}
+        demo={demo}
+        onNavigate={navigate}
+      />
       {toast && (
         <div className="toast" role="status">
           <Check size={16} />

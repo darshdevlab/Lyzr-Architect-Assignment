@@ -406,7 +406,7 @@ export async function generate(
   input: {
     prompt: string;
     model?: string;
-    mode?: 'app' | 'plan' | 'chat';
+    mode?: 'app' | 'plan' | 'chat' | 'support';
     context?: string;
     images?: { name?: string; dataUrl: string }[];
   },

@@ -3252,3 +3252,12 @@ body:has(dialog[open]) .section-rail,
     gap: 7px;
   }
 }
+
+.brand-mark {
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+}
+.brand-mark img {
+  object-fit: contain;
+}
