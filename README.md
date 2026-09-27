@@ -17,7 +17,7 @@ All four custom-domain deployments are live. Google sign-in was checked on all t
 - [Architecture Markdown](docs/architecture/ARCHITECTURE.md) - technical decisions, sandboxing, agent harness, project/agent memory, data and API contracts, all edition-specific feature scopes and journeys. Upload this to **Describe your architecture (.md file)**.
 - [Architecture reading guide](docs/architecture/README.md) - file contents, coverage and implementation status.
 
-The documents cover all **109 feature packages**, **422 inherited interaction records**, **228 handoffs** and **16 product areas** in the canonical assignment scope. Coverage means documented architecture and traceability, not that every proposed integration is live. The working prototype and proposed runtime are explicitly separated. Website Architecture and HLD & LLD tabs are deferred pending approval.
+The documents cover all **109 feature packages**, **422 inherited interaction records**, **228 handoffs** and **16 product areas** in the canonical assignment scope. Coverage means documented architecture and traceability, not that every proposed integration is live. The working prototype and proposed runtime are explicitly separated. Each edition now includes Architecture and HLD & LLD tabs, with labelled diagrams, component responsibilities, context and memory boundaries, data contracts and cumulative product/feature mappings. See [2.0](https://lyzrassignment.darshdave.com/#build/2.0/architecture), [3.0](https://lyzrassignment.darshdave.com/#build/3.0/architecture) and [4.0](https://lyzrassignment.darshdave.com/#build/4.0/architecture).
 
 ## Structure
 

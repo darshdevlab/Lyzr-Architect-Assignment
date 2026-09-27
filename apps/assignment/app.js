@@ -1,3 +1,4 @@
+import { editionArchitecture } from './architecture.js';
 import { setupHomeGuide } from './home-guide.js';
 
 const $ = (s) => document.querySelector(s);
@@ -814,7 +815,7 @@ function version(v) {
   const e = edition[v];
   if (!e) return notfound();
   const requested = location.hash.split('/')[2];
-  const active = ['scope', 'journey', 'prototype'].includes(requested) ? requested : 'scope';
+  const active = ['scope', 'journey', 'prototype', 'architecture', 'hld-lld'].includes(requested) ? requested : 'scope';
   const fs = D.features.filter((f) => +f.primary_introduction <= +v);
   const groups = D.products
     .map((p) => ({ ...p, rows: fs.filter((f) => f.product_key === p.product_key) }))
@@ -824,6 +825,8 @@ function version(v) {
     ['scope', 'Product Scope'],
     ['journey', 'User Journey'],
     ['prototype', 'Prototype Experience'],
+    ['architecture', 'Architecture'],
+    ['hld-lld', 'HLD & LLD'],
   ];
   const scopedGroups = groups.map((g) => ({
     ...g,
@@ -842,7 +845,9 @@ function version(v) {
           .join('')
       : active === 'journey'
         ? scopeJourneys(scopedGroups, false, new Map(D.features.map((f) => [f.feature_id, f])))
-        : editionPrototype(v, fs);
+        : active === 'architecture' || active === 'hld-lld'
+          ? editionArchitecture(v, active, fs, D.products)
+          : editionPrototype(v, fs);
   return `${pageHead('02 / Build', 'Architect ' + v, e.intro)}
     <div class="actions edition-actions">${conf.liveUrl ? `<a class="button primary" target="_blank" rel="noopener noreferrer" href="${esc(safeUrl(conf.liveUrl))}">Explore Architect ${v} ↗</a>` : ''}${conf.repoUrl ? `<a class="button" target="_blank" rel="noopener noreferrer" href="${esc(safeUrl(conf.repoUrl))}">GitHub ↗</a>` : ''}</div>
     <div class="platform-tabs edition-tabs" role="tablist" aria-label="Architect ${v} sections">${tabs.map(([id, label]) => `<button role="tab" id="edition-tab-${id}" aria-selected="${active === id}" aria-controls="edition-panel" tabindex="${active === id ? 0 : -1}" data-version="${v}" data-version-tab="${id}">${label}</button>`).join('')}</div>
@@ -958,7 +963,8 @@ function setupPageJump() {
   pageJumpSections = [];
   if (document.body.classList.contains('landing') || document.querySelector('.build-overview')) return;
   const headings = [...document.querySelectorAll('#content h2, #content h3')].filter(
-    (el) => !el.closest('[hidden], details, .horizontal-journey, .screenshot, .scope-journey'),
+    (el) => !el.closest('[hidden], details, .horizontal-journey, .screenshot, .scope-journey')
+      && !(el.tagName === 'H3' && el.closest('.edition-architecture')),
   );
   if (!headings.length) return;
   pageJumpSections = headings.map((el, i) => {
@@ -1101,6 +1107,11 @@ function render() {
   if ($('#feature-results')) featureResults(part === 'build' ? key : undefined);
   if ($('#baseline-results')) baselineResults();
   setupPageJump();
+  const selectedEditionTab = document.querySelector('.edition-tabs [aria-selected="true"]');
+  if (selectedEditionTab) {
+    const tabStrip = selectedEditionTab.parentElement;
+    tabStrip.scrollLeft = selectedEditionTab.offsetLeft - tabStrip.offsetLeft - (tabStrip.clientWidth - selectedEditionTab.offsetWidth) / 2;
+  }
   window.scrollTo(0, 0);
   if (part === 'home') {
     setupHomeGuide(true);
@@ -1216,14 +1227,14 @@ document.addEventListener('keydown', (event) => {
   const editionTab = event.target.closest('[data-version-tab]');
   if (editionTab && ['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) {
     event.preventDefault();
-    const tabs = ['scope', 'journey', 'prototype'];
+    const tabs = ['scope', 'journey', 'prototype', 'architecture', 'hld-lld'];
     const current = tabs.indexOf(editionTab.dataset.versionTab);
     const next =
       event.key === 'Home'
         ? 0
         : event.key === 'End'
-          ? 2
-          : (current + (event.key === 'ArrowRight' ? 1 : -1) + 3) % 3;
+          ? tabs.length - 1
+          : (current + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
     selectEditionTab(editionTab.dataset.version, tabs[next]);
     return;
   }

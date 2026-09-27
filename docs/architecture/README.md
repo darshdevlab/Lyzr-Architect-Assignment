@@ -33,4 +33,4 @@ Current code, interactive prototypes and proposed capabilities are distinguished
 
 [Diagram prompts](diagrams/PROMPTS.md) record the built-in GPT image-generation prompts. The four PNGs retain transparency, component labels and restrained visual styling. Titles and captions are part of the documents. Python was used only for document assembly, PDF layout and validation, not to draw or modify the architecture diagrams. No SVG or XML diagram source is used.
 
-Website changes are not part of this update. The Architecture and HLD & LLD tabs will be added only after approval.
+The assignment now presents this design in Architecture and HLD & LLD tabs after Prototype Experience for [Architect 2.0](https://lyzrassignment.darshdave.com/#build/2.0/architecture), [Architect 3.0](https://lyzrassignment.darshdave.com/#build/3.0/architecture) and [Architect 4.0](https://lyzrassignment.darshdave.com/#build/4.0/architecture). These pages reuse the canonical diagrams and download files above. The submitted PDF and Markdown remain the original documented architecture snapshot.
