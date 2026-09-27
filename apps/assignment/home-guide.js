@@ -86,5 +86,5 @@ export function setupHomeGuide(active) {
       }
       frame = requestAnimationFrame(move);
     }, 850);
-  }, 10000);
+  }, 3000);
 }

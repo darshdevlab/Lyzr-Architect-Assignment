@@ -171,8 +171,8 @@ function introduction() {
             rel="noopener noreferrer"
             ><span>LinkedIn ↗</span>linkedin.com/in/darsh-dave/</a
           >
-          <a href="https://github.com/darshdevlab" target="_blank" rel="noopener noreferrer"
-            ><span>GitHub ↗</span>github.com/darshdevlab</a
+          <a href="https://github.com/darshdevlab/Lyzr-Architect-Assignment" target="_blank" rel="noopener noreferrer"
+            ><span>GitHub ↗</span>Lyzr-Architect-Assignment</a
           >
         </address>
       </section>
