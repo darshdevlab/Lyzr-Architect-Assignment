@@ -2586,28 +2586,29 @@ html[data-density='compact'] .nav-item {
   flex-wrap: wrap;
 }
 
-/* Full-width workspaces with an on-demand navigation drawer. */
+/* Docked navigation preserves the user's choice across workspace routes. */
 .app-shell {
-  display: block;
+  display: grid;
+  grid-template-columns: 0 minmax(0, 1fr);
+}
+.app-shell.navigation-expanded {
+  grid-template-columns: 280px minmax(0, 1fr);
 }
 .sidebar {
-  position: fixed;
-  inset: 0 auto 0 0;
-  width: min(280px, calc(100vw - 40px));
+  position: sticky;
+  inset: auto;
+  top: 0;
+  width: 280px;
   height: 100dvh;
   display: flex;
-  transform: translateX(-100%);
   visibility: hidden;
   pointer-events: none;
-  transition:
-    transform 0.2s ease,
-    visibility 0.2s;
   overflow: hidden;
-  box-shadow: 12px 0 40px #0002;
+  transform: none;
+  box-shadow: none;
 }
 .sidebar.open {
-  left: 0;
-  transform: translateX(0);
+  left: auto;
   visibility: visible;
   pointer-events: auto;
 }
@@ -2618,16 +2619,69 @@ html[data-density='compact'] .nav-item {
   justify-content: center;
   min-width: 36px;
   min-height: 36px;
+  flex-shrink: 0;
 }
 .mobile-close {
   margin-left: auto;
 }
-.nav-scrim {
-  position: fixed;
-  inset: 0;
-  background: #15111c60;
-  backdrop-filter: blur(3px);
-  z-index: 19;
+.sidebar .brand {
+  gap: 6px;
+  padding: 0 2px;
+}
+.brand-home {
+  padding: 0;
+  color: inherit;
+  text-align: left;
+}
+.brand-home .architect-brand {
+  gap: 8px;
+}
+.brand-home .architect-brand strong {
+  font-size: 23px;
+}
+.workspace-home {
+  padding: 4px 0;
+  color: var(--muted);
+}
+.workspace-home:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+@media (max-width: 760px) {
+  .app-shell,
+  .app-shell.navigation-expanded {
+    display: block;
+  }
+  .sidebar {
+    display: none;
+    width: 100%;
+    height: auto;
+    max-height: 55dvh;
+    position: relative;
+    top: auto;
+  }
+  .sidebar.open {
+    display: flex;
+  }
+  .sidebar nav {
+    flex: 1;
+  }
+  .sidebar .sidebar-bottom .credit-card {
+    display: none;
+  }
+  .sidebar .sidebar-bottom {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .sidebar .profile-button {
+    flex: 1;
+    margin-top: 0;
+  }
+  .sidebar .brand {
+    justify-content: space-between;
+  }
 }
 .sidebar nav {
   overscroll-behavior: contain;

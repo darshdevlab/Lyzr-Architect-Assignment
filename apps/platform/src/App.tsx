@@ -20,7 +20,8 @@ import {
   ChevronDown,
   LogOut,
   Bell,
-  Menu,
+  ChevronsLeft,
+  PanelLeftOpen,
   X,
   Check,
   Copy,
@@ -178,7 +179,7 @@ export default function App() {
     [toast, setToast] = useState(''),
     [search, setSearch] = useState(''),
     [projectFilter, setProjectFilter] = useState('All'),
-    [mobileNav, setMobileNav] = useState(false),
+    [mobileNav, setMobileNav] = useState(true),
     [prompt, setPrompt] = useState(''),
     [newTitle, setNewTitle] = useState(''),
     [repo, setRepo] = useState(''),
@@ -191,51 +192,10 @@ export default function App() {
     [saveError, setSaveError] = useState(''),
     [company, setCompany] = useState<CompanySummary | null>(null);
   const navToggleRef = useRef<HTMLButtonElement>(null);
-  const navDrawerRef = useRef<HTMLElement>(null);
-  useEffect(() => {
-    if (modal) setMobileNav(false);
-  }, [modal]);
-  useEffect(() => {
-    if (!mobileNav) return;
-    const drawer = navDrawerRef.current;
-    const previousOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
-    const focusFrame = requestAnimationFrame(() =>
-      drawer?.querySelector<HTMLButtonElement>('.mobile-close')?.focus(),
-    );
-    const handleKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        event.preventDefault();
-        setMobileNav(false);
-      }
-      if (event.key === 'Tab') {
-        const items = Array.from(
-          drawer?.querySelectorAll<HTMLElement>('button:not(:disabled), a[href], [tabindex="0"]') ||
-            [],
-        ).filter((el) => el.getClientRects().length);
-        const first = items[0],
-          last = items[items.length - 1];
-        if (!drawer?.contains(document.activeElement)) {
-          event.preventDefault();
-          first?.focus();
-        } else if (event.shiftKey && document.activeElement === first) {
-          event.preventDefault();
-          last?.focus();
-        } else if (!event.shiftKey && document.activeElement === last) {
-          event.preventDefault();
-          first?.focus();
-        }
-      }
-    };
-    document.addEventListener('keydown', handleKey);
-    return () => {
-      cancelAnimationFrame(focusFrame);
-      document.body.style.overflow = previousOverflow;
-      document.removeEventListener('keydown', handleKey);
-      if (drawer?.contains(document.activeElement) || document.activeElement === document.body)
-        navToggleRef.current?.focus();
-    };
-  }, [mobileNav]);
+  function collapseNavigation() {
+    setMobileNav(false);
+    requestAnimationFrame(() => navToggleRef.current?.focus());
+  }
   const companyRef = useRef<CompanySummary | null>(null);
   const workspaceEpoch = useRef(0);
   const saveErrorRef = useRef(saveError);
@@ -282,7 +242,6 @@ export default function App() {
     const context = typeof target === 'object' ? target : {};
     setView(v);
     setNavigationContext(context);
-    setMobileNav(false);
     const u = writeContext(new URL(location.href), context);
     u.searchParams.set('view', v);
     const contextId = typeof target === 'string' ? target : storeRef.current.activeProject;
@@ -857,26 +816,31 @@ export default function App() {
     )[view] ||
     'Workspace';
   return (
-    <div className="app-shell">
+    <div className={'app-shell' + (mobileNav ? ' navigation-expanded' : '')}>
       <a className="skip-link" href="#main">
         Skip to workspace
       </a>
       <aside
         id="workspace-navigation"
-        ref={navDrawerRef}
         className={'sidebar ' + (mobileNav ? 'open' : '')}
         inert={!mobileNav}
         aria-hidden={!mobileNav}
         aria-label="Workspace navigation"
       >
         <div className="brand">
-          <Brand />
+          <button
+            className="brand-home"
+            aria-label="Architect home"
+            onClick={() => navigate('today')}
+          >
+            <Brand />
+          </button>
           <button
             className="mobile-close icon-button"
-            aria-label="Close navigation"
-            onClick={() => setMobileNav(false)}
+            aria-label="Collapse navigation"
+            onClick={collapseNavigation}
           >
-            <X size={18} />
+            <ChevronsLeft size={19} />
           </button>
         </div>
         <button className="workspace-switch" onClick={() => setModal('company-access')}>
@@ -958,15 +922,7 @@ export default function App() {
           </button>
         </div>
       </aside>
-      {mobileNav && (
-        <button
-          className="nav-scrim"
-          tabIndex={-1}
-          aria-label="Close navigation"
-          onClick={() => setMobileNav(false)}
-        />
-      )}
-      <div className={'main-shell' + (view === 'studio' ? ' studio-shell' : '')} inert={mobileNav}>
+      <div className={'main-shell' + (view === 'studio' ? ' studio-shell' : '')}>
         <header className="topbar">
           <div className="row">
             <button
@@ -974,13 +930,21 @@ export default function App() {
               ref={navToggleRef}
               aria-expanded={mobileNav}
               aria-controls="workspace-navigation"
-              aria-label="Open navigation"
-              onClick={() => setMobileNav(true)}
+              aria-label={mobileNav ? 'Collapse navigation' : 'Open navigation'}
+              onClick={() => (mobileNav ? collapseNavigation() : setMobileNav(true))}
             >
-              <Menu size={19} />
+              {mobileNav ? <ChevronsLeft size={19} /> : <PanelLeftOpen size={19} />}
             </button>
             <span className="breadcrumb">
-              Workspace <span>/</span> <strong>{title}</strong>
+              {view !== 'today' && (
+                <>
+                  <button className="workspace-home" onClick={() => navigate('today')}>
+                    Workspace
+                  </button>
+                  <span aria-hidden="true">/</span>
+                </>
+              )}
+              <strong>{title}</strong>
             </span>
           </div>
           <div className="topbar-actions">
