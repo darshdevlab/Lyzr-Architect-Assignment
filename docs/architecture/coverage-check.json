@@ -18,15 +18,19 @@
   "pdf_pages": 58,
   "upload_limits_pass": true,
   "transparent_labelled_diagrams": 4,
-  "render_review": "All four diagram pages plus cover and coverage sample visually inspected; all pages checked for text within page margins.",
+  "dates_removed": true,
+  "em_dashes_removed": true,
+  "body_text_justified": true,
+  "verified_index_sections": 20,
+  "index_links_verified_against_destination_pages": true,
   "files": {
     "ARCHITECTURE.pdf": {
-      "bytes": 9432696,
-      "sha256": "cbc08499a4cb7187c32397f9e678b696e188fb75dc6be193a492aa9d7bb390b6"
+      "bytes": 9455456,
+      "sha256": "e95ac57973277e2f4fe5616a2f98f05811bbe7cfe44442072399058ddd6f9e5e"
     },
     "ARCHITECTURE.md": {
-      "bytes": 262826,
-      "sha256": "ec0ae47a6be5e08b270438336682aecb8c37f5c9503d3c10b9b9f4aa7b89ff27"
+      "bytes": 264310,
+      "sha256": "12542858c6e6d35aa54b57980d0ab79a57a255cf3a09f509bd86f963138ac2a5"
     }
   }
 }

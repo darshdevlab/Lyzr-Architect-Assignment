@@ -4,12 +4,12 @@ Two files are ready for the assignment form:
 
 | Upload field | File | Size |
 | --- | --- | --- |
-| Architecture diagram | [ARCHITECTURE.pdf](ARCHITECTURE.pdf) | About 9.4 MB; 58 pages; below 25 MB |
-| Describe your architecture (.md file) | [ARCHITECTURE.md](ARCHITECTURE.md) | About 263 KB; below 5 MB |
+| Architecture diagram | [ARCHITECTURE.pdf](ARCHITECTURE.pdf) | About 9.5 MB; 58 pages; below 25 MB |
+| Describe your architecture (.md file) | [ARCHITECTURE.md](ARCHITECTURE.md) | About 265 KB; below 5 MB |
 
 ## What to read
 
-The PDF starts with the current system and proposed roadmap, followed by labelled architecture diagrams for Architect 2.0, 3.0 and 4.0. A fourth diagram describes context and memory. The remaining technical sections specify the agent harness, sandboxing, state, data contracts, authorization, model routing, testing, deployment, company handoffs and private lifecycle. PDF bookmarks support navigation.
+The PDF starts with the current system and proposed roadmap, followed by labelled architecture diagrams for Architect 2.0, 3.0 and 4.0. A fourth diagram describes context and memory. The remaining technical sections specify the agent harness, sandboxing, state, data contracts, authorization, model routing, testing, deployment, company handoffs and private lifecycle. The clickable index and page numbers jump to all 20 main sections. Every page also has a Back to index link. Body paragraphs are justified; visible dates and em dashes have been removed.
 
 The PDF includes compact registers for every canonical feature package, inherited interaction and handoff. The Markdown expands each feature with its 2.0/3.0/4.0 scope, actors, entry, journey, outcome, recovery and architecture responsibility.
 

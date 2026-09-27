@@ -1,6 +1,31 @@
 # Architect: Architecture, HLD & LLD
 
-Darsh Dave | Product Manager assignment | 27 September 2026
+Darsh Dave | Product Manager assignment
+
+## Index
+
+- [Reading guide and scope](#section-0)
+- [Product roadmap and architectural boundaries](#section-1)
+- [Current system: what actually runs](#section-2)
+- [HLD: Architect 2.0](#section-3)
+- [HLD: Architect 3.0](#section-4)
+- [HLD: Architect 4.0](#section-5)
+- [Architecture decisions and trade-offs](#section-6)
+- [LLD: project and artifact model](#section-7)
+- [LLD: agent harness and execution](#section-8)
+- [LLD: context and memory](#section-9)
+- [LLD: API, events and concurrency](#section-10)
+- [LLD: sandbox, tools and GitHub](#section-11)
+- [LLD: models, costs, quality and release](#section-12)
+- [LLD: company handoffs and private operations](#section-13)
+- [Failure cases, verification and rollout gates](#section-14)
+- [Source references and inspection basis](#section-15)
+- [Appendix A: product and feature architecture coverage](#section-16)
+- [Appendix B: inherited interaction traceability](#section-17)
+- [Appendix C: cross-product handoff register](#section-18)
+- [Appendix D: late additions and cross-cutting details](#section-19)
+
+<a id="section-0"></a>
 
 ## Reading guide and scope
 
@@ -11,6 +36,8 @@ This document presents the architecture of the working prototype and a proposed 
 **Status vocabulary:** Current = supported by the inspected code; Prototype = a saved configuration or interactive demonstration, not an external action; Proposed = the target design described here. A feature appearing in the appendix establishes architectural traceability, not proof of production completion.
 
 There are 109 proposed feature packages: 40 enhancements and 69 new packages. Architect 2.0 introduces 65, 3.0 introduces 42 more (107 cumulative), and 4.0 introduces 2 more (109 cumulative). The 422 inherited interaction records are a separate measurement and must not be added to 109. Appendices preserve all package IDs, all inherited interaction IDs and all 228 documented cross-product handoffs.
+
+<a id="section-1"></a>
 
 ## Product roadmap and architectural boundaries
 
@@ -23,6 +50,8 @@ There are 109 proposed feature packages: 40 enhancements and 69 new packages. Ar
 All three hosted editions currently share one codebase and one Supabase account/data foundation, with three frontend deployments selected by `VITE_EDITION`. Separate origins do not mean an automatically shared browser session: each origin authenticates and retrieves the same authorized data. The assignment is a fourth, static deployment.
 
 A real private 4.0 installation is a different trust boundary: its database and identity must be customer-controlled, not silently connected to the public demo database. An explicit, audited migration can transfer permitted projects. Shared-schema compatibility is the continuity mechanism, not unrestricted cross-instance data sharing.
+
+<a id="section-2"></a>
 
 ## Current system: what actually runs
 
@@ -48,6 +77,8 @@ The current builder bounds context at about 39,000 characters; the API accepts u
 
 **Known implementation gaps:** real GitHub OAuth/clone/sync/PR execution; a repository-backed IDE; durable agent jobs; tool execution through Lyzr; long-term memory retrieval; external connector actions; provisioning; real release orchestration; enterprise SSO and granular department policies. These are not claimed live. The container scaffold also needs packaging validation: core.mjs imports the support knowledge JSON from src/lib, while the runtime image currently copies api but not that source path. An installable 4.0 release must fix and smoke-test that dependency before distribution.
 
+<a id="section-3"></a>
+
 ## HLD: Architect 2.0
 
 ![Architect 2.0 proposed architecture](diagrams/architect-2.png)
@@ -61,6 +92,8 @@ The control plane owns identity, memberships, project artifacts, run creation, p
 A project begins from a prompt or an approved GitHub App installation. Import resolves repository permissions and a commit SHA, inventories files and frameworks in an isolated environment, and creates an initial context snapshot. Build output becomes a changeset against that exact base revision. Agents cannot write directly to protected branches. Diff review, automated checks and approval precede a provider-confirmed release.
 
 Proposed technologies: React/TypeScript and Monaco for the browser; a TypeScript modular API; Supabase/Postgres for relational state; S3-compatible object storage for large artifacts; Temporal for long-running workflows; a Lyzr runtime adapter for supported agents; OpenRouter through a policy-controlled gateway; microVM execution via a sandbox provider. Framework-specific agents run behind the same adapter contract rather than being advertised as universally compatible without validation.
+
+<a id="section-4"></a>
 
 ## HLD: Architect 3.0
 
@@ -76,6 +109,8 @@ The bot workroom defines a lead bot and specialists. The lead proposes tasks; th
 
 Connectors to Jira, Notion, CRM and data systems use a common adapter with explicit field ownership, provider IDs, sync cursors and deduplication. The external system remains authoritative for its owned fields. Webhook events are verified and queued; conflicting updates become reviewable conflicts instead of last-write-wins data loss. No outbound campaign, financial action or HR decision is executed merely because an agent suggests it.
 
+<a id="section-5"></a>
+
 ## HLD: Architect 4.0
 
 ![Architect 4.0 proposed architecture](diagrams/architect-4.png)
@@ -89,6 +124,8 @@ The company connects its identity provider through OIDC, with SAML through an ap
 Each environment references a signed runtime profile: network, region, execution pool, limits, storage, egress policy and secret references. Customer workload identity replaces copied cloud administrator keys. Execution pools are separated from the control plane; per-run sandboxes are disposable and receive narrowly scoped credentials. Private model endpoints are allowlisted; disabling public model egress must fail closed, not fall back to a public provider.
 
 Upgrades verify signatures, back up data, check schema compatibility, migrate through a controlled job, then run health checks. App rollback alone cannot reverse a destructive schema migration; use expand/contract migrations and a tested restore path. Encrypted backups, artifact replication, restore drills and customer-selected retention are required. Proposed initial objectives are a 24-hour recovery-point objective and a 4-hour recovery-time objective, subject to measured restore tests and customer requirements; no SLA is claimed.
+
+<a id="section-6"></a>
 
 ## Architecture decisions and trade-offs
 
@@ -104,6 +141,8 @@ Upgrades verify signatures, back up data, check schema compatibility, migrate th
 | Untrusted execution | MicroVM boundary, egress policy and per-run credentials | Plain Docker alone is insufficient for hostile multi-tenant code |
 | Delivery evidence | Test results tied to a changeset and environment | A model saying 'passed' is never a test result |
 | Free prototype | Existing free-model guard and bounded synchronous requests | Proposed worker, sandbox and enterprise stack is not guaranteed free |
+
+<a id="section-7"></a>
 
 ## LLD: project and artifact model
 
@@ -129,6 +168,8 @@ PRD to TRD to HLD to LLD is an artifact dependency chain. A PRD revision marks d
 
 For example, requirement R-12 references PRD revision 4, a service contract revision 2, changeset C-18 and test run T-21. When C-18 changes, T-21 stays as historical evidence and does not certify the new change. This is how the system avoids stale 'green' status.
 
+<a id="section-8"></a>
+
 ## LLD: agent harness and execution
 
 An agent harness is the controlled runtime around the model: context loading, model calls, tool validation, output checks, checkpointing and budgets. The model proposes work; the harness and policy service decide which actions may execute.
@@ -142,6 +183,8 @@ Initial proposed defaults: five concurrent specialists per parent, maximum deleg
 Each tool call uses a schema validator and an allowlisted tool identity. Read, write and destructive operations have separate scopes. Tools return evidence and structured errors. A release activity may need a human approval; a code-reading activity generally does not. Replaying a workflow reuses recorded model decisions where possible and never reruns external side effects without checking the invocation ledger.
 
 Testing uses specialists with separate evidence responsibilities: unit/functional, UI/accessibility, integration/contract, security and agent-behavior evaluation. A reviewer aggregates their results against acceptance criteria. Specialists are selected based on the app manifest; a static page should not acquire a fake database test. UI repair is bounded by attempt count and must rerun affected checks. The model cannot change the acceptance criteria silently to make a test pass.
+
+<a id="section-9"></a>
 
 ## LLD: context and memory
 
@@ -167,6 +210,8 @@ The context manifest pins instruction version, model policy, artifact IDs/revisi
 
 Memory write sequence: agent proposes a candidate -> validate schema and provenance -> reject secrets and unsupported claims -> apply scope/retention policy -> require approval for shared promotion -> persist -> update derived indexes. Contradictions generate a review item; they do not silently overwrite approved facts. Deleting a source tombstones associated memories, removes derived index entries and invalidates caches. Retention for backups must be disclosed separately; legal holds are explicit policy exceptions.
 
+<a id="section-10"></a>
+
 ## LLD: API, events and concurrency
 
 The following endpoints are proposed, except the existing /api/generate, /api/models and /api/health. Endpoints require authenticated membership and resource checks independent of UI visibility.
@@ -186,6 +231,8 @@ Event envelope: event_id, schema_version, type, tenant_id, project_id, aggregate
 
 A document edit uses expected_revision; stale edits produce a conflict rather than overwriting another user's work. A sandbox filesystem is isolated per changeset; competing changes are merged with a visible diff. Multi-repository builds pin all service SHAs in a manifest and record contract versions. No partial service release is treated as a coordinated success.
 
+<a id="section-11"></a>
+
 ## LLD: sandbox, tools and GitHub
 
 Current preview protection is a browser iframe plus CSP, not a secure arbitrary-code compute service. The target uses disposable microVMs or equivalent strong isolation. Plain containers may package trusted workers, but are not the sole security boundary for untrusted multi-tenant code.
@@ -195,6 +242,8 @@ Sandbox creation receives an immutable base image digest, project snapshot, reso
 GitHub uses a proposed GitHub App installation, selected repositories and minimal scoped permissions. The backend exchanges installation credentials; no personal access token is pasted into prompts. Clone/read uses a pinned SHA, writes go to an isolated branch, PR creation carries the changeset ID, and protected-branch rules remain authoritative. Signed webhook payloads are verified, replay-protected and reconciled. Disconnecting an installation cancels pending writes and removes credentials.
 
 The tool broker also governs MCP servers and plugins. Store an allowlisted server identity, verified schema, allowed resources, delegated principal and secret reference. Treat tool descriptions/results and imported repository text as untrusted input. Prompt instructions cannot expand scopes, reveal secrets or skip approvals. External content may inform a decision; it cannot authorize one.
+
+<a id="section-12"></a>
 
 ## LLD: models, costs, quality and release
 
@@ -208,6 +257,8 @@ A release requires evidence tied to the exact artifact: unit tests, UI/accessibi
 
 Deployment adapters normalize plan, dry_run, deploy, status and rollback. Capture provider receipts and verify an application-level health check after deployment. Canary rollout needs monitored thresholds and an explicit rollback target. Schema changes use expand/contract migrations. Provider timeout leaves status unknown until reconciled; it must not create a second deployment automatically.
 
+<a id="section-13"></a>
+
 ## LLD: company handoffs and private operations
 
 All 228 documented handoffs share a ContextEnvelope: tenant_id, project_id, source_object_id, source_revision, destination_type, permitted_selection, navigation_state and correlation_id. The destination resolves an existing linked object or previews creating a new one. A back action restores filters, scroll, draft and tab without replaying an external action. The envelope carries references, not a full copy of sensitive records.
@@ -217,6 +268,8 @@ Company administrator flows: create company -> verify owner -> configure departm
 Finance, HR, customer and sales records have separate policy scopes. Human reviewers own financial commitments and employment decisions. Team productivity views use explicit goals, workload and acknowledged context, not covert monitoring or an automated employee ranking. Agent teams may propose a response or report, but the person accountable for publication or a sensitive decision remains identifiable.
 
 For 4.0, separate deployment profiles for development, staging and production contain cloud region, subnet, worker identity, egress, data retention and budget. Provisioning plans show resources and estimated cost before applying. The installer checks prerequisites, identity, storage, DNS/TLS, network reachability and signing keys. No hidden paid cloud resources are created by the prototype. The design requires a customer-approved bill of materials before a real installation.
+
+<a id="section-14"></a>
 
 ## Failure cases, verification and rollout gates
 
@@ -238,9 +291,11 @@ Verification in this documentation task consists of checking the implementation 
 
 Proposed rollout: first normalize project artifacts and add real GitHub onboarding plus run ledger; then ship isolated execution and verified build/test loops; then durable agent runtime and permissioned memory; then company connectors and bot schedules; then private packaging and restore certification. Each step needs evidence before its status changes from proposed to current. The full enterprise architecture will require hosting resources beyond the present free demonstration.
 
+<a id="section-15"></a>
+
 ## Source references and inspection basis
 
-Repository sources are authoritative for current behavior; provider documentation informs proposed technology choices. References were checked on 27 September 2026. Provider capabilities do not prove integration in this application.
+Repository sources are authoritative for current behavior; provider documentation informs proposed technology choices. Provider capabilities do not prove integration in this application.
 
 - Canonical scope: apps/assignment/data.json (109 feature packages, 422 inherited interactions, 228 handoffs). The older platform features.json contains a subset and is not used as the submission scope denominator.
 - Runtime: apps/platform/api/_lib/core.mjs; api/generate.js; src/lib/cloud.ts; src/lib/builderState.ts; src/lib/preview.ts; src/lib/model.ts.
@@ -252,6 +307,8 @@ Repository sources are authoritative for current behavior; provider documentatio
 - [Vercel Sandbox](https://vercel.com/docs/sandbox): candidate isolated execution service; no claim that it is provisioned or free in this project.
 
 Diagrams were generated using GPT image generation, with transparent backgrounds and no embedded page titles. They are explanatory target-architecture views; exact contracts are specified in this text. Generation prompts are saved in diagrams/PROMPTS.md. No diagrams were authored as Python drawings, SVG or XML.
+
+<a id="section-16"></a>
 
 ## Appendix A: product and feature architecture coverage
 
@@ -2533,6 +2590,8 @@ Every package below is mapped from the canonical scope. These are target respons
 
 **LLD contract:** Publish only approved assets to approved recipients/channels; connector receipt establishes outcome. Persist this feature's configuration and accepted result as a versioned project or company artifact; carry IDs and revision through the ContextEnvelope. Refer to the API, memory and failure contracts above.
 
+<a id="section-17"></a>
+
 ## Appendix B: inherited interaction traceability
 
 All 422 original interaction records are included. Retain/Enhance is the planning treatment; observed evidence relates to research on the original platform, not implementation in this repository. Each parent maps to a feature in Appendix A.
@@ -2962,6 +3021,8 @@ All 422 original interaction records are included. Retain/Enhance is the plannin
 | ARC-39-09 | Event details | Enhance | ORG-E2 | Official documentation; distinct from Architect app-sharing UI |
 | ARC-39-10 | Audit-log pagination | Enhance | ORG-E2 | Official documentation; distinct from Architect app-sharing UI |
 
+<a id="section-18"></a>
+
 ## Appendix C: cross-product handoff register
 
 All 228 documented handoffs are listed. Each uses the ContextEnvelope, authorization recheck and recovery contract specified above. Opening a destination never counts as completing an external action.
@@ -3196,6 +3257,8 @@ All 228 documented handoffs are listed. Each uses the ContextEnvelope, authoriza
 | F-H21 | ORG-N4 | Start from company blueprint | BUILD-E1 |
 | F-H22 | DATA-N3 | Export executable application package | CODE-N4 |
 | F-H23 | CODE-E3 | Revalidate restored checkpoint | QA-N3 |
+
+<a id="section-19"></a>
 
 ## Appendix D: late additions and cross-cutting details
 
